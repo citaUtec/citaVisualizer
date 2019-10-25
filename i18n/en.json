@@ -1,0 +1,260 @@
+{
+
+  "main_title": "AMAZON",
+  "main_subtitle": "From the Andes to the Atlantic",
+
+  "intro_title": "Introduction",
+  "intro_par_1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+  "intro_subtitle": "The Amazon is a river in South America",
+
+  "dancingRivers_par": "Through time rivers move, create erosion, deposit sediments and, consequently, change their shape. However, these movements are different for each river, since each one has specific characteristics and dynamics.",
+  "dancingRivers_par2": "In Dancing Rivers you will find information on the methodologies that have been developed and applied to know and get a better understanding of the physical dynamics of the main Amazonian rivers.",
+  "dancingRivers_subtitle": "The science behind the movements of rivers",
+
+  "storytelling_subtitle": "The Amazon is a river in South America",
+  "storytelling_par": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+
+  "portal_link": "Learn more about our portal >",
+
+  "dancingRivers_title": "Dancing Rivers",
+  "storytelling_title": "Storytelling Web",
+
+  "footer_copyright": "Todos los derechos reservados.",
+
+  "side-bar-right-title": "Base",
+  "side-bar-left-title": "Project",
+  "side-bar-empty-title": " ",
+
+  "dropdown-uhd-default-option" : "Section 1   ",
+
+  "dunes-campaign-campaign-1-text": "Campaign 1",
+  "dunes-campaign-campaign-1-text-hover": "Feb/Mar 2018",
+  "dunes-campaign-campaign-2-text": "Campaign 2",
+  "dunes-campaign-campaign-2-text-hover": "Jan/Mar 2019",
+  "dunes-campaign-campaign-3-text": "Campaign 3",
+  "dunes-campaign-campaign-3-text-hover": "Mar/Apr 2019",
+
+  "bedload-card-title": "Bedload",
+
+  "drone-flights-card-container-title": "Drone Flights",
+
+
+  "amazon-river-description": "Amazon River",
+  "huallaga-river-description": "Huallaga River",
+  "marañon-river-description": "Marañon River",
+  "ucayali-river-description": "Ucayali River",
+
+
+
+  "rivers_menu_option_title_id": "Rivers",
+  "morphometrics_menu_option_title_id": "Morphometrics",
+  "field_measurements_menu_option_title_id": "Field Measurements",
+  "amazon_forests_menu_option_title_id": "Amazon Forests",
+  "biodiversity_menu_option_title_id": "Biodiversity",
+  "drone_menu_option_title_id": "Drone Flights",
+  "amazonas_submenu_option_title_id": "Amazonas",
+  "huallaga_submenu_option_title_id": "Huallaga",
+  "marañon_submenu_option_title_id": "Marañon",
+  "ucayali_submenu_option_title_id": "Ucayali",
+  "width_submenu_option_title_id": "Average Width",
+  "sinuosity_submenu_option_title_id": "Sinuosity",
+  "arc_wavelength_submenu_option_title_id": "Arc Wavelength",
+  "migration_submenu_option_title_id": "Migration",
+  "erosion_submenu_option_title_id": "Erosion - Deposition",
+  "islands_submenu_option_title_id": "Islands",
+  "confinement_submenu_option_title_id": "Confinement",
+  "water_level_submenu_option_title_id": "Water Levels",
+  "flow_rate_submenu_option_title_id": "Flow Rate",
+  "hydrodynamic_submenu_option_title_id": "Flow Velocity",
+  "dunes_submenu_option_title_id": "Dunes",
+  "bedload_submenu_option_title_id": "Bedload",
+  "sediments_submenu_option_title_id": "Sediments",
+  "lspiv_submenu_option_title_id": "LSPIV",
+  "drone_map_submenu_option_title_id": "On Map",
+  "drone_list_submenu_option_title_id": "List",
+
+
+
+
+
+
+  "communities_menu_option_title_id": "Communities",
+  "dem_menu_option_title_id": "DEM",
+  "malos_pasos_menu_option_title_id": "Malos Pasos",
+  "geology_menu_option_title_id": "Geology",
+  "infraestructure_menu_option_title_id": "Infrastructure",
+  "land_use_menu_option_title_id": "Land Use",
+  "protected_area_menu_option_title_id": "Protected Natural Areas",
+  "transport_menu_option_title_id": "Transport",
+  "vegetation_menu_option_title_id": "Vegetation",
+  "clear_map_menu_option_title_id": "Clear Map",
+  "language_menu_option_title_id": "Language",
+  "spanish_submenu_option_title_id": "Spanish",
+  "english_submenu_option_title_id": "English",
+
+
+
+
+
+
+
+  "geopolitic_menu_option_title_id": "Geopolitic",
+      "politic_limits_submenu_option_title_id": "Administrative divisions",
+          "regional_submenu_option_title_id": "Departments",
+          "provincial_submenu_option_title_id": "Province",
+          "district_submenu_option_title_id": "District",
+      "population_submenu_option_title_id": "Population",
+          "region_capitals_submenu_option_title_id": "Departmental capital",
+          "province_capitals_submenu_option_title_id": "Provincial capital",
+          "district_capitals_submenu_option_title_id": "District capital",
+          "towns_villages_submenu_option_title_id": "Towns",
+      "population_density_submenu_option_title_id": "Population density",
+      "urban_rural_population_submenu_option_title_id": "Population urban-rural",
+      "populated_areas_submenu_option_title_id": "Populated areas",
+          "native_communities_submenu_option_title_id": "Native communities",
+          "farmers_communities_submenu_option_title_id": "Rural communities",
+          "urban_areas_submenu_option_title_id": "Urban areas",
+      "cultural_heritage_submenu_option_title_id": "Cultural heritage",
+          "historical_monuments_submenu_option_title_id": "Archaeological monuments",
+          "archaeological_sites_communities_submenu_option_title_id": "Archaeological sites",
+          "museums_submenu_option_title_id": "Museums",
+          "qapac_nam_submenu_option_title_id": "Qapaq Ñam",
+      "protected_natural_areas_submenu_option_title_id": "Protected Natural Areas",
+          "anp_national_submenu_option_title_id": "National",
+          "anp_regional_submenu_option_title_id": "Regional",
+          "anp_private_submenu_option_title_id": "Private",
+          "buffer_zone_submenu_option_title_id": "Buffer zone",
+  "socioeconomic_menu_option_title_id": "Socioeconomic",
+      "poverty_submenu_option_title_id": "Poverty",
+          "poverty_regions_submenu_option_title_id": "Departments",
+          "poverty_provinces_submenu_option_title_id": "Province",
+      "hdi_submenu_option_title_id": "Human Development Index (HDI)",
+      "pbi_per_capita_submenu_option_title_id": "Per capita income (PCI)",
+      "public_services_access_submenu_option_title_id": "Access to public services",
+          "without_water_submenu_option_title_id": "Without water by public network",
+          "without_sewer_submenu_option_title_id": "Without drainage by public network",
+          "without_electricity_submenu_option_title_id": "Without electricity by public network",
+          "internet_connection_submenu_option_title_id": "Internet connection",
+  "geography_menu_option_title_id": "Geography",
+      "hidrography_submenu_option_title_id": "Hydrography",
+          "hydrography_basin_submenu_option_title_id": "Basins",
+          "hydrography_rivers_submenu_option_title_id": "Rivers",
+          "quebradas_submenu_option_title_id": "Streams",
+          "lagoons_lakes_submenu_option_title_id": "Lakes and lagoons",
+          "glaciers_submenu_option_title_id": "Glaciers",
+      "geology_submenu_option_title_id": "Geology",
+      "geomorphology_submenu_option_title_id": "Geomorphology",
+      "land_use_submenu_option_title_id": "Land uses",
+      "dem_geography_submenu_option_title_id": "DEM",
+      "environmental_submenu_option_title_id": "Environmental",
+          "green_coverage_submenu_option_title_id": "Vegetation cover",
+          "life_zones_submenu_option_title_id": "Life zones",
+          "ecosystems_submenu_option_title_id": "Ecosystems",
+      "climate_submenu_option_title_id": "Climate",
+          "precipitation_submenu_option_title_id": "Precipitation",
+          "temperature_submenu_option_title_id": "Temperature",
+          "evapotranspiration_submenu_option_title_id": "Evapotranspiration",
+  "infrastructure_menu_option_title_id": "Infrastructure",
+      "transport_submenu_option_title_id": "Transportation",
+          "roadways_submenu_option_title_id": "Road network",
+          "ports_submenu_option_title_id": "Ports",
+          "airports_submenu_option_title_id": "Airports",
+          "railways_submenu_option_title_id": "Railroad",
+      "energy_submenu_option_title_id": "Energy",
+
+
+          "hydroelectric_submenu_option_title_id": "Hydroelectric Power Plants",
+          "thermoelectric_submenu_option_title_id": "Thermoelectric Power Plants",
+
+
+          "transmission_lines_submenu_option_title_id": "Transmission lines",
+          "power_plants_submenu_option_title_id": "Power plants",
+      "irrigation_submenu_option_title_id": "Irrigation",
+          "reservoirs_submenu_option_title_id": "Reservoirs",
+          "dams_irrigation_submenu_option_title_id": "Diversion dams",
+          "main_channels_submenu_option_title_id": "Main channels",
+          "wells_submenu_option_title_id": "Wells",
+      "extractive_submenu_option_title_id": "Extractive",
+          "mining_projects_submenu_option_title_id": "Mining projects",
+          "hydrocarbons_submenu_option_title_id": "Hydrocarbons",
+          "wood_industry_submenu_option_title_id": "Wood industry",
+      "health_submenu_option_title_id": "Health",
+          "hospitals_submenu_option_title_id": "Hospitals",
+          "health_centers_submenu_option_title_id": "Health centers",
+          "health_posts_submenu_option_title_id": "Health posts",
+  "risk_management_menu_option_title_id": "Risk Management",
+      "danger_map_submenu_option_title_id": "Hazard map",
+        "floods_hazard_submenu_option_title_id": "Floods",
+        "earthquakes_hazard_submenu_option_title_id": "Earthquakes",
+        "landslides_hazard_submenu_option_title_id": "Landslides",
+      "vulnerability_map_submenu_option_title_id": "Vulnerability",
+        "floods_vulnerability_submenu_option_title_id": "Floods",
+        "earthquakes_vulnerability_submenu_option_title_id": "Earthquakes",
+        "landslides_vulnerability_submenu_option_title_id": "Landslides",
+      "risk_synthesis_map_submenu_option_title_id": "Risk synthesis map",
+      "oil_spills_submenu_option_title_id": "Oil spills",
+  "stations_menu_option_title_id": "Stations",
+      "ign_map_submenu_option_title_id": "IGN",
+      "senamhi_map_submenu_option_title_id": "SENAMHI",
+
+
+
+  "research_projects_menu_option_title_id": "Research Projects",
+  "epiura_submenu_option_title_id": "ePiura",
+  "aquafondo_submenu_option_title_id": "Aquafondo",
+
+  "cita_stations_menu_option_title_id": "Stations",
+  "adcp_submenu_option_title_id": "ADCP",
+
+  "population_density_basin_menu_option_title_id": "Population Density by Basin",
+  "piura_submenu_option_title_id": "Piura",
+  "chira_submenu_option_title_id": "Chira",
+  "rimac_submenu_option_title_id": "Rímac",
+
+  "drone_flights_menu_option_title_id": "Drone Flights",
+
+
+
+
+
+
+
+
+  "help-tooltip-text": "Select a River",
+  "legend-morphometrics-title": "Legend",
+  "metrics-container-title": "Morphometrics",
+  "metrics-average-width": "Average width",
+  "metrics-sinuosity": "Sinuosity",
+  "metrics-arc-wavelength": "Arc wavelength",
+  "metrics-island-area": "Area",
+  "metrics-island-number": "Number",
+  "metrics-confinement": "Confinement",
+  "metrics-island-average-width": "Average width",
+  "coordinates-hover-container-title": "Coordinates",
+  "coordinates-hover-container-latitude": "Latitude",
+  "coordinates-hover-container-longitude": "Longitude",
+
+  "dropdown-UHD-section-item": "Section $1   ",
+  "dropdown-dunes-profile-item": "Profile $1   ",
+  "dunes-day-1": "Day 1: ",
+  "dunes-day-2": "Day 2: ",
+
+  "amazon-home-tab": "Home",
+  "amazon-research-tab": "Research",
+  "amazon-methodology-tab": "Methodology",
+  "amazon-methodology-tab-remote-sensing": "Remote Sensing",
+  "amazon-methodology-tab-field-measurements": "Field Measurements",
+  "amazon-methodology-tab-numeric-modeling": "Numeric Modeling",
+  "amazon-data-tools-tab": "Data and Tools",
+  "amazon-publications-tab": "Publications",
+  "amazon-publications-tab-handbooks": "Handbooks",
+  "amazon-publications-tab-papers": "Papers",
+  "amazon-publications-tab-workshops-materials": "Workshops materials",
+  "amazon-publications-tab-tutorials": "Tutorials",
+  "amazon-publications-tab-infographics": "Infographics",
+  "amazon-education-tab": "Education",
+  "amazon-education-tab-work-other-groups": "Work with other groups",
+  "amazon-education-tab-workshops": "Workshops"
+
+}
+

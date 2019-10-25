@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "UHS_Moore1_Huallaga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "X": -5.893944444, "Y": -76.10216667, "lado": "centro", "Superficial": 11.006, "0.2": 9.015, "0.6": 8.959, "0.8": 11.267, "Promedio": 10.12, "UHS": "uhs_huallaga_2018_1" }, "geometry": { "type": "Point", "coordinates": [ -76.10216667, -5.893944444 ] } },
+{ "type": "Feature", "properties": { "X": -5.067277778, "Y": -75.63438889, "lado": "centro", "Superficial": 0.0, "0.2": 12.278, "0.6": 10.622, "0.8": 11.291, "Promedio": 11.1635, "UHS": "uhs_huallaga_2018_2" }, "geometry": { "type": "Point", "coordinates": [ -75.63438889, -5.067277778 ] } },
+{ "type": "Feature", "properties": { "X": -5.133111111, "Y": -75.62566667, "lado": "centro", "Superficial": 14.351, "0.2": 10.867, "0.6": 11.131, "0.8": 13.011, "Promedio": 12.038, "UHS": "uhs_huallaga_2018_3" }, "geometry": { "type": "Point", "coordinates": [ -75.62566667, -5.133111111 ] } },
+{ "type": "Feature", "properties": { "X": -5.314123, "Y": -75.81038, "lado": "centro", "Superficial": 8.774, "0.2": 8.711, "0.6": 15.194, "0.8": 9.977, "Promedio": 11.775125, "UHS": "uhs_huallaga_2018_4" }, "geometry": { "type": "Point", "coordinates": [ -75.81038, -5.314123 ] } },
+{ "type": "Feature", "properties": { "X": -5.47375, "Y": -75.86586111, "lado": "centro", "Superficial": 6.981, "0.2": 11.53, "0.6": 10.08, "0.8": 8.791, "Promedio": 9.61675, "UHS": "uhs_huallaga_2018_5" }, "geometry": { "type": "Point", "coordinates": [ -75.86586111, -5.47375 ] } },
+{ "type": "Feature", "properties": { "X": -5.666067, "Y": -76.002627, "lado": "centro", "Superficial": 7.489, "0.2": 15.876, "0.6": 10.681, "0.8": 16.095, "Promedio": 14.037375, "UHS": "uhs_huallaga_2018_6" }, "geometry": { "type": "Point", "coordinates": [ -76.002627, -5.666067 ] } }
+]
+}

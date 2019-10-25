@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Estaciones_LSPIV",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Lugar": "Estación Tingo Maria", "Rio": "Huallaga", "Id": "Lspiv06", "Latitud": -9.295776, "Longitud": -76.00187 }, "geometry": { "type": "Point", "coordinates": [ -76.00187, -9.295776, 0.0 ] } },
+{ "type": "Feature", "properties": { "Lugar": "Estación San Rafael", "Rio": "Huallaga", "Id": "Lspiv02", "Latitud": -10.340295, "Longitud": -76.182607 }, "geometry": { "type": "Point", "coordinates": [ -76.182607, -10.340295, 0.0 ] } },
+{ "type": "Feature", "properties": { "Lugar": "Estación Eguiguren", "Rio": "Piura", "Id": "Lspiv03", "Latitud": -5.189267, "Longitud": -80.624752 }, "geometry": { "type": "Point", "coordinates": [ -80.624752, -5.189267, 0.0 ] } },
+{ "type": "Feature", "properties": { "Lugar": "Estación Santa Eulalia", "Rio": "Santa Eulalia", "Id": "Lspiv04", "Latitud": -11.919848, "Longitud": -76.666742 }, "geometry": { "type": "Point", "coordinates": [ -76.666742, -11.919848, 0.0 ] } },
+{ "type": "Feature", "properties": { "Lugar": "Estación Chosica", "Rio": "Rimac", "Id": "Lspiv05", "Latitud": -11.92975, "Longitud": -76.688945 }, "geometry": { "type": "Point", "coordinates": [ -76.688945, -11.92975, 0.0 ] } },
+{ "type": "Feature", "properties": { "Lugar": "Estación Puente Paraiso", "Rio": "Chillón", "Id": "Lspiv01", "Latitud": -11.696091, "Longitud": -76.8579905 }, "geometry": { "type": "Point", "coordinates": [ -76.8579905, -11.696091, 0.0 ] } }
+]
+}

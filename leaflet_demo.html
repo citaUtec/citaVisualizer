@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--TODO: JQuery JS Script-->
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <!--TODO: JQuery JS Script-->
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+            integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+            crossorigin=""></script>
+
+</head>
+
+<!--TODO: Template upper CITA logo "0"-->
+<template>
+    <img id="cita-logo-overlay" src="img/Logos/cita_demo.png">
+    <img id="moore-logo-overlay" src="img/Logos/moore_logo.png">
+</template>
+<!--TODO: Template upper CITA logo "0"-->
+
+<body>
+
+<script type="text/javascript" src="js/map/visualizer_dom_handle.js"></script>
+
+<style>
+
+    #mapid {
+        height: 100vh;
+        filter: saturate(2.0);
+    }
+
+    #main-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    #logo-template-container {
+        background-color: transparent;
+        position: absolute;
+        top: 1.5vh;
+        right: 3.5vh;
+        height: 10vh;
+        width: 20vw;
+        z-index: 1000000;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+    #cita-logo-overlay{
+        height: 50%;
+        width: 40%;
+        align-self: center;
+    }
+    #moore-logo-overlay{
+        height: 50%;
+        width: 40%;
+        align-self: center;
+    }
+
+</style>
+
+
+<div id="main-wrapper">
+
+    <div id="mapid"></div>
+
+    <!--TODO: CITA Logo container -->
+    <div id="logo-template-container"></div>
+    <!--TODO: CITA Logo container -->
+
+    <script>
+
+        $(document).ready(function () {
+
+            var mymap = L.map('mapid', {zoomControl: false}).setView([-9.466665, -75.549894], 6);
+
+            L.control.zoom({position:'topright'}).addTo(mymap);
+
+            //Voyager Label
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                subdomains: 'abcd',
+                maxZoom: 19
+            }).addTo(mymap);
+
+            addCITALogo();
+
+        });
+
+        //Topo
+        // L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        //     attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+        // }).addTo(mymap);
+
+    </script>
+
+</div>
+
+
+</body>
+</html>

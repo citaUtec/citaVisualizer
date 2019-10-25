@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--TODO: JQuery JS Script-->
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <!--TODO: JQuery JS Script-->
+
+    <title>Title</title>
+
+</head>
+
+<style>
+
+    body{
+        background-color: rgba(0,0,0,0.2);
+    }
+
+</style>
+<body>
+
+    <style>
+
+        div.small {
+            background: rgba(0,0,0,0.5);
+            border-radius: 50%;
+            width: 8px;
+            height: 8px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: -2.5px;
+            margin-top: -2.5px;
+            transition: all 2s;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        div.big {
+            top: -500vh;
+            left: -500vh;
+            width: 1000vh;
+            height: 1000vh;
+        }
+        
+    </style>
+
+    <div id="circle" class="small">
+
+        <!--<div id="column" style="display: none; color: white; width: 500px; height: " >HOLIS</div>-->
+
+    </div>
+
+    <script>
+
+        var informationButton = document.getElementById('information-button');
+        var informationContainer = document.getElementById('information-container');
+
+        informationButton.addEventListener('click', function () {
+
+            if(informationContainer.classList.contains('big')){
+                informationContainer.classList.remove('big');
+            }else{
+                informationContainer.classList.add('big');
+            }
+
+        });
+
+    </script>
+
+
+</body>
+</html>

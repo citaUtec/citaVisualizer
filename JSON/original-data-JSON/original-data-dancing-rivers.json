@@ -1,0 +1,159 @@
+{
+        "data_menu_options": [
+
+            {
+                "menu_option_title": "Rivers",
+                "menu_option_image_ref": "img/side-bar-icon/river_icon.png",
+                "menu_option_id": "rivers_menu_option_id"
+            },
+            {
+                "menu_option_title": "Morphometrics",
+                "menu_option_image_ref": "img/side-bar-icon/metric_icon.png",
+                "menu_option_id": "metrics_menu_option_id"
+            },
+            {
+                "menu_option_title": "Field Measurements",
+                "menu_option_image_ref": "img/side-bar-icon/measure_icon.png",
+                "menu_option_id": "measurements_menu_option_id"
+            },
+            {
+                "menu_option_title": "Amazon Forests",
+                "menu_option_image_ref": "img/side-bar-icon/amazon_forest_icon.png",
+                "menu_option_id": "measurements_menu_option_id"
+            },
+            {
+                "menu_option_title": "Biodiversity",
+                "menu_option_image_ref": "img/side-bar-icon/biodiversity_icon.png",
+                "menu_option_id": "biodiversity_menu_option_id"
+            },
+            {
+                "menu_option_title": "Drone Flights",
+                "menu_option_image_ref": "img/side-bar-icon/drone_icon.png",
+                "menu_option_id": "drone_menu_option_id"
+            }
+
+        ],
+
+        "data_submenu_options": [
+
+            {
+                "submenu_name": "rivers_submenu",
+                "options": [
+
+                    {
+                        "submenu_option_title": "Amazonas",
+                        "submenu_option_image_ref": "img/side-bar-icon/A_icon.png",
+                        "submenu_option_id": "amazonas_submenu_option_id",
+                        "submenu_option_button_id": "amazonas_submenu_option_button",
+                        "submenu_option_button_click_function": amazonas_submenu_option_clicked,
+                    },
+                    {
+                        "submenu_option_title": "Huallaga",
+                        "submenu_option_image_ref": "img/side-bar-icon/H_icon.png",
+                        "submenu_option_id": "huallaga_submenu_option_id",
+                        "submenu_option_button_id": "huallaga_submenu_option_button",
+                        "submenu_option_button_click_function": huallaga_submenu_option_clicked,
+                    },
+                    {
+                        "submenu_option_title": "Marañon",
+                        "submenu_option_image_ref": "img/side-bar-icon/M_icon.png",
+                        "submenu_option_id": "marañon_submenu_option_id",
+                        "submenu_option_button_id": "marañon_submenu_option_button",
+                        "submenu_option_button_click_function": marañon_submenu_option_clicked,
+                    },
+                    {
+                        "submenu_option_title": "Ucayali",
+                        "submenu_option_image_ref": "img/side-bar-icon/U_icon.png",
+                        "submenu_option_id": "ucayali_submenu_option_id",
+                        "submenu_option_button_id": "ucayali_submenu_option_button",
+                        "submenu_option_button_click_function": ucayali_submenu_option_clicked,
+                    }
+
+                ]
+
+            },
+            {
+                "submenu_name": "morphometrics_submenu",
+                "options": [
+
+                    {
+                        "submenu_option_title": "Average Width",
+                        "submenu_option_image_ref": "img/side-bar-icon/width_icon.png",
+                        "submenu_option_id": "width_submenu_option_id",
+                        "submenu_option_button_id": "width_submenu_option_button",
+                        "submenu_option_button_click_function": width_submenu_option_clicked,
+
+                    },
+                    {
+                        "submenu_option_title": "Sinuosity",
+                        "submenu_option_image_ref": "img/side-bar-icon/sinuosity_icon.png",
+                        "submenu_option_id": "sinuosity_submenu_option_id",
+                        "submenu_option_button_id": "sinuosity_submenu_option_button",
+                        "submenu_option_button_click_function": sinuosity_submenu_option_clicked,
+                    },
+                    {
+                        "submenu_option_title": "Migration",
+                        "submenu_option_image_ref": "img/side-bar-icon/migration_icon.png",
+                        "submenu_option_id": "migration_submenu_option_id",
+                        "submenu_option_button_id": "migration_submenu_option_button",
+                        "submenu_option_button_click_function": migration_submenu_option_clicked,
+                    },
+                    {
+                        "submenu_option_title": "Erosion - Deposition",
+                        "submenu_option_image_ref": "img/side-bar-icon/erosion_icon.png",
+                        "submenu_option_id": "erosion_submenu_option_id",
+                        "submenu_option_button_id": "erosion_submenu_option_button",
+                        "submenu_option_button_click_function": erosion_submenu_option_clicked,
+                    }
+
+                ]
+
+            },
+            {
+                "submenu_name": "measurements_submenu",
+                "options": [
+
+                    {
+                        "submenu_option_title": "Hydrodynamic",
+                        "submenu_option_image_ref": "img/side-bar-icon/hydrodynamic_icon.png",
+                        "submenu_option_id": "hydrodynamic_submenu_option_id",
+                        "submenu_option_button_id": "hydrodynamic_submenu_option_button",
+                        "submenu_option_button_click_function": hydrodynamic_submenu_option_clicked,
+                    },
+                    {
+                        "submenu_option_title": "Sediments",
+                        "submenu_option_image_ref": "img/side-bar-icon/sediment_icon.png",
+                        "submenu_option_id": "sediment_submenu_option_id",
+                        "submenu_option_button_id": "sediment_submenu_option_button",
+                        "submenu_option_button_click_function": sediment_submenu_option_clicked,
+                    },
+                    {
+                        "submenu_option_title": "Hydrogeomorphology",
+                        "submenu_option_image_ref": "",
+                        "submenu_option_id": "hydrogeomorphology_submenu_option_id",
+                        "submenu_option_button_id": "hydrogeomorphology_submenu_option_button",
+                        "submenu_option_button_click_function": hydrogeomorphology_submenu_option_clicked,
+                    },
+
+                ]
+
+            },
+            {
+                "submenu_name": "amazon_forests_submenu",
+                "options": []
+
+            },
+            {
+                "submenu_name": "biodiversity_submenu",
+                "options": []
+
+            },
+            {
+                "submenu_name": "drone_flights_submenu",
+                "options": []
+
+            },
+
+        ]
+
+    }

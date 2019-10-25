@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Niveles-Estaciones-Segunda-Campaña_Geo",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Latitud": -5.886228366, "Longitud": -76.10606128000001, "Lugar": "ENAPU", "Departamento": "Loreto", "Provincia": "Alto Amazonas", "Distrito": "Yurimaguas" }, "geometry": { "type": "Point", "coordinates": [ -76.10606128, -5.886228366 ] } },
+{ "type": "Feature", "properties": { "id": 2, "Latitud": -5.638250492, "Longitud": -75.94364725, "Lugar": "Progreso", "Departamento": "Loreto", "Provincia": "Alto Amazonas", "Distrito": "Santa Cruz" }, "geometry": { "type": "Point", "coordinates": [ -75.94364725, -5.638250492 ] } },
+{ "type": "Feature", "properties": { "id": 3, "Latitud": -5.216354858, "Longitud": -75.66685681, "Lugar": "Lagunas", "Departamento": "Loreto", "Provincia": "Alto Amazonas", "Distrito": "Lagunas" }, "geometry": { "type": "Point", "coordinates": [ -75.66685681, -5.216354858 ] } },
+{ "type": "Feature", "properties": { "id": 4, "Latitud": -4.828656733, "Longitud": -76.5603902, "Lugar": "San Lorenzo", "Departamento": "Loreto", "Provincia": "Datem del Mara�on", "Distrito": "Barranca" }, "geometry": { "type": "Point", "coordinates": [ -76.5603902, -4.828656733 ] } },
+{ "type": "Feature", "properties": { "id": 5, "Latitud": -4.566957806, "Longitud": -77.41530446, "Lugar": "Saramiriza", "Departamento": "Loreto", "Provincia": "Datem del Mara�on", "Distrito": "Manseriche" }, "geometry": { "type": "Point", "coordinates": [ -77.41530446, -4.566957806 ] } },
+{ "type": "Feature", "properties": { "id": 6, "Latitud": -4.470244467, "Longitud": -77.54832973000001, "Lugar": "Borja", "Departamento": "Loreto", "Provincia": "Datem del Mara�on", "Distrito": "Manseriche" }, "geometry": { "type": "Point", "coordinates": [ -77.54832973, -4.470244467 ] } }
+]
+}

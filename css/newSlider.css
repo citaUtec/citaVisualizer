@@ -1,0 +1,113 @@
+#rs-bullet{
+    margin-left: -5px;
+}
+
+#sliderMinSpan{
+    color: #4a4a4a;
+}
+
+#sliderMaxSpan{
+    color: #4a4a4a;
+}
+
+.box-minmax {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #4a4a4a;
+}
+.box-minmax span:first-child {
+    margin-left: 10px;
+}
+
+.range-slider {
+    width: 100%;
+}
+
+.rs-range {
+    margin-top: 29px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 97%;
+    -webkit-appearance: none;
+}
+.rs-range:focus {
+    outline: none;
+}
+.rs-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    box-shadow: none;
+    background: #4a4a4a;
+    border-radius: 0px;
+    border: 0px solid #4a4a4a;
+}
+.rs-range::-moz-range-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    box-shadow: none;
+    background: #4a4a4a;
+    border-radius: 0px;
+    border: 0px solid #4a4a4a;
+}
+.rs-range::-webkit-slider-thumb {
+    box-shadow: none;
+    border: 0px solid #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 42px;
+    width: 22px;
+    border-radius: 22px;
+    background: #4a4a4a;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -20px;
+}
+.rs-range::-moz-range-thumb {
+    box-shadow: none;
+    border: 0px solid #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 42px;
+    width: 22px;
+    border-radius: 22px;
+    background: #4a4a4a;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -20px;
+}
+.rs-range::-moz-focus-outer {
+    border: 0;
+}
+
+.rs-label {
+    position: relative;
+    transform-origin: center center;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 17.5px;
+    box-sizing: border-box;
+    border: 2px solid #4a4a4a;
+    margin-top: 20px;
+    margin-left: 0px;
+    left: attr(value);
+    color: #4a4a4a;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 15px;
+}
+.rs-label::after {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    margin-top: -2px;
+}

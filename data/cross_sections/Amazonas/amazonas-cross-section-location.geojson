@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Points_Amazonas",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "ama_uhd1", "latitud": -4.4421755, "longitud": -73.4495815, "lugar": "Origen Amazonas", "departamento": "LORETO", "provincia": "LORETO", "distrito": "NAUTA", "fecha": "150119" }, "geometry": { "type": "Point", "coordinates": [ -73.4495815, -4.4421755, 0.0 ] } },
+{ "type": "Feature", "properties": { "id": "ama_uhd2", "latitud": -4.436191, "longitud": -73.4466545, "lugar": "Origen Amazonas", "departamento": "LORETO", "provincia": "LORETO", "distrito": "NAUTA", "fecha": "150119" }, "geometry": { "type": "Point", "coordinates": [ -73.4466545, -4.436191, 0.0 ] } },
+{ "type": "Feature", "properties": { "id": "ama_uhd3", "latitud": -4.4257515, "longitud": -73.4399795, "lugar": "Origen Amazonas", "departamento": "LORETO", "provincia": "LORETO", "distrito": "NAUTA", "fecha": "150119" }, "geometry": { "type": "Point", "coordinates": [ -73.4399795, -4.4257515, 0.0 ] } },
+{ "type": "Feature", "properties": { "id": "ama_uhd4", "latitud": -4.4117265, "longitud": -73.4318175, "lugar": "Origen Amazonas", "departamento": "LORETO", "provincia": "LORETO", "distrito": "NAUTA", "fecha": "180119" }, "geometry": { "type": "Point", "coordinates": [ -73.4318175, -4.4117265, 0.0 ] } },
+{ "type": "Feature", "properties": { "id": "ama_uhd5", "latitud": -4.3956945, "longitud": -73.421167, "lugar": "Origen Amazonas", "departamento": "LORETO", "provincia": "MAYNAS", "distrito": "FERNANDO LORES", "fecha": "180119" }, "geometry": { "type": "Point", "coordinates": [ -73.421167, -4.3956945, 0.0 ] } }
+]
+}

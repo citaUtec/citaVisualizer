@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+* {
+    /*box-sizing: border-box;*/
+}
+
+.menu {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-title {
+    display: block;
+    width: 100%;
+    height: 10%;
+    padding: 5% 0 5% 0;
+    background: white;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s background-color;
+    margin: 0;
+    font-size: 1vw;
+}
+
+.menu-title:hover {
+    background: #f2f2f2;
+}
+
+.menu:hover > .menu-title:after {
+    border-bottom-width: 5px;
+    transition: 0.2s 0.2s border-bottom-width ease-out;
+}
+
+.menu-dropdown {
+    min-width: 100%;
+    padding: 15px 0;
+    position: absolute;
+    background: #ebebeb;
+    z-index: 100;
+    transition: 0.5s padding, 0.5s background;
+}
+
+.menu:not(:hover) > .menu-dropdown {
+    padding: 0;
+    background: #dddddd;
+    z-index: 99;
+}
+
+.menu:not(:hover) > .menu-dropdown:after {
+    border-top-color: #dddddd;
+}
+
+.menu:not(:hover) > .menu-title:after {
+    border-bottom-color: #dddddd;
+}
+
+.menu-dropdown > * {
+    overflow: hidden;
+    height: 30px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    transition: 0.5s height cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s padding cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s margin cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s 0.2s color, 0.2s background-color;
+}
+
+.menu-dropdown > li{
+    font-size: 1vw;
+}
+
+.menu-dropdown > *:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.menu:not(:hover) > .menu-dropdown > * {
+    visibility: hidden;
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    transition: 0.5s 0.1s height, 0.5s 0.1s padding, 0.5s 0.1s margin, 0.3s color, 0.6s visibility;
+    z-index: 99;
+}
+
+.hList{
+    list-style: none;
+}
+
+.hList > * {
+    float: left;
+    width: 16.666%;
+}
+
+.hList > * + * {
+    margin-left: 0;
+}

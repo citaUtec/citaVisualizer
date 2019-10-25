@@ -1,0 +1,41 @@
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e6ffff;
+    background-image: url("../../Gif/generated_gifs/cita.gif");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#general-loader-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 5000001;
+}
+
+#general-loader{
+    filter: brightness(1.2);
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Gif/generated_gifs/cita.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px 80px;
+    z-index: 5000000;
+}
