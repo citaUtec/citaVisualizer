@@ -1,0 +1,63 @@
+.information-section-main-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.information-container-left-column{
+    background-color: rgba(0,0,0,0.1);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+}
+
+.information-container-right-column{
+    /*background-color: rgba(0,0,0,0.2);*/
+    background-color: rgba(255,255,255,1.0);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+}
+
+.information-left-column-options-container{
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.information-left-column-option{
+    background-color: transparent;
+    color: rgba(0,0,0,0.25);
+    width: 60%;
+    height: 8%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0,0,0,0.25);
+    margin-bottom: 40px;
+}
+
+.information-left-column-option:hover{
+    color: rgba(0,0,0,0.75);
+    border-bottom: 2px solid rgba(0,0,0,0.75);
+}
+
+.information-left-column-option-selected{
+    color: rgba(0,0,0,0.75);
+    border-bottom: 2px solid rgba(0,0,0,0.75);
+}
+
+.information-left-column-option-text{
+    align-self: center;
+    font-size: 14px;
+}

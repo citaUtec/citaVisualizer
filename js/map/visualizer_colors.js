@@ -52,77 +52,99 @@ let metrics_wavelength_colors = [
 
 ];
 
+
+//River Outline Styles
+
+let amazonasRiverOutlineStyle = {color: "#00BFDF", opacity: 1.0, fillColor: "#00BFDF", fillOpacity: 1.0, weight: 2};
+let huallagaRiverOutlineStyle = {color: "#00BFDF", opacity: 1.0, fillColor: "#00BFDF", fillOpacity: 1.0, weight: 2};
+let marañonRiverOutlineStyle = {color: "#00BFDF", opacity: 1.0, fillColor: "#00BFDF", fillOpacity: 1.0, weight: 2};
+let ucayaliRiverOutlineStyle = {color: "#00BFDF", opacity: 1.0, fillColor: "#00BFDF", fillOpacity: 1.0, weight: 2};
+
 //Background Data colors
 
 //Geopolitical
 
 //Administrative Divisions
-let geopolitical_department_fill_color = "#AA0000";
-let geopolitical_department_fill_opacity = 0.0;
-let geopolitical_department_stroke_color = "#5F1A37";
-let geopolitical_department_stroke_opacity = 1.0;
-let geopolitical_department_stroke_weigth = 2;
-let geopolitical_province_fill_color = "#00AA00";
-let geopolitical_province_fill_opacity = 0.0;
-let geopolitical_province_stroke_color = "#5F1A37";
-let geopolitical_province_stroke_opacity = 0.7;
-let geopolitical_province_stroke_weigth = 1.0;
-let geopolitical_district_fill_color = "#0000AA";
-let geopolitical_district_fill_opacity = 0.0;
-let geopolitical_district_stroke_color = "#5F1A37";
-let geopolitical_district_stroke_opacity = 0.4;
-let geopolitical_district_stroke_weigth = 0.5;
+
+let administrativeDivisionsDepartmentStyle = {
+    fillColor: "#FFFFFF",
+    fillOpacity: 0.0,
+    color: "#5F1A37",
+    strokeOpacity: 1.0,
+    weight: 2.0
+};
+let administrativeDivisionsProvinceStyle = {
+    fillColor: "#FFFFFF",
+    fillOpacity: 0.0,
+    color: "#5F1A37",
+    strokeOpacity: 0.7,
+    weight: 1.0
+};
+let administrativeDivisionsDistrictStyle = {
+    fillColor: "#FFFFFF",
+    fillOpacity: 0.0,
+    color: "#5F1A37",
+    strokeOpacity: 0.4,
+    weight: 0.5
+};
 
 //Population
-let population_department_fill_color = "#AA0000";
-let population_department_fill_opacity = 0.35;
-let population_department_stroke_color = "#000000";
-let population_department_stroke_opacity = 1.0;
-let population_department_stroke_weigth = 1;
-let population_province_fill_color = "#AA0000";
-let population_province_fill_opacity = 0.35;
-let population_province_stroke_color = "#000000";
-let population_province_stroke_opacity = 1.0;
-let population_province_stroke_weigth = 1;
-let population_district_fill_color = "#AA0000";
-let population_district_fill_opacity = 0.35;
-let population_district_stroke_color = "#000000";
-let population_district_stroke_opacity = 1.0;
-let population_district_stroke_weigth = 1;
-let population_town_fill_color = "#AA0000";
-let population_town_fill_opacity = 0.35;
-let population_town_stroke_color = "#000000";
-let population_town_stroke_opacity = 1.0;
-let population_town_stroke_weigth = 1;
+
+let populationDepartmentStyle = {
+    fillColor: "#AA0000",
+        fillOpacity: 0.35,
+        color: "#000000",
+        strokeOpacity: 1.0,
+        weight: 1.0
+};
+let populationProvinceStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+let populationDistrictStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
 
 //Populated Areas
-let populated_areas_native_fill_color = "#AA0000";
-let populated_areas_native_fill_opacity = 0.35;
-let populated_areas_native_stroke_color = "#000000";
-let populated_areas_native_stroke_opacity = 1.0;
-let populated_areas_native_stroke_weigth = 1;
-let populated_areas_rural_fill_color = "#AA0000";
-let populated_areas_rural_fill_opacity = 0.35;
-let populated_areas_rural_stroke_color = "#000000";
-let populated_areas_rural_stroke_opacity = 1.0;
-let populated_areas_rural_stroke_weigth = 1;
+
+let populatedAreasRuralStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
 
 //Protected Natural Areas
-let pna_regional_fill_color = "#AA0000";
-let pna_regional_fill_opacity = 0.35;
-let pna_regional_stroke_color = "#000000";
-let pna_regional_stroke_opacity = 1.0;
-let pna_regional_stroke_weigth = 1;
-let pna_private_fill_color = "#AA0000";
-let pna_private_fill_opacity = 0.35;
-let pna_private_stroke_color = "#000000";
-let pna_private_stroke_opacity = 1.0;
-let pna_private_stroke_weigth = 1;
-let pna_buffer_fill_color = "#AA0000";
-let pna_buffer_fill_opacity = 0.35;
-let pna_buffer_stroke_color = "#000000";
-let pna_buffer_stroke_opacity = 1.0;
-let pna_buffer_stroke_weigth = 1;
+
+let protectedAreasDepartmentStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+let protectedAreasRegionalStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+let protectedAreasBufferZoneStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
 
 //Geography
 

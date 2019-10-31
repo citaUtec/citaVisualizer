@@ -19,15 +19,15 @@ let background_data_dancing_rivers = {
             "menu_bottom_arrow_button_id": "geopolitic_menu_bottom_arrow_button_id",
             "available": true
         },
-        {
-            "menu_option_title": "Socioeconomic",
-            "menu_option_title_id": "socioeconomic_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/socioeconomic_icon.png",
-            "menu_option_id": "socioeconomic_menu_option_id",
-            "menu_button_option_id": "socioeconomic_menu_button_option_id",
-            "menu_bottom_arrow_button_id": "socioeconomic_menu_bottom_arrow_button_id",
-            "available": true
-        },
+        // {
+        //     "menu_option_title": "Socioeconomic",
+        //     "menu_option_title_id": "socioeconomic_menu_option_title_id",
+        //     "menu_option_image_ref": "img/side-bar-icon/socioeconomic_icon.png",
+        //     "menu_option_id": "socioeconomic_menu_option_id",
+        //     "menu_button_option_id": "socioeconomic_menu_button_option_id",
+        //     "menu_bottom_arrow_button_id": "socioeconomic_menu_bottom_arrow_button_id",
+        //     "available": true
+        // },
         {
             "menu_option_title": "Geography",
             "menu_option_title_id": "geography_menu_option_title_id",
@@ -46,15 +46,15 @@ let background_data_dancing_rivers = {
             "menu_bottom_arrow_button_id": "infrastructure_menu_bottom_arrow_button_id",
             "available": true
         },
-        {
-            "menu_option_title": "Risk Management",
-            "menu_option_title_id": "risk_management_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/risk_manage_icon.png",
-            "menu_option_id": "risk_management_menu_option_id",
-            "menu_button_option_id": "risk_management_menu_button_option_id",
-            "menu_bottom_arrow_button_id": "risk_management_menu_bottom_arrow_button_id",
-            "available": true
-        },
+        // {
+        //     "menu_option_title": "Risk Management",
+        //     "menu_option_title_id": "risk_management_menu_option_title_id",
+        //     "menu_option_image_ref": "img/side-bar-icon/risk_manage_icon.png",
+        //     "menu_option_id": "risk_management_menu_option_id",
+        //     "menu_button_option_id": "risk_management_menu_button_option_id",
+        //     "menu_bottom_arrow_button_id": "risk_management_menu_bottom_arrow_button_id",
+        //     "available": true
+        // },
         {
             "menu_option_title": "Stations",
             "menu_option_title_id": "stations_menu_option_title_id",
@@ -135,115 +135,115 @@ let background_data_dancing_rivers = {
                         }
                     ]
                 },
-                {
-                    "submenu_option_title": "Population",
-                    "submenu_option_title_id": "population_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/population_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                    "submenu_option_image_id": "population_submenu_image_id",
-                    "submenu_option_id": "population_submenu_option_id",
-                    "submenu_option_button_id": "population_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "population_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "population_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": [
-                        {
-                            "submenu_option_title": "Capitals of Regions",
-                            "submenu_option_title_id": "region_capitals_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/department_capital_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/department_capital_enabled_icon.png",
-                            "submenu_option_image_id": "region_capitals_submenu_image_id",
-                            "submenu_option_id": "region_capitals_submenu_option_id",
-                            "submenu_option_button_id": "region_capitals_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "region_capitals_submenu_option_check",
-                            "submenu_option_button_click_function": population_department_capital_submenu_option_clicked,
-                            "submenu_bottom_arrow_button_id": "region_capitals_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Capitals of Provinces",
-                            "submenu_option_title_id": "province_capitals_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/province_capital_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/province_capital_enabled_icon.png",
-                            "submenu_option_image_id": "province_capitals_submenu_image_id",
-                            "submenu_option_id": "province_capitals_submenu_option_id",
-                            "submenu_option_button_id": "province_capitals_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "province_capitals_submenu_option_check",
-                            "submenu_option_button_click_function": population_province_capital_submenu_option_clicked,
-                            "submenu_bottom_arrow_button_id": "province_capitals_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Capitals of Districts",
-                            "submenu_option_title_id": "district_capitals_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/district_capital_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/district_capital_enabled_icon.png",
-                            "submenu_option_image_id": "district_capitals_submenu_image_id",
-                            "submenu_option_id": "district_capitals_submenu_option_id",
-                            "submenu_option_button_id": "district_capitals_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "district_capitals_submenu_option_check",
-                            "submenu_option_button_click_function": population_district_capital_submenu_option_clicked,
-                            "submenu_bottom_arrow_button_id": "district_capitals_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        // {
-                        //     "submenu_option_title": "Towns & Villages",
-                        //     "submenu_option_title_id": "towns_villages_submenu_option_title_id",
-                        //     "submenu_option_image_ref": "img/side-bar-icon/towns_capital_icon.png",
-                        //     "submenu_option_image_enabled_ref": "img/side-bar-icon/towns_capital_enabled_icon.png",
-                        //     "submenu_option_image_id": "towns_villages_submenu_image_id",
-                        //     "submenu_option_id": "towns_villages_submenu_option_id",
-                        //     "submenu_option_button_id": "towns_villages_submenu_option_button",
-                        //     "submenu_option_button_check_icon_id": "towns_villages_submenu_option_check",
-                        //     "submenu_option_button_click_function": population_town_submenu_option_clicked,
-                        //     "submenu_bottom_arrow_button_id": "towns_villages_submenu_bottom_arrow_button_id",
-                        //     "submenu_option_enabled_state": true,
-                        //     "available": true,
-                        //     "river_availability": [true, true, true, true, true]
-                        // }
-                    ]
-                },
-                {
-                    "submenu_option_title": "Population Density",
-                    "submenu_option_title_id": "population_density_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/population_density_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/M_enabled_icon.png",
-                    "submenu_option_image_id": "population_density_submenu_image_id",
-                    "submenu_option_id": "population_density_submenu_option_id",
-                    "submenu_option_button_id": "population_density_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "population_density_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "population_density_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": []
-                },
-                {
-                    "submenu_option_title": "Urban-Rural Population",
-                    "submenu_option_title_id": "urban_rural_population_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/urban_rural_population_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/U_enabled_icon.png",
-                    "submenu_option_image_id": "urban_rural_population_submenu_image_id",
-                    "submenu_option_id": "urban_rural_population_submenu_option_id",
-                    "submenu_option_button_id": "urban_rural_population_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "urban_rural_population_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "urban_rural_population_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": []
-                },
+                // {
+                //     "submenu_option_title": "Population",
+                //     "submenu_option_title_id": "population_submenu_option_title_id",
+                //     "submenu_option_image_ref": "img/side-bar-icon/population_icon.png",
+                //     "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                //     "submenu_option_image_id": "population_submenu_image_id",
+                //     "submenu_option_id": "population_submenu_option_id",
+                //     "submenu_option_button_id": "population_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "population_submenu_option_check",
+                //     "submenu_option_button_click_function": dummyTest,
+                //     "submenu_bottom_arrow_button_id": "population_submenu_bottom_arrow_button_id",
+                //     "submenu_option_enabled_state": false,
+                //     "available": true,
+                //     "river_availability": [true, true, true, true, true],
+                //     "data_second_level_submenu_options": [
+                //         {
+                //             "submenu_option_title": "Capitals of Regions",
+                //             "submenu_option_title_id": "region_capitals_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/department_capital_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/department_capital_enabled_icon.png",
+                //             "submenu_option_image_id": "region_capitals_submenu_image_id",
+                //             "submenu_option_id": "region_capitals_submenu_option_id",
+                //             "submenu_option_button_id": "region_capitals_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "region_capitals_submenu_option_check",
+                //             "submenu_option_button_click_function": population_department_capital_submenu_option_clicked,
+                //             "submenu_bottom_arrow_button_id": "region_capitals_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         {
+                //             "submenu_option_title": "Capitals of Provinces",
+                //             "submenu_option_title_id": "province_capitals_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/province_capital_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/province_capital_enabled_icon.png",
+                //             "submenu_option_image_id": "province_capitals_submenu_image_id",
+                //             "submenu_option_id": "province_capitals_submenu_option_id",
+                //             "submenu_option_button_id": "province_capitals_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "province_capitals_submenu_option_check",
+                //             "submenu_option_button_click_function": population_province_capital_submenu_option_clicked,
+                //             "submenu_bottom_arrow_button_id": "province_capitals_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         {
+                //             "submenu_option_title": "Capitals of Districts",
+                //             "submenu_option_title_id": "district_capitals_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/district_capital_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/district_capital_enabled_icon.png",
+                //             "submenu_option_image_id": "district_capitals_submenu_image_id",
+                //             "submenu_option_id": "district_capitals_submenu_option_id",
+                //             "submenu_option_button_id": "district_capitals_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "district_capitals_submenu_option_check",
+                //             "submenu_option_button_click_function": population_district_capital_submenu_option_clicked,
+                //             "submenu_bottom_arrow_button_id": "district_capitals_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         // {
+                //         //     "submenu_option_title": "Towns & Villages",
+                //         //     "submenu_option_title_id": "towns_villages_submenu_option_title_id",
+                //         //     "submenu_option_image_ref": "img/side-bar-icon/towns_capital_icon.png",
+                //         //     "submenu_option_image_enabled_ref": "img/side-bar-icon/towns_capital_enabled_icon.png",
+                //         //     "submenu_option_image_id": "towns_villages_submenu_image_id",
+                //         //     "submenu_option_id": "towns_villages_submenu_option_id",
+                //         //     "submenu_option_button_id": "towns_villages_submenu_option_button",
+                //         //     "submenu_option_button_check_icon_id": "towns_villages_submenu_option_check",
+                //         //     "submenu_option_button_click_function": population_town_submenu_option_clicked,
+                //         //     "submenu_bottom_arrow_button_id": "towns_villages_submenu_bottom_arrow_button_id",
+                //         //     "submenu_option_enabled_state": true,
+                //         //     "available": true,
+                //         //     "river_availability": [true, true, true, true, true]
+                //         // }
+                //     ]
+                // },
+                // {
+                //     "submenu_option_title": "Population Density",
+                //     "submenu_option_title_id": "population_density_submenu_option_title_id",
+                //     "submenu_option_image_ref": "img/side-bar-icon/population_density_icon.png",
+                //     "submenu_option_image_enabled_ref": "img/side-bar-icon/M_enabled_icon.png",
+                //     "submenu_option_image_id": "population_density_submenu_image_id",
+                //     "submenu_option_id": "population_density_submenu_option_id",
+                //     "submenu_option_button_id": "population_density_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "population_density_submenu_option_check",
+                //     "submenu_option_button_click_function": dummyTest,
+                //     "submenu_bottom_arrow_button_id": "population_density_submenu_bottom_arrow_button_id",
+                //     "submenu_option_enabled_state": false,
+                //     "available": true,
+                //     "river_availability": [true, true, true, true, true],
+                //     "data_second_level_submenu_options": []
+                // },
+                // {
+                //     "submenu_option_title": "Urban-Rural Population",
+                //     "submenu_option_title_id": "urban_rural_population_submenu_option_title_id",
+                //     "submenu_option_image_ref": "img/side-bar-icon/urban_rural_population_icon.png",
+                //     "submenu_option_image_enabled_ref": "img/side-bar-icon/U_enabled_icon.png",
+                //     "submenu_option_image_id": "urban_rural_population_submenu_image_id",
+                //     "submenu_option_id": "urban_rural_population_submenu_option_id",
+                //     "submenu_option_button_id": "urban_rural_population_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "urban_rural_population_submenu_option_check",
+                //     "submenu_option_button_click_function": dummyTest,
+                //     "submenu_bottom_arrow_button_id": "urban_rural_population_submenu_bottom_arrow_button_id",
+                //     "submenu_option_enabled_state": false,
+                //     "available": true,
+                //     "river_availability": [true, true, true, true, true],
+                //     "data_second_level_submenu_options": []
+                // },
                 {
                     "submenu_option_title": "Populated Areas",
                     "submenu_option_title_id": "populated_areas_submenu_option_title_id",
@@ -464,175 +464,175 @@ let background_data_dancing_rivers = {
             ]
 
         },
-        {
-            "submenu_name": "socioeconomic_submenu",
-            "options": [
-
-                {
-                    "submenu_option_title": "Pobreza",
-                    "submenu_option_title_id": "poverty_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/poverty_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/width_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/width_blocked_icon.png",
-                    "submenu_option_image_id": "poverty_submenu_image_id",
-                    "submenu_option_id": "poverty_submenu_option_id",
-                    "submenu_option_button_id": "poverty_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "poverty_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "poverty_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": [
-                        {
-                            "submenu_option_title": "Regions",
-                            "submenu_option_title_id": "poverty_regions_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/poverty_department_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "poverty_regions_submenu_image_id",
-                            "submenu_option_id": "poverty_regions_submenu_option_id",
-                            "submenu_option_button_id": "poverty_regions_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "poverty_regions_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "poverty_regions_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Provinces",
-                            "submenu_option_title_id": "poverty_provinces_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/poverty_province_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "poverty_provinces_submenu_image_id",
-                            "submenu_option_id": "poverty_provinces_submenu_option_id",
-                            "submenu_option_button_id": "poverty_provinces_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "poverty_provinces_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "poverty_provinces_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                    ]
-
-                },
-                {
-                    "submenu_option_title": "HDI",
-                    "submenu_option_title_id": "hdi_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/sinuosity_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/sinuosity_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/sinuosity_blocked_icon.png",
-                    "submenu_option_image_id": "hdi_submenu_image_id",
-                    "submenu_option_id": "shdi_submenu_option_id",
-                    "submenu_option_button_id": "hdi_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "hdi_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "hdi_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": []
-                },
-                {
-                    "submenu_option_title": "PBI Per Capita",
-                    "submenu_option_title_id": "pbi_per_capita_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/arc_wavelength_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/arc_wavelength_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/arc_wavelength_blocked_icon.png",
-                    "submenu_option_image_id": "pbi_per_capita_submenu_image_id",
-                    "submenu_option_id": "pbi_per_capita_submenu_option_id",
-                    "submenu_option_button_id": "pbi_per_capita_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "pbi_per_capita_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "pbi_per_capita_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": []
-                },
-                {
-                    "submenu_option_title": "Public Services Access",
-                    "submenu_option_title_id": "public_services_access_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/access_public_services_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/migration_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/migration_blocked_icon.png",
-                    "submenu_option_image_id": "public_services_access_submenu_image_id",
-                    "submenu_option_id": "public_services_access_submenu_option_id",
-                    "submenu_option_button_id": "public_services_access_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "public_services_access_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "public_service_access_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": [
-                        {
-                            "submenu_option_title": "Without Public Water System",
-                            "submenu_option_title_id": "without_water_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/no_water_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "without_water_submenu_image_id",
-                            "submenu_option_id": "without_water_submenu_option_id",
-                            "submenu_option_button_id": "without_water_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "without_water_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "without_water_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Without Public Sewer Network",
-                            "submenu_option_title_id": "without_sewer_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/no_drainage_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "without_sewer_submenu_image_id",
-                            "submenu_option_id": "without_sewer_submenu_option_id",
-                            "submenu_option_button_id": "without_sewer_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "without_sewer_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "without_sewer_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Without Electricity Connection",
-                            "submenu_option_title_id": "without_electricity_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/no_electricity_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "without_electricity_submenu_image_id",
-                            "submenu_option_id": "without_electricity_submenu_option_id",
-                            "submenu_option_button_id": "without_electricity_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "without_electricity_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "without_electricity_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Internet Connection",
-                            "submenu_option_title_id": "internet_connection_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/internet_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "internet_connection_submenu_image_id",
-                            "submenu_option_id": "internet_connection_submenu_option_id",
-                            "submenu_option_button_id": "internet_connection_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "internet_connection_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "internet_connection_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                    ]
-                },
-
-            ]
-
-        },
+        // {
+        //     "submenu_name": "socioeconomic_submenu",
+        //     "options": [
+        //
+        //         {
+        //             "submenu_option_title": "Pobreza",
+        //             "submenu_option_title_id": "poverty_submenu_option_title_id",
+        //             "submenu_option_image_ref": "img/side-bar-icon/poverty_icon.png",
+        //             "submenu_option_image_enabled_ref": "img/side-bar-icon/width_enabled_icon.png",
+        //             "submenu_option_image_blocked_ref": "img/side-bar-icon/width_blocked_icon.png",
+        //             "submenu_option_image_id": "poverty_submenu_image_id",
+        //             "submenu_option_id": "poverty_submenu_option_id",
+        //             "submenu_option_button_id": "poverty_submenu_option_button",
+        //             "submenu_option_button_check_icon_id": "poverty_submenu_option_check",
+        //             "submenu_option_button_click_function": dummyTest,
+        //             "submenu_bottom_arrow_button_id": "poverty_submenu_bottom_arrow_button_id",
+        //             "submenu_option_enabled_state": false,
+        //             "available": true,
+        //             "river_availability": [true, true, true, true, true],
+        //             "data_second_level_submenu_options": [
+        //                 {
+        //                     "submenu_option_title": "Regions",
+        //                     "submenu_option_title_id": "poverty_regions_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/poverty_department_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+        //                     "submenu_option_image_id": "poverty_regions_submenu_image_id",
+        //                     "submenu_option_id": "poverty_regions_submenu_option_id",
+        //                     "submenu_option_button_id": "poverty_regions_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "poverty_regions_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "poverty_regions_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //                 {
+        //                     "submenu_option_title": "Provinces",
+        //                     "submenu_option_title_id": "poverty_provinces_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/poverty_province_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+        //                     "submenu_option_image_id": "poverty_provinces_submenu_image_id",
+        //                     "submenu_option_id": "poverty_provinces_submenu_option_id",
+        //                     "submenu_option_button_id": "poverty_provinces_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "poverty_provinces_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "poverty_provinces_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //             ]
+        //
+        //         },
+        //         {
+        //             "submenu_option_title": "HDI",
+        //             "submenu_option_title_id": "hdi_submenu_option_title_id",
+        //             "submenu_option_image_ref": "img/side-bar-icon/sinuosity_icon.png",
+        //             "submenu_option_image_enabled_ref": "img/side-bar-icon/sinuosity_enabled_icon.png",
+        //             "submenu_option_image_blocked_ref": "img/side-bar-icon/sinuosity_blocked_icon.png",
+        //             "submenu_option_image_id": "hdi_submenu_image_id",
+        //             "submenu_option_id": "shdi_submenu_option_id",
+        //             "submenu_option_button_id": "hdi_submenu_option_button",
+        //             "submenu_option_button_check_icon_id": "hdi_submenu_option_check",
+        //             "submenu_option_button_click_function": dummyTest,
+        //             "submenu_bottom_arrow_button_id": "hdi_submenu_bottom_arrow_button_id",
+        //             "submenu_option_enabled_state": false,
+        //             "available": true,
+        //             "river_availability": [true, true, true, true, true],
+        //             "data_second_level_submenu_options": []
+        //         },
+        //         {
+        //             "submenu_option_title": "PBI Per Capita",
+        //             "submenu_option_title_id": "pbi_per_capita_submenu_option_title_id",
+        //             "submenu_option_image_ref": "img/side-bar-icon/arc_wavelength_icon.png",
+        //             "submenu_option_image_enabled_ref": "img/side-bar-icon/arc_wavelength_enabled_icon.png",
+        //             "submenu_option_image_blocked_ref": "img/side-bar-icon/arc_wavelength_blocked_icon.png",
+        //             "submenu_option_image_id": "pbi_per_capita_submenu_image_id",
+        //             "submenu_option_id": "pbi_per_capita_submenu_option_id",
+        //             "submenu_option_button_id": "pbi_per_capita_submenu_option_button",
+        //             "submenu_option_button_check_icon_id": "pbi_per_capita_submenu_option_check",
+        //             "submenu_option_button_click_function": dummyTest,
+        //             "submenu_bottom_arrow_button_id": "pbi_per_capita_submenu_bottom_arrow_button_id",
+        //             "submenu_option_enabled_state": false,
+        //             "available": true,
+        //             "river_availability": [true, true, true, true, true],
+        //             "data_second_level_submenu_options": []
+        //         },
+        //         {
+        //             "submenu_option_title": "Public Services Access",
+        //             "submenu_option_title_id": "public_services_access_submenu_option_title_id",
+        //             "submenu_option_image_ref": "img/side-bar-icon/access_public_services_icon.png",
+        //             "submenu_option_image_enabled_ref": "img/side-bar-icon/migration_enabled_icon.png",
+        //             "submenu_option_image_blocked_ref": "img/side-bar-icon/migration_blocked_icon.png",
+        //             "submenu_option_image_id": "public_services_access_submenu_image_id",
+        //             "submenu_option_id": "public_services_access_submenu_option_id",
+        //             "submenu_option_button_id": "public_services_access_submenu_option_button",
+        //             "submenu_option_button_check_icon_id": "public_services_access_submenu_option_check",
+        //             "submenu_option_button_click_function": dummyTest,
+        //             "submenu_bottom_arrow_button_id": "public_service_access_submenu_bottom_arrow_button_id",
+        //             "submenu_option_enabled_state": false,
+        //             "available": true,
+        //             "river_availability": [true, true, true, true, true],
+        //             "data_second_level_submenu_options": [
+        //                 {
+        //                     "submenu_option_title": "Without Public Water System",
+        //                     "submenu_option_title_id": "without_water_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/no_water_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+        //                     "submenu_option_image_id": "without_water_submenu_image_id",
+        //                     "submenu_option_id": "without_water_submenu_option_id",
+        //                     "submenu_option_button_id": "without_water_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "without_water_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "without_water_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //                 {
+        //                     "submenu_option_title": "Without Public Sewer Network",
+        //                     "submenu_option_title_id": "without_sewer_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/no_drainage_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+        //                     "submenu_option_image_id": "without_sewer_submenu_image_id",
+        //                     "submenu_option_id": "without_sewer_submenu_option_id",
+        //                     "submenu_option_button_id": "without_sewer_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "without_sewer_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "without_sewer_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //                 {
+        //                     "submenu_option_title": "Without Electricity Connection",
+        //                     "submenu_option_title_id": "without_electricity_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/no_electricity_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+        //                     "submenu_option_image_id": "without_electricity_submenu_image_id",
+        //                     "submenu_option_id": "without_electricity_submenu_option_id",
+        //                     "submenu_option_button_id": "without_electricity_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "without_electricity_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "without_electricity_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //                 {
+        //                     "submenu_option_title": "Internet Connection",
+        //                     "submenu_option_title_id": "internet_connection_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/internet_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+        //                     "submenu_option_image_id": "internet_connection_submenu_image_id",
+        //                     "submenu_option_id": "internet_connection_submenu_option_id",
+        //                     "submenu_option_button_id": "internet_connection_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "internet_connection_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "internet_connection_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //             ]
+        //         },
+        //
+        //     ]
+        //
+        // },
         {
             "submenu_name": "geography_submenu",
             "options": [
@@ -747,40 +747,40 @@ let background_data_dancing_rivers = {
                     "river_availability": [true, true, true, true, true],
                     "data_second_level_submenu_options": []
                 },
-                {
-                    "submenu_option_title": "Geomorphology",
-                    "submenu_option_title_id": "geomorphology_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/hydrodynamic_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/hydrodynamic_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/hydrodynamic_blocked_icon.png",
-                    "submenu_option_image_id": "geomorphology_submenu_image_id",
-                    "submenu_option_id": "geomorphology_submenu_option_id",
-                    "submenu_option_button_id": "geomorphology_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "geomorphology_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "geomorphology_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": []
-                },
-                {
-                    "submenu_option_title": "Land uses",
-                    "submenu_option_title_id": "land_use_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/land_use_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/dunes_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/dunes_blocked_icon.png",
-                    "submenu_option_image_id": "land_use_submenu_image_id",
-                    "submenu_option_id": "land_use_submenu_option_id",
-                    "submenu_option_button_id": "land_use_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "land_use_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "land_use_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": []
-                },
+                // {
+                //     "submenu_option_title": "Geomorphology",
+                //     "submenu_option_title_id": "geomorphology_submenu_option_title_id",
+                //     "submenu_option_image_ref": "img/side-bar-icon/hydrodynamic_icon.png",
+                //     "submenu_option_image_enabled_ref": "img/side-bar-icon/hydrodynamic_enabled_icon.png",
+                //     "submenu_option_image_blocked_ref": "img/side-bar-icon/hydrodynamic_blocked_icon.png",
+                //     "submenu_option_image_id": "geomorphology_submenu_image_id",
+                //     "submenu_option_id": "geomorphology_submenu_option_id",
+                //     "submenu_option_button_id": "geomorphology_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "geomorphology_submenu_option_check",
+                //     "submenu_option_button_click_function": dummyTest,
+                //     "submenu_bottom_arrow_button_id": "geomorphology_submenu_bottom_arrow_button_id",
+                //     "submenu_option_enabled_state": false,
+                //     "available": true,
+                //     "river_availability": [true, true, true, true, true],
+                //     "data_second_level_submenu_options": []
+                // },
+                // {
+                //     "submenu_option_title": "Land uses",
+                //     "submenu_option_title_id": "land_use_submenu_option_title_id",
+                //     "submenu_option_image_ref": "img/side-bar-icon/land_use_icon.png",
+                //     "submenu_option_image_enabled_ref": "img/side-bar-icon/dunes_enabled_icon.png",
+                //     "submenu_option_image_blocked_ref": "img/side-bar-icon/dunes_blocked_icon.png",
+                //     "submenu_option_image_id": "land_use_submenu_image_id",
+                //     "submenu_option_id": "land_use_submenu_option_id",
+                //     "submenu_option_button_id": "land_use_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "land_use_submenu_option_check",
+                //     "submenu_option_button_click_function": dummyTest,
+                //     "submenu_bottom_arrow_button_id": "land_use_submenu_bottom_arrow_button_id",
+                //     "submenu_option_enabled_state": false,
+                //     "available": true,
+                //     "river_availability": [true, true, true, true, true],
+                //     "data_second_level_submenu_options": []
+                // },
                 {
                     "submenu_option_title": "DEM",
                     "submenu_option_title_id": "dem_geography_submenu_option_title_id",
@@ -798,149 +798,149 @@ let background_data_dancing_rivers = {
                     "river_availability": [true, true, true, true, true],
                     "data_second_level_submenu_options": []
                 },
-                {
-                    "submenu_option_title": "Environmental",
-                    "submenu_option_title_id": "environmental_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/environmental_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/bedload_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/bedload_blocked_icon.png",
-                    "submenu_option_image_id": "environmental_submenu_image_id",
-                    "submenu_option_id": "environmental_submenu_option_id",
-                    "submenu_option_button_id": "environmental_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "environmental_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "environmental_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": [
-
-                        {
-                            "submenu_option_title": "Green Coverage",
-                            "submenu_option_title_id": "green_coverage_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/vegetation_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "green_coverage_rivers_submenu_image_id",
-                            "submenu_option_id": "green_coverage_submenu_option_id",
-                            "submenu_option_button_id": "green_coverage_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "green_coverage_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "green_coverage_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Life Zones",
-                            "submenu_option_title_id": "life_zones_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/life_zones_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "life_zones_submenu_image_id",
-                            "submenu_option_id": "life_zones_submenu_option_id",
-                            "submenu_option_button_id": "life_zones_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "life_zones_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "life_zones_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Ecosystems",
-                            "submenu_option_title_id": "ecosystems_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/ecosystem_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "ecosystems_submenu_image_id",
-                            "submenu_option_id": "ecosystems_submenu_option_id",
-                            "submenu_option_button_id": "ecosystems_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "ecosystems_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "ecosystems_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        // {
-                        //     "submenu_option_title": "Oil Spill",
-                        //     "submenu_option_title_id": "oil_spill_submenu_option_title_id",
-                        //     "submenu_option_image_ref": "img/side-bar-icon/H_icon.png",
-                        //     "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                        //     "submenu_option_image_id": "oil_spill_submenu_image_id",
-                        //     "submenu_option_id": "oil_spill_submenu_option_id",
-                        //     "submenu_option_button_id": "oil_spill_submenu_option_button",
-                        //     "submenu_option_button_check_icon_id": "oil_spill_submenu_option_check",
-                        //     "submenu_option_button_click_function": huallaga_submenu_option_clicked,
-                        //     "submenu_bottom_arrow_button_id": "oil_spill_submenu_bottom_arrow_button_id",
-                        //     "submenu_option_enabled_state": true,
-                        //     "available": true,
-                        //     "river_availability": [true, true, true, true, true]
-                        // },
-                    ]
-                },
-                {
-                    "submenu_option_title": "Climate",
-                    "submenu_option_title_id": "climate_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/climate_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                    "submenu_option_image_id": "climate_submenu_image_id",
-                    "submenu_option_id": "climate_submenu_option_id",
-                    "submenu_option_button_id": "climate_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "climate_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "climate_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": [
-
-                        {
-                            "submenu_option_title": "Precipitation",
-                            "submenu_option_title_id": "precipitation_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/precipitation_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "precipitation_submenu_image_id",
-                            "submenu_option_id": "precipitation_submenu_option_id",
-                            "submenu_option_button_id": "precipitation_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "precipitation_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "precipitation_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Temperature",
-                            "submenu_option_title_id": "temperature_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/temperature_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "temperature_submenu_image_id",
-                            "submenu_option_id": "temperature_submenu_option_id",
-                            "submenu_option_button_id": "temperature_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "temperature_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "temperature_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Evapotranspiration",
-                            "submenu_option_title_id": "evapotranspiration_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/evapotranspiration_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                            "submenu_option_image_id": "evapotranspiration_submenu_image_id",
-                            "submenu_option_id": "evapotranspiration_submenu_option_id",
-                            "submenu_option_button_id": "evapotranspiration_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "evapotranspiration_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "evapotranspiration_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-
-                    ]
-                },
+                // {
+                //     "submenu_option_title": "Environmental",
+                //     "submenu_option_title_id": "environmental_submenu_option_title_id",
+                //     "submenu_option_image_ref": "img/side-bar-icon/environmental_icon.png",
+                //     "submenu_option_image_enabled_ref": "img/side-bar-icon/bedload_enabled_icon.png",
+                //     "submenu_option_image_blocked_ref": "img/side-bar-icon/bedload_blocked_icon.png",
+                //     "submenu_option_image_id": "environmental_submenu_image_id",
+                //     "submenu_option_id": "environmental_submenu_option_id",
+                //     "submenu_option_button_id": "environmental_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "environmental_submenu_option_check",
+                //     "submenu_option_button_click_function": dummyTest,
+                //     "submenu_bottom_arrow_button_id": "environmental_submenu_bottom_arrow_button_id",
+                //     "submenu_option_enabled_state": false,
+                //     "available": true,
+                //     "river_availability": [true, true, true, true, true],
+                //     "data_second_level_submenu_options": [
+                //
+                //         {
+                //             "submenu_option_title": "Green Coverage",
+                //             "submenu_option_title_id": "green_coverage_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/vegetation_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                //             "submenu_option_image_id": "green_coverage_rivers_submenu_image_id",
+                //             "submenu_option_id": "green_coverage_submenu_option_id",
+                //             "submenu_option_button_id": "green_coverage_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "green_coverage_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "green_coverage_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         {
+                //             "submenu_option_title": "Life Zones",
+                //             "submenu_option_title_id": "life_zones_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/life_zones_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                //             "submenu_option_image_id": "life_zones_submenu_image_id",
+                //             "submenu_option_id": "life_zones_submenu_option_id",
+                //             "submenu_option_button_id": "life_zones_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "life_zones_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "life_zones_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         {
+                //             "submenu_option_title": "Ecosystems",
+                //             "submenu_option_title_id": "ecosystems_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/ecosystem_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                //             "submenu_option_image_id": "ecosystems_submenu_image_id",
+                //             "submenu_option_id": "ecosystems_submenu_option_id",
+                //             "submenu_option_button_id": "ecosystems_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "ecosystems_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "ecosystems_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         // {
+                //         //     "submenu_option_title": "Oil Spill",
+                //         //     "submenu_option_title_id": "oil_spill_submenu_option_title_id",
+                //         //     "submenu_option_image_ref": "img/side-bar-icon/H_icon.png",
+                //         //     "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                //         //     "submenu_option_image_id": "oil_spill_submenu_image_id",
+                //         //     "submenu_option_id": "oil_spill_submenu_option_id",
+                //         //     "submenu_option_button_id": "oil_spill_submenu_option_button",
+                //         //     "submenu_option_button_check_icon_id": "oil_spill_submenu_option_check",
+                //         //     "submenu_option_button_click_function": huallaga_submenu_option_clicked,
+                //         //     "submenu_bottom_arrow_button_id": "oil_spill_submenu_bottom_arrow_button_id",
+                //         //     "submenu_option_enabled_state": true,
+                //         //     "available": true,
+                //         //     "river_availability": [true, true, true, true, true]
+                //         // },
+                //     ]
+                // },
+                // {
+                //     "submenu_option_title": "Climate",
+                //     "submenu_option_title_id": "climate_submenu_option_title_id",
+                //     "submenu_option_image_ref": "img/side-bar-icon/climate_icon.png",
+                //     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+                //     "submenu_option_image_id": "climate_submenu_image_id",
+                //     "submenu_option_id": "climate_submenu_option_id",
+                //     "submenu_option_button_id": "climate_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "climate_submenu_option_check",
+                //     "submenu_option_button_click_function": dummyTest,
+                //     "submenu_bottom_arrow_button_id": "climate_submenu_bottom_arrow_button_id",
+                //     "submenu_option_enabled_state": false,
+                //     "available": true,
+                //     "river_availability": [true, true, true, true, true],
+                //     "data_second_level_submenu_options": [
+                //
+                //         {
+                //             "submenu_option_title": "Precipitation",
+                //             "submenu_option_title_id": "precipitation_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/precipitation_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                //             "submenu_option_image_id": "precipitation_submenu_image_id",
+                //             "submenu_option_id": "precipitation_submenu_option_id",
+                //             "submenu_option_button_id": "precipitation_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "precipitation_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "precipitation_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         {
+                //             "submenu_option_title": "Temperature",
+                //             "submenu_option_title_id": "temperature_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/temperature_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                //             "submenu_option_image_id": "temperature_submenu_image_id",
+                //             "submenu_option_id": "temperature_submenu_option_id",
+                //             "submenu_option_button_id": "temperature_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "temperature_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "temperature_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         {
+                //             "submenu_option_title": "Evapotranspiration",
+                //             "submenu_option_title_id": "evapotranspiration_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/evapotranspiration_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                //             "submenu_option_image_id": "evapotranspiration_submenu_image_id",
+                //             "submenu_option_id": "evapotranspiration_submenu_option_id",
+                //             "submenu_option_button_id": "evapotranspiration_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "evapotranspiration_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "evapotranspiration_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //
+                //     ]
+                // },
 
             ]
 
@@ -1246,241 +1246,241 @@ let background_data_dancing_rivers = {
                         },
                     ]
                 },
-                {
-                    "submenu_option_title": "Health",
-                    "submenu_option_title_id": "health_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/health_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/dunes_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/dunes_blocked_icon.png",
-                    "submenu_option_image_id": "health_submenu_image_id",
-                    "submenu_option_id": "health_submenu_option_id",
-                    "submenu_option_button_id": "health_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "health_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "health_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": [
-                        {
-                            "submenu_option_title": "Hospitals",
-                            "submenu_option_title_id": "hospitals_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/hospitals_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "hospitals_submenu_image_id",
-                            "submenu_option_id": "hospitals_submenu_option_id",
-                            "submenu_option_button_id": "hospitals_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "hospitals_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "hospitals_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Health centers",
-                            "submenu_option_title_id": "health_centers_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/health_center_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "health_centers_submenu_image_id",
-                            "submenu_option_id": "health_centers_submenu_option_id",
-                            "submenu_option_button_id": "health_centers_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "health_centers_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "health_centers_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Health posts",
-                            "submenu_option_title_id": "health_posts_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/health_posts_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "health_posts_submenu_image_id",
-                            "submenu_option_id": "health_posts_submenu_option_id",
-                            "submenu_option_button_id": "health_posts_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "health_posts_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "health_posts_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                    ]
-                },
+                // {
+                //     "submenu_option_title": "Health",
+                //     "submenu_option_title_id": "health_submenu_option_title_id",
+                //     "submenu_option_image_ref": "img/side-bar-icon/health_icon.png",
+                //     "submenu_option_image_enabled_ref": "img/side-bar-icon/dunes_enabled_icon.png",
+                //     "submenu_option_image_blocked_ref": "img/side-bar-icon/dunes_blocked_icon.png",
+                //     "submenu_option_image_id": "health_submenu_image_id",
+                //     "submenu_option_id": "health_submenu_option_id",
+                //     "submenu_option_button_id": "health_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "health_submenu_option_check",
+                //     "submenu_option_button_click_function": dummyTest,
+                //     "submenu_bottom_arrow_button_id": "health_submenu_bottom_arrow_button_id",
+                //     "submenu_option_enabled_state": false,
+                //     "available": true,
+                //     "river_availability": [true, true, true, true, true],
+                //     "data_second_level_submenu_options": [
+                //         {
+                //             "submenu_option_title": "Hospitals",
+                //             "submenu_option_title_id": "hospitals_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/hospitals_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+                //             "submenu_option_image_id": "hospitals_submenu_image_id",
+                //             "submenu_option_id": "hospitals_submenu_option_id",
+                //             "submenu_option_button_id": "hospitals_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "hospitals_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "hospitals_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         {
+                //             "submenu_option_title": "Health centers",
+                //             "submenu_option_title_id": "health_centers_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/health_center_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+                //             "submenu_option_image_id": "health_centers_submenu_image_id",
+                //             "submenu_option_id": "health_centers_submenu_option_id",
+                //             "submenu_option_button_id": "health_centers_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "health_centers_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "health_centers_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //         {
+                //             "submenu_option_title": "Health posts",
+                //             "submenu_option_title_id": "health_posts_submenu_option_title_id",
+                //             "submenu_option_image_ref": "img/side-bar-icon/health_posts_icon.png",
+                //             "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+                //             "submenu_option_image_id": "health_posts_submenu_image_id",
+                //             "submenu_option_id": "health_posts_submenu_option_id",
+                //             "submenu_option_button_id": "health_posts_submenu_option_button",
+                //             "submenu_option_button_check_icon_id": "health_posts_submenu_option_check",
+                //             "submenu_option_button_click_function": dummyTest,
+                //             "submenu_bottom_arrow_button_id": "health_posts_submenu_bottom_arrow_button_id",
+                //             "submenu_option_enabled_state": true,
+                //             "available": true,
+                //             "river_availability": [true, true, true, true, true]
+                //         },
+                //     ]
+                // },
 
             ],
 
         },
-        {
-            "submenu_name": "risk_management_submenu",
-            "options": [
-
-                {
-                    "submenu_option_title": "Danger Map",
-                    "submenu_option_title_id": "danger_map_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/hazard_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/water_level_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/water_level_blocked_icon.png",
-                    "submenu_option_image_id": "danger_map_submenu_image_id",
-                    "submenu_option_id": "danger_map_submenu_option_id",
-                    "submenu_option_button_id": "danger_map_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "danger_map_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "danger_map_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": [
-                        {
-                            "submenu_option_title": "Floods",
-                            "submenu_option_title_id": "floods_hazard_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/flood_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "floods_hazard_submenu_image_id",
-                            "submenu_option_id": "floods_hazard_submenu_option_id",
-                            "submenu_option_button_id": "floods_hazard_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "floods_hazard_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "floods_hazard_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Earthquakes",
-                            "submenu_option_title_id": "earthquakes_hazard_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/earthquake_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "earthquakes_hazard_submenu_image_id",
-                            "submenu_option_id": "earthquakes_hazard_submenu_option_id",
-                            "submenu_option_button_id": "earthquakes_hazard_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "earthquakes_hazard_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "earthquakes_hazard_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Landslides",
-                            "submenu_option_title_id": "landslides_hazard_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/landslide_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "landslides_hazard_submenu_image_id",
-                            "submenu_option_id": "landslides_hazard_submenu_option_id",
-                            "submenu_option_button_id": "landslides_hazard_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "landslides_hazard_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "landslides_hazard_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                    ]
-                },
-                {
-                    "submenu_option_title": "Vulnerability Map",
-                    "submenu_option_title_id": "vulnerability_map_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/vulnerable_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/flow_rates_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/flow_rates_blocked_icon.png",
-                    "submenu_option_image_id": "vulnerability_map_submenu_image_id",
-                    "submenu_option_id": "vulnerability_map_submenu_option_id",
-                    "submenu_option_button_id": "vulnerability_map_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "vulnerability_map_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "vulnerability_map_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": [
-                        {
-                            "submenu_option_title": "Floods",
-                            "submenu_option_title_id": "floods_vulnerability_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/flood_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "floods_vulnerability_submenu_image_id",
-                            "submenu_option_id": "floods_vulnerability_submenu_option_id",
-                            "submenu_option_button_id": "floods_vulnerability_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "floods_vulnerability_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "floods_vulnerability_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Earthquakes",
-                            "submenu_option_title_id": "earthquakes_vulnerability_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/earthquake_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "earthquakes_vulnerability_submenu_image_id",
-                            "submenu_option_id": "earthquakes_vulnerability_submenu_option_id",
-                            "submenu_option_button_id": "earthquakes_vulnerability_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "earthquakes_vulnerability_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "earthquakes_vulnerability_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                        {
-                            "submenu_option_title": "Landslides",
-                            "submenu_option_title_id": "landslides_vulnerability_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/landslide_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
-                            "submenu_option_image_id": "landslides_vulnerability_submenu_image_id",
-                            "submenu_option_id": "landslides_vulnerability_submenu_option_id",
-                            "submenu_option_button_id": "landslides_vulnerability_submenu_option_button",
-                            "submenu_option_button_check_icon_id": "landslides_vulnerability_submenu_option_check",
-                            "submenu_option_button_click_function": dummyTest,
-                            "submenu_bottom_arrow_button_id": "landslides_vulnerability_submenu_bottom_arrow_button_id",
-                            "submenu_option_enabled_state": true,
-                            "available": true,
-                            "river_availability": [true, true, true, true, true]
-                        },
-                    ]
-                },
-                {
-                    "submenu_option_title": "Risk Synthesis Map",
-                    "submenu_option_title_id": "risk_synthesis_map_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/risk_synthesis_map_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/hydrodynamic_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/hydrodynamic_blocked_icon.png",
-                    "submenu_option_image_id": "risk_synthesis_map_submenu_image_id",
-                    "submenu_option_id": "risk_synthesis_map_submenu_option_id",
-                    "submenu_option_button_id": "risk_synthesis_map_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "risk_synthesis_map_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "risk_synthesis_map_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": []
-                },
-                {
-                    "submenu_option_title": "Oil spills",
-                    "submenu_option_title_id": "oil_spills_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/oil_spill_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
-                    "submenu_option_image_id": "oil_spills_submenu_image_id",
-                    "submenu_option_id": "oil_spills_submenu_option_id",
-                    "submenu_option_button_id": "oil_spills_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "oil_spills_submenu_option_check",
-                    "submenu_option_button_click_function": dummyTest,
-                    "submenu_bottom_arrow_button_id": "oil_spills_submenu_bottom_arrow_button_id",
-                    "submenu_option_enabled_state": false,
-                    "available": true,
-                    "river_availability": [true, true, true, true, true],
-                    "data_second_level_submenu_options": []
-                },
-
-
-            ],
-
-        },
+        // {
+        //     "submenu_name": "risk_management_submenu",
+        //     "options": [
+        //
+        //         {
+        //             "submenu_option_title": "Danger Map",
+        //             "submenu_option_title_id": "danger_map_submenu_option_title_id",
+        //             "submenu_option_image_ref": "img/side-bar-icon/hazard_icon.png",
+        //             "submenu_option_image_enabled_ref": "img/side-bar-icon/water_level_enabled_icon.png",
+        //             "submenu_option_image_blocked_ref": "img/side-bar-icon/water_level_blocked_icon.png",
+        //             "submenu_option_image_id": "danger_map_submenu_image_id",
+        //             "submenu_option_id": "danger_map_submenu_option_id",
+        //             "submenu_option_button_id": "danger_map_submenu_option_button",
+        //             "submenu_option_button_check_icon_id": "danger_map_submenu_option_check",
+        //             "submenu_option_button_click_function": dummyTest,
+        //             "submenu_bottom_arrow_button_id": "danger_map_submenu_bottom_arrow_button_id",
+        //             "submenu_option_enabled_state": false,
+        //             "available": true,
+        //             "river_availability": [true, true, true, true, true],
+        //             "data_second_level_submenu_options": [
+        //                 {
+        //                     "submenu_option_title": "Floods",
+        //                     "submenu_option_title_id": "floods_hazard_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/flood_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+        //                     "submenu_option_image_id": "floods_hazard_submenu_image_id",
+        //                     "submenu_option_id": "floods_hazard_submenu_option_id",
+        //                     "submenu_option_button_id": "floods_hazard_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "floods_hazard_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "floods_hazard_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //                 {
+        //                     "submenu_option_title": "Earthquakes",
+        //                     "submenu_option_title_id": "earthquakes_hazard_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/earthquake_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+        //                     "submenu_option_image_id": "earthquakes_hazard_submenu_image_id",
+        //                     "submenu_option_id": "earthquakes_hazard_submenu_option_id",
+        //                     "submenu_option_button_id": "earthquakes_hazard_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "earthquakes_hazard_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "earthquakes_hazard_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //                 {
+        //                     "submenu_option_title": "Landslides",
+        //                     "submenu_option_title_id": "landslides_hazard_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/landslide_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+        //                     "submenu_option_image_id": "landslides_hazard_submenu_image_id",
+        //                     "submenu_option_id": "landslides_hazard_submenu_option_id",
+        //                     "submenu_option_button_id": "landslides_hazard_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "landslides_hazard_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "landslides_hazard_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //             ]
+        //         },
+        //         {
+        //             "submenu_option_title": "Vulnerability Map",
+        //             "submenu_option_title_id": "vulnerability_map_submenu_option_title_id",
+        //             "submenu_option_image_ref": "img/side-bar-icon/vulnerable_icon.png",
+        //             "submenu_option_image_enabled_ref": "img/side-bar-icon/flow_rates_enabled_icon.png",
+        //             "submenu_option_image_blocked_ref": "img/side-bar-icon/flow_rates_blocked_icon.png",
+        //             "submenu_option_image_id": "vulnerability_map_submenu_image_id",
+        //             "submenu_option_id": "vulnerability_map_submenu_option_id",
+        //             "submenu_option_button_id": "vulnerability_map_submenu_option_button",
+        //             "submenu_option_button_check_icon_id": "vulnerability_map_submenu_option_check",
+        //             "submenu_option_button_click_function": dummyTest,
+        //             "submenu_bottom_arrow_button_id": "vulnerability_map_submenu_bottom_arrow_button_id",
+        //             "submenu_option_enabled_state": false,
+        //             "available": true,
+        //             "river_availability": [true, true, true, true, true],
+        //             "data_second_level_submenu_options": [
+        //                 {
+        //                     "submenu_option_title": "Floods",
+        //                     "submenu_option_title_id": "floods_vulnerability_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/flood_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+        //                     "submenu_option_image_id": "floods_vulnerability_submenu_image_id",
+        //                     "submenu_option_id": "floods_vulnerability_submenu_option_id",
+        //                     "submenu_option_button_id": "floods_vulnerability_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "floods_vulnerability_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "floods_vulnerability_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //                 {
+        //                     "submenu_option_title": "Earthquakes",
+        //                     "submenu_option_title_id": "earthquakes_vulnerability_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/earthquake_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+        //                     "submenu_option_image_id": "earthquakes_vulnerability_submenu_image_id",
+        //                     "submenu_option_id": "earthquakes_vulnerability_submenu_option_id",
+        //                     "submenu_option_button_id": "earthquakes_vulnerability_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "earthquakes_vulnerability_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "earthquakes_vulnerability_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //                 {
+        //                     "submenu_option_title": "Landslides",
+        //                     "submenu_option_title_id": "landslides_vulnerability_submenu_option_title_id",
+        //                     "submenu_option_image_ref": "img/side-bar-icon/landslide_icon.png",
+        //                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+        //                     "submenu_option_image_id": "landslides_vulnerability_submenu_image_id",
+        //                     "submenu_option_id": "landslides_vulnerability_submenu_option_id",
+        //                     "submenu_option_button_id": "landslides_vulnerability_submenu_option_button",
+        //                     "submenu_option_button_check_icon_id": "landslides_vulnerability_submenu_option_check",
+        //                     "submenu_option_button_click_function": dummyTest,
+        //                     "submenu_bottom_arrow_button_id": "landslides_vulnerability_submenu_bottom_arrow_button_id",
+        //                     "submenu_option_enabled_state": true,
+        //                     "available": true,
+        //                     "river_availability": [true, true, true, true, true]
+        //                 },
+        //             ]
+        //         },
+        //         {
+        //             "submenu_option_title": "Risk Synthesis Map",
+        //             "submenu_option_title_id": "risk_synthesis_map_submenu_option_title_id",
+        //             "submenu_option_image_ref": "img/side-bar-icon/risk_synthesis_map_icon.png",
+        //             "submenu_option_image_enabled_ref": "img/side-bar-icon/hydrodynamic_enabled_icon.png",
+        //             "submenu_option_image_blocked_ref": "img/side-bar-icon/hydrodynamic_blocked_icon.png",
+        //             "submenu_option_image_id": "risk_synthesis_map_submenu_image_id",
+        //             "submenu_option_id": "risk_synthesis_map_submenu_option_id",
+        //             "submenu_option_button_id": "risk_synthesis_map_submenu_option_button",
+        //             "submenu_option_button_check_icon_id": "risk_synthesis_map_submenu_option_check",
+        //             "submenu_option_button_click_function": dummyTest,
+        //             "submenu_bottom_arrow_button_id": "risk_synthesis_map_submenu_bottom_arrow_button_id",
+        //             "submenu_option_enabled_state": false,
+        //             "available": true,
+        //             "river_availability": [true, true, true, true, true],
+        //             "data_second_level_submenu_options": []
+        //         },
+        //         {
+        //             "submenu_option_title": "Oil spills",
+        //             "submenu_option_title_id": "oil_spills_submenu_option_title_id",
+        //             "submenu_option_image_ref": "img/side-bar-icon/oil_spill_icon.png",
+        //             "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+        //             "submenu_option_image_id": "oil_spills_submenu_image_id",
+        //             "submenu_option_id": "oil_spills_submenu_option_id",
+        //             "submenu_option_button_id": "oil_spills_submenu_option_button",
+        //             "submenu_option_button_check_icon_id": "oil_spills_submenu_option_check",
+        //             "submenu_option_button_click_function": dummyTest,
+        //             "submenu_bottom_arrow_button_id": "oil_spills_submenu_bottom_arrow_button_id",
+        //             "submenu_option_enabled_state": false,
+        //             "available": true,
+        //             "river_availability": [true, true, true, true, true],
+        //             "data_second_level_submenu_options": []
+        //         },
+        //
+        //
+        //     ],
+        //
+        // },
         {
             "submenu_name": "stations_submenu",
             "options": [
@@ -1903,7 +1903,7 @@ function set_background_data_menu(menu_options_JSON, submenu_options_JSON) {
 
 }
 
-function setSubmenuOptionClickedAction(submenuImageId, submenuTitleId, submenuVisibleFlag, submenuStringKey, submenuAddedFlag, submenuDataLayer, submenuJSONPath, layerType, strokeColor, strokeOpacity, strokeWeight, fillColor, fillOpacity) {
+function setSubmenuOptionClickedAction(submenuImageId, submenuTitleId, markerIconPath, submenuVisibleFlag, submenuStringKey, submenuAddedFlag, submenuDataLayer, submenuJSONPath, layerType, featureStyle) {
 
     toggleBackgroundIconAndTextEnabled(submenuImageId, submenuTitleId, window[submenuVisibleFlag], submenuStringKey);
 
@@ -1913,7 +1913,7 @@ function setSubmenuOptionClickedAction(submenuImageId, submenuTitleId, submenuVi
         window[submenuAddedFlag] = true;
         window[submenuVisibleFlag] = true;
         window[submenuDataLayer] = new L.GeoJSON();
-        addSinglePolygonToMap(submenuJSONPath, layerType, window[submenuDataLayer], strokeColor, strokeOpacity, fillColor, fillOpacity, strokeWeight, hideLoader);
+        addSinglePolygonToMap(submenuJSONPath, markerIconPath, layerType, window[submenuDataLayer], featureStyle, hideLoader);
 
     }else{
 
@@ -1932,43 +1932,43 @@ function setSubmenuOptionClickedAction(submenuImageId, submenuTitleId, submenuVi
 
 function addDistrictsDatalLayer() {
 
-    setSubmenuOptionClickedAction("district_submenu_image_id", "district_submenu_option_title_id", "districts_layers_visible", "district", "districts_layers_added", "districts_data_layer", "data/Background_data/Geopolitical/Districts/districts.geojson","polygon", geopolitical_district_stroke_color, geopolitical_district_stroke_opacity, geopolitical_district_stroke_weigth, geopolitical_district_fill_color, geopolitical_district_fill_opacity);
+    setSubmenuOptionClickedAction("district_submenu_image_id", "district_submenu_option_title_id", "", "districts_layers_visible", "district", "districts_layers_added", "districts_data_layer", "data/Background_data/Geopolitical/Districts/districts.geojson","polygon", geopolitical_district_stroke_color, geopolitical_district_stroke_opacity, geopolitical_district_stroke_weigth, geopolitical_district_fill_color, geopolitical_district_fill_opacity);
 
 }
 
 function addProvincesDatalLayer() {
 
-    setSubmenuOptionClickedAction("provincial_submenu_image_id", "provincial_submenu_option_title_id", "provinces_layers_visible", "province", "provinces_layers_added", "provinces_data_layer", "data/Background_data/Geopolitical/Provinces/provinces.geojson", "polygon", geopolitical_province_stroke_color, geopolitical_province_stroke_opacity, geopolitical_province_stroke_weigth, geopolitical_province_fill_color, geopolitical_province_fill_opacity);
+    setSubmenuOptionClickedAction("provincial_submenu_image_id", "provincial_submenu_option_title_id", "", "provinces_layers_visible", "province", "provinces_layers_added", "provinces_data_layer", "data/Background_data/Geopolitical/Provinces/provinces.geojson", "polygon", geopolitical_province_stroke_color, geopolitical_province_stroke_opacity, geopolitical_province_stroke_weigth, geopolitical_province_fill_color, geopolitical_province_fill_opacity);
 
 }
 
 function addDepartmentsDataLayer() {
 
-    setSubmenuOptionClickedAction("regional_submenu_image_id", "regional_submenu_option_title_id", "departments_layers_visible", "departamental", "departments_layers_added", "departments_data_layer", "data/Background_data/Geopolitical/Departments/departments.geojson", "polygon", geopolitical_department_stroke_color, geopolitical_department_stroke_opacity, geopolitical_department_stroke_weigth, geopolitical_department_fill_color, geopolitical_department_fill_opacity);
+    setSubmenuOptionClickedAction("regional_submenu_image_id", "regional_submenu_option_title_id", "", "departments_layers_visible", "departamental", "departments_layers_added", "departments_data_layer", "data/Background_data/Geopolitical/Departments/departments.geojson", "polygon", geopolitical_department_stroke_color, geopolitical_department_stroke_opacity, geopolitical_department_stroke_weigth, geopolitical_department_fill_color, geopolitical_department_fill_opacity);
 
 }
 
 function addPopulationDepartmentCapitalLayer() {
 
-    setSubmenuOptionClickedAction("region_capitals_submenu_image_id", "region_capitals_submenu_option_title_id", "population_department_capital_visible", "department_capital", "population_department_capital_added", "population_department_capital_data_layer", "data/Background_data/Population/departamental.geojson", "marker", population_department_stroke_color, population_department_stroke_opacity, population_department_stroke_weigth, population_department_fill_color, population_department_fill_opacity);
+    setSubmenuOptionClickedAction("region_capitals_submenu_image_id", "region_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_red_marker.png", "population_department_capital_visible", "department_capital", "population_department_capital_added", "population_department_capital_data_layer", "data/Background_data/Population/departamental.geojson", "marker", population_department_stroke_color, population_department_stroke_opacity, population_department_stroke_weigth, population_department_fill_color, population_department_fill_opacity);
 
 }
 
 function addPopulationProvinceCapitalLayer() {
 
-    setSubmenuOptionClickedAction("province_capitals_submenu_image_id", "province_capitals_submenu_option_title_id", "population_province_capital_visible", "province_capital", "population_province_capital_added", "population_department_province_data_layer", "data/Background_data/Population/provincial.geojson", "marker", population_province_stroke_color, population_province_stroke_opacity, population_province_stroke_weigth, population_province_fill_color, population_province_fill_opacity);
+    setSubmenuOptionClickedAction("province_capitals_submenu_image_id", "province_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png", "population_province_capital_visible", "province_capital", "population_province_capital_added", "population_department_province_data_layer", "data/Background_data/Population/provincial.geojson", "marker", population_province_stroke_color, population_province_stroke_opacity, population_province_stroke_weigth, population_province_fill_color, population_province_fill_opacity);
 
 }
 
 function addPopulationDistrictCapitalLayer() {
 
-    setSubmenuOptionClickedAction("district_capitals_submenu_image_id", "district_capitals_submenu_option_title_id", "population_district_capital_visible", "district_capital", "population_district_capital_added", "population_department_district_data_layer", "data/Background_data/Population/distrital.geojson", "marker", population_district_stroke_color, population_district_stroke_opacity, population_district_stroke_weigth, population_district_fill_color, population_district_fill_opacity);
+    setSubmenuOptionClickedAction("district_capitals_submenu_image_id", "district_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_gray_marker.png", "population_district_capital_visible", "district_capital", "population_district_capital_added", "population_department_district_data_layer", "data/Background_data/Population/distrital.geojson", "marker", population_district_stroke_color, population_district_stroke_opacity, population_district_stroke_weigth, population_district_fill_color, population_district_fill_opacity);
 
 }
 
 function addPopulationTownLayer() {
 
-    setSubmenuOptionClickedAction("towns_villages_submenu_image_id", "towns_villages_submenu_option_title_id", "population_town_visible", "towns_capital", "population_town_added", "population_town_data_layer", "data/Background_data/Population/distrital.geojson", "marker", population_town_stroke_color, population_town_stroke_opacity, population_town_stroke_weigth, population_town_fill_color, population_town_fill_opacity);
+    // setSubmenuOptionClickedAction("towns_villages_submenu_image_id", "towns_villages_submenu_option_title_id", "", "population_town_visible", "towns_capital", "population_town_added", "population_town_data_layer", "data/Background_data/Population/distrital.geojson", "marker", population_town_stroke_color, population_town_stroke_opacity, population_town_stroke_weigth, population_town_fill_color, population_town_fill_opacity);
 
 }
 
@@ -1982,7 +1982,7 @@ function addPopulatedAreasNativeCommunitiesLayer() {
         populated_areas_native_communities_layers_added = true;
         populated_areas_native_communities_layers_visible = true;
         populated_areas_native_communities_data_layer = new L.GeoJSON();
-        addSinglePolygonToMap("data/Background_data/Hydrography/hydrography_basins.geojson", "polygon", populated_areas_native_communities_data_layer, '#000000', 1.0, '#ccffe6', 0.35, 2, hideLoader);
+        addSinglePolygonToMap("data/Background_data/Hydrography/hydrography_basins.geojson", "", "polygon", populated_areas_native_communities_data_layer, '#000000', 1.0, '#ccffe6', 0.35, 2, hideLoader);
 
     }else{
 
@@ -1996,73 +1996,73 @@ function addPopulatedAreasNativeCommunitiesLayer() {
 
 function addPopulatedAreasRuralCommunitiesLayer() {
 
-    setSubmenuOptionClickedAction("farmers_communities_submenu_image_id", "farmers_communities_submenu_option_title_id", "populated_areas_rural_communities_layers_visible", "rural_communities", "populated_areas_rural_communities_layers_added", "populated_areas_rural_communities_data_layer", "data/Background_data/Populated_Areas/rural_communities.geojson", "polygon", populated_areas_rural_stroke_color, populated_areas_rural_stroke_opacity, populated_areas_rural_stroke_weigth, populated_areas_rural_fill_color, populated_areas_rural_fill_opacity);
+    setSubmenuOptionClickedAction("farmers_communities_submenu_image_id", "farmers_communities_submenu_option_title_id", "", "populated_areas_rural_communities_layers_visible", "rural_communities", "populated_areas_rural_communities_layers_added", "populated_areas_rural_communities_data_layer", "data/Background_data/Populated_Areas/rural_communities.geojson", "polygon", populated_areas_rural_stroke_color, populated_areas_rural_stroke_opacity, populated_areas_rural_stroke_weigth, populated_areas_rural_fill_color, populated_areas_rural_fill_opacity);
 
 }
 
 function addPNARegionalLayer() {
 
-    setSubmenuOptionClickedAction("anp_regional_submenu_image_id", "anp_regional_submenu_option_title_id", "pna_regional_layers_visible", "anp_regional", "pna_regional_layers_added", "pna_regional_data_layer", "data/Background_data/Protected_Natural_Areas/pna_regional.geojson", "polygon", pna_regional_stroke_color, pna_regional_stroke_opacity, pna_regional_stroke_weigth, pna_regional_fill_color, pna_regional_fill_opacity);
+    setSubmenuOptionClickedAction("anp_regional_submenu_image_id", "anp_regional_submenu_option_title_id", "", "pna_regional_layers_visible", "anp_regional", "pna_regional_layers_added", "pna_regional_data_layer", "data/Background_data/Protected_Natural_Areas/pna_regional.geojson", "polygon", pna_regional_stroke_color, pna_regional_stroke_opacity, pna_regional_stroke_weigth, pna_regional_fill_color, pna_regional_fill_opacity);
 
 }
 
 function addPNAPrivateLayer() {
 
-    setSubmenuOptionClickedAction("anp_private_submenu_image_id", "anp_private_submenu_option_title_id", "pna_buffer_zone_layers_visible", "anp_private", "pna_private_layers_added", "pna_private_data_layer", "data/Background_data/Protected_Natural_Areas/pna_private.geojson", "polygon", pna_private_stroke_color, pna_private_stroke_opacity, pna_private_stroke_weigth, pna_private_fill_color, pna_private_fill_opacity);
+    setSubmenuOptionClickedAction("anp_private_submenu_image_id", "anp_private_submenu_option_title_id", "", "pna_buffer_zone_layers_visible", "anp_private", "pna_private_layers_added", "pna_private_data_layer", "data/Background_data/Protected_Natural_Areas/pna_private.geojson", "polygon", pna_private_stroke_color, pna_private_stroke_opacity, pna_private_stroke_weigth, pna_private_fill_color, pna_private_fill_opacity);
     
 }
 
 function addPNABufferZoneLayer() {
 
-    setSubmenuOptionClickedAction("buffer_zone_submenu_image_id", "buffer_zone_submenu_option_title_id", "pna_private_layers_visible", "anp_buffer_zone", "pna_buffer_zone_layers_added", "pna_buffer_zone_data_layer", "data/Background_data/Protected_Natural_Areas/pna_buffer_zone.geojson", "polygon", pna_buffer_stroke_color, pna_buffer_stroke_opacity, pna_buffer_stroke_weigth, pna_buffer_fill_color, pna_buffer_fill_opacity);
+    setSubmenuOptionClickedAction("buffer_zone_submenu_image_id", "buffer_zone_submenu_option_title_id", "", "pna_private_layers_visible", "anp_buffer_zone", "pna_buffer_zone_layers_added", "pna_buffer_zone_data_layer", "data/Background_data/Protected_Natural_Areas/pna_buffer_zone.geojson", "polygon", pna_buffer_stroke_color, pna_buffer_stroke_opacity, pna_buffer_stroke_weigth, pna_buffer_fill_color, pna_buffer_fill_opacity);
         
 }
 
 function addHydrographyBasinsLayer() {
 
-    setSubmenuOptionClickedAction("hydrography_basin_submenu_image_id", "hydrography_basin_submenu_option_title_id", "hydrography_basins_visible", "hydrography_basin", "hydrography_basins_added", "hidrography_basins_data_layer", "data/Background_data/Hydrography/hydrography_basins.geojson", "polygon", hydrography_basin_stroke_color, hydrography_basin_stroke_opacity, hydrography_basin_stroke_weigth, hydrography_basin_fill_color, hydrography_basin_fill_opacity);
+    setSubmenuOptionClickedAction("hydrography_basin_submenu_image_id", "hydrography_basin_submenu_option_title_id", "","hydrography_basins_visible", "hydrography_basin", "hydrography_basins_added", "hidrography_basins_data_layer", "data/Background_data/Hydrography/hydrography_basins.geojson", "polygon", hydrography_basin_stroke_color, hydrography_basin_stroke_opacity, hydrography_basin_stroke_weigth, hydrography_basin_fill_color, hydrography_basin_fill_opacity);
 
 }
 
 function addHydrographyRiversLayer() {
 
-    setSubmenuOptionClickedAction("hydrography_rivers_submenu_image_id", "hydrography_rivers_submenu_option_title_id", "hydrography_rivers_visible", "geography_river", "hydrography_rivers_added", "hidrography_rivers_data_layer", "data/Background_data/Hydrography/hydrography_rivers.geojson", "polygon", hydrography_rivers_stroke_color, hydrography_rivers_stroke_opacity, hydrography_rivers_stroke_weigth, hydrography_rivers_fill_color, hydrography_rivers_fill_opacity);
+    setSubmenuOptionClickedAction("hydrography_rivers_submenu_image_id", "hydrography_rivers_submenu_option_title_id", "", "hydrography_rivers_visible", "geography_river", "hydrography_rivers_added", "hidrography_rivers_data_layer", "data/Background_data/Hydrography/hydrography_rivers.geojson", "polygon", hydrography_rivers_stroke_color, hydrography_rivers_stroke_opacity, hydrography_rivers_stroke_weigth, hydrography_rivers_fill_color, hydrography_rivers_fill_opacity);
 
 }
 
 function addHydrographyLakesLayer() {
 
-    setSubmenuOptionClickedAction("lagoons_lakes_submenu_image_id", "lagoons_lakes_submenu_option_title_id", "hydrography_lakes_visible", "lake_lagoon", "hydrography_lakes_added", "hidrography_lakes_data_layer", "data/Background_data/Hydrography/hydrography_lakes.geojson", "polygon", hydrography_lakes_stroke_color, hydrography_lakes_stroke_opacity, hydrography_lakes_stroke_weigth, hydrography_lakes_fill_color, hydrography_lakes_fill_opacity);
+    setSubmenuOptionClickedAction("lagoons_lakes_submenu_image_id", "lagoons_lakes_submenu_option_title_id", "", "hydrography_lakes_visible", "lake_lagoon", "hydrography_lakes_added", "hidrography_lakes_data_layer", "data/Background_data/Hydrography/hydrography_lakes.geojson", "polygon", hydrography_lakes_stroke_color, hydrography_lakes_stroke_opacity, hydrography_lakes_stroke_weigth, hydrography_lakes_fill_color, hydrography_lakes_fill_opacity);
 
 }
 
 function addHydrographyGlaciersLayer() {
 
-    setSubmenuOptionClickedAction("glaciers_submenu_image_id", "glaciers_submenu_option_title_id", "hydrography_glaciers_visible", "glaciers", "hydrography_glaciers_added", "hidrography_glaciers_data_layer", "data/Background_data/Hydrography/hydrography_glaciers.geojson", "polygon", hydrography_glaciers_stroke_color, hydrography_glaciers_stroke_opacity, hydrography_glaciers_stroke_weigth, hydrography_glaciers_fill_color, hydrography_glaciers_fill_opacity);
+    setSubmenuOptionClickedAction("glaciers_submenu_image_id", "glaciers_submenu_option_title_id", "", "hydrography_glaciers_visible", "glaciers", "hydrography_glaciers_added", "hidrography_glaciers_data_layer", "data/Background_data/Hydrography/hydrography_glaciers.geojson", "polygon", hydrography_glaciers_stroke_color, hydrography_glaciers_stroke_opacity, hydrography_glaciers_stroke_weigth, hydrography_glaciers_fill_color, hydrography_glaciers_fill_opacity);
 
 }
 
 function addTransportPortLayer() {
 
-    setSubmenuOptionClickedAction("ports_submenu_image_id", "ports_submenu_option_title_id", "transport_ports_visible", "ports", 'transport_ports_added', "transport_ports_data_layer", "data/Background_data/Transport/ports.geojson", "marker", transportation_ports_stroke_color, transportation_ports_stroke_opacity, transportation_ports_stroke_weigth, transportation_ports_fill_color, transportation_ports_fill_opacity);
+    setSubmenuOptionClickedAction("ports_submenu_image_id", "ports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png", "transport_ports_visible", "ports", 'transport_ports_added', "transport_ports_data_layer", "data/Background_data/Transport/ports.geojson", "marker", transportation_ports_stroke_color, transportation_ports_stroke_opacity, transportation_ports_stroke_weigth, transportation_ports_fill_color, transportation_ports_fill_opacity);
 
 }
 
 function addTransportAirportLayer() {
 
-    setSubmenuOptionClickedAction("airports_submenu_image_id", "airports_submenu_option_title_id", "transport_airports_visible", "airports", "transport_airports_added", "transport_airports_data_layer", "data/Background_data/Transport/airports.geojson", "marker", transportation_airports_stroke_color, transportation_airports_stroke_opacity, transportation_airports_stroke_weigth, transportation_airports_fill_color, transportation_airports_fill_opacity);
+    setSubmenuOptionClickedAction("airports_submenu_image_id", "airports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png    ", "transport_airports_visible", "airports", "transport_airports_added", "transport_airports_data_layer", "data/Background_data/Transport/airports.geojson", "marker", transportation_airports_stroke_color, transportation_airports_stroke_opacity, transportation_airports_stroke_weigth, transportation_airports_fill_color, transportation_airports_fill_opacity);
 
 }
 
 function addExtractiveMiningProjectsLayer() {
 
-    setSubmenuOptionClickedAction("mining_projects_submenu_image_id", "mining_projects_submenu_option_title_id", "extractive_mining_projects_visible", "mining_projects", "extractive_mining_projects_added", "extractive_mining_projects_data_layer", "data/Background_data/Extractive/mining_projects.geojson", "polygon", extractive_mining_projects_stroke_color, extractive_mining_projects_stroke_opacity, extractive_mining_projects_stroke_weigth, extractive_mining_projects_fill_color, extractive_mining_projects_fill_opacity);
+    setSubmenuOptionClickedAction("mining_projects_submenu_image_id", "mining_projects_submenu_option_title_id", "", "extractive_mining_projects_visible", "mining_projects", "extractive_mining_projects_added", "extractive_mining_projects_data_layer", "data/Background_data/Extractive/mining_projects.geojson", "polygon", extractive_mining_projects_stroke_color, extractive_mining_projects_stroke_opacity, extractive_mining_projects_stroke_weigth, extractive_mining_projects_fill_color, extractive_mining_projects_fill_opacity);
 
 }
 
 function addExtractiveHydrocarbonsLayer() {
 
-    setSubmenuOptionClickedAction("hydrocarbons_submenu_image_id", "hydrocarbons_submenu_option_title_id", "extractive_hydrocarbons_visible", "hydrocarbons_projects", "extractive_hydrocarbons_added", "extractive_hydrocarbons_data_layer", "data/Background_data/Extractive/hydrocarbons.geojson", "polygon", extractive_hydrocarbons_stroke_color, extractive_hydrocarbons_stroke_opacity, extractive_hydrocarbons_stroke_weigth, extractive_hydrocarbons_fill_color, extractive_hydrocarbons_fill_opacity);
+    setSubmenuOptionClickedAction("hydrocarbons_submenu_image_id", "hydrocarbons_submenu_option_title_id", "", "extractive_hydrocarbons_visible", "hydrocarbons_projects", "extractive_hydrocarbons_added", "extractive_hydrocarbons_data_layer", "data/Background_data/Extractive/hydrocarbons.geojson", "polygon", extractive_hydrocarbons_stroke_color, extractive_hydrocarbons_stroke_opacity, extractive_hydrocarbons_stroke_weigth, extractive_hydrocarbons_fill_color, extractive_hydrocarbons_fill_opacity);
 
 }
 

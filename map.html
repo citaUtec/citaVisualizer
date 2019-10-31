@@ -25,6 +25,8 @@
 
     <link rel="stylesheet" href="css/map/video-overlay-elements.css">
 
+    <link rel="stylesheet" href="css/map/information-section.css">
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
 
@@ -655,6 +657,89 @@
 
 </template>
 <!--TODO: Field measurements campaign indicator "21"-->
+
+
+<!--TODO: Information container "22"-->
+<template>
+
+    <div id="information-section-main-container" class="information-section-main-container">
+
+        <div class="row" style="height: 100%">
+
+            <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 information-container-left-column">
+
+                <div class="information-left-column-options-container">
+                    <div id="information-about-option" class="information-left-column-option information-left-column-option-selected">
+                        <div class="information-left-column-option-text">Acerca de</div>
+                    </div>
+                    <div id="information-morphometrics-option" class="information-left-column-option">
+                        <div class="information-left-column-option-text">Morfométricas</div>
+                    </div>
+                    <div id="information-field-measurements-option" class="information-left-column-option">
+                        <div class="information-left-column-option-text">Mediciones de campo</div>
+                    </div>
+                    <div id="information-language-option" class="information-left-column-option">
+                        <div class="information-left-column-option-text">Idiomas</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 information-container-right-column">
+
+                <div style="height: 100%; width: 100%; display: flex; align-content: center; justify-content: center">
+
+                    <div id="information-about-content" class="information-section-content" style="background-color: transparent; display: block; width: 100%">
+
+                        <div style="height: 100%; width: 100%; display: flex; flex-direction: column; justify-content: center; align-content: center">
+
+                            <div style="align-self: center; padding: 80px">
+                                <img src="img/Logos/DRLogoBlue.png" height="80" width="480">
+                            </div>
+
+                            <div style="align-self: center; font-size: 18px; padding: 0 100px 100px 100px; text-align: center">"Ríos Danzantes" da a conocer los resultados de la caracterización morfodinámica a nivel planimétrico y altimétrico de los principales ríos amazónicos: Marañón, Huallaga, Ucayali y Amazonas.
+                                Con el propósito de comprender los patrones físicos de los ríos amazónicos, se desarrolló una metodología de línea base de las variables hidrogeomorfológicas de los ríos. Su enfoque permite estudiar a los ríos de manera completa, teniendo en cuenta sus características y dinámicas particulares.
+                                <br>
+                                <br>
+                                Este proyecto ha sido desarrollado por la Universidad de Ingeniería y Tecnología (UTEC), en colaboración con el Centro de Investigación y Tecnología del Agua (CITA) y la Fundación Gordon & Betty Moore
+                            </div>
+
+                            <div style="display: flex; justify-content: space-evenly; align-content: center; padding: 0 100px">
+                                <img src="https://citadancingrivers.s3-us-west-1.amazonaws.com/img/logo_utec.png" height="70" width="175">
+                                <img src="img/Logos/cita_demo.png" height="60" width="180">
+                                <img src="img/Logos/moore_logo_color.png" height="60" width="150">
+                            </div>
+
+                        </div>
+
+                        <!--<div style="height: 25%; width: 100%; display: flex; justify-content: center; align-content: center">-->
+                            <!--<div style="align-self: center; width: 100%">-->
+
+                                <!--<div style="display: flex; justify-content: space-evenly; align-content: center; padding: 40px">-->
+                                    <!--<img src="img/Logos/moore_logo.png" height="60" width="150">-->
+                                    <!--<img src="img/Logos/moore_logo.png" height="60" width="150">-->
+                                    <!--<img src="img/Logos/moore_logo.png" height="60" width="150">-->
+                                <!--</div>-->
+
+                            <!--</div>-->
+                        <!--</div>-->
+
+                    </div>
+
+                    <div id="information-morphometrics-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">Section2</div>
+                    <div id="information-field-measurements-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">Section3</div>
+                    <div id="information-language-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">Section4</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</template>
+<!--TODO: Information container "22"-->
 
 <body>
 

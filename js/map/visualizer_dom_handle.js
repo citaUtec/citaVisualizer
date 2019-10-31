@@ -163,7 +163,6 @@ function addLeftPanelToggleListener() {
     var dancingRiversFooterLogo = document.getElementById("dancing-rivers-footer-logo");
     var dancingRiversFooterLogo2 = document.getElementById("dancing-rivers-footer-logo-2");
     var headerLogos = document.querySelectorAll(".header-logo");
-    console.log(headerLogos[0]);
 
     cita_panel_cita_title.style.color = panel_header_title_color;
     cita_panel_background_title.style.color = panel_header_title_color;
@@ -254,7 +253,6 @@ function addRightPanelToggleListener() {
     var dancingRiversFooterLogo = document.getElementById("dancing-rivers-footer-logo");
     var dancingRiversFooterLogo2 = document.getElementById("dancing-rivers-footer-logo-2");
     var headerLogos = document.querySelectorAll(".header-logo");
-    console.log(headerLogos[0]);
 
     cita_panel_cita_title.style.color = panel_header_title_color;
     cita_panel_background_title.style.color = panel_header_title_color;

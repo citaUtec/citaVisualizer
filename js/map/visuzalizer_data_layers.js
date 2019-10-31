@@ -634,30 +634,34 @@ function addInteractiveSinglePolygonToMap(JSON_path, river_data_layer, polygonPr
  * Gives geometry the corresponding properties (stroke color, fill color, etc) depending on the polygonProperty parameter and adds the geometry to the map
  * This function is used when the geometry to add does not require interactiveness otherwise use the addInteractiveSinglePolygonToMap function
  * @param JSON_path
+ * @param markerIconPath
  * @param layer_type
  * @param river_data_layer
+ * @param styleOptions
  * @param strokeColor
  * @param strokeOpacity
  * @param fillColor
  * @param fillOpacity
  * @param completionCallback
  */
-function addSinglePolygonToMap(JSON_path, layer_type, river_data_layer, strokeColor, strokeOpacity, fillColor, fillOpacity, strokeWeight, completionCallback) {
+function addSinglePolygonToMap(JSON_path, markerIconPath, layer_type, river_data_layer, styleOptions, completionCallback) {
 
     $.getJSON(JSON_path, function (json) {
+
         river_data_layer.addData(json);
 
         if(layer_type.localeCompare("polygon") === 0){
-            river_data_layer.setStyle({ color: strokeColor, opacity: strokeOpacity, fillColor: fillColor, fillOpacity: fillOpacity, weight: strokeWeight});
+            // river_data_layer.setStyle({ color: strokeColor, opacity: strokeOpacity, fillColor: fillColor, fillOpacity: fillOpacity, weight: strokeWeight});
+            river_data_layer.setStyle(styleOptions);
         }else if(layer_type.localeCompare("marker") === 0){
-
             river_data_layer.eachLayer(function (layer) {
-                layer.setIcon(L.icon({iconUrl: "img/marker-icons/rojo.png"}));
+                layer.setIcon(L.icon({iconUrl: markerIconPath}));
+                L.setOptions(layer, {title: layer.feature.properties["NOMBRE"]});
             });
-
         }
 
         river_data_layer.addTo(map);
+
     }).done(function () {
         if(completionCallback !== null) completionCallback();
     });

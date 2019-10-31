@@ -870,7 +870,7 @@ function amazonas_submenu_option_clicked() {
 
         document.getElementById("selected-river-description-text").setAttribute("data-i18n", "amazon-river-description");
         document.getElementById("selected-river-description-text").innerHTML = $.i18n("amazon-river-description");
-        addSinglePolygonToMap("data/rivers/Amazon/amazon1987_outline_small.json", "polygon", amazonas_river_outline_data_layer, "#00BFDF", 1.0, "#00BFDF", 1.0, 2, zoomAndPanToRiverCenter);
+        addSinglePolygonToMap("data/rivers/Amazon/amazon1987_outline_small.json", "", "polygon", amazonas_river_outline_data_layer,amazonasRiverOutlineStyle, zoomAndPanToRiverCenter);
 
     }
 
@@ -903,7 +903,7 @@ function huallaga_submenu_option_clicked() {
 
         document.getElementById("selected-river-description-text").setAttribute("data-i18n", "huallaga-river-description");
         document.getElementById("selected-river-description-text").innerHTML = $.i18n("huallaga-river-description");
-        addSinglePolygonToMap("data/rivers/Huallaga/huallaga1987_outline_small.json", "polygon", huallaga_river_outline_data_layer, "#00BFDF", 1.0, "#00BFDF", 1.0, 2, zoomAndPanToRiverCenter);
+        addSinglePolygonToMap("data/rivers/Huallaga/huallaga1987_outline_small.json", "","polygon", huallaga_river_outline_data_layer, huallagaRiverOutlineStyle, zoomAndPanToRiverCenter);
 
     }
 
@@ -932,7 +932,7 @@ function marañon_submenu_option_clicked() {
 
         document.getElementById("selected-river-description-text").setAttribute("data-i18n", "marañon-river-description");
         document.getElementById("selected-river-description-text").innerHTML = $.i18n("marañon-river-description");
-        addSinglePolygonToMap("data/rivers/Marañon/marañon1987_outline_small.json", "polygon", marañon_river_outline_data_layer, "#00BFDF", 1.0, "#00BFDF", 1.0, 2, zoomAndPanToRiverCenter);
+        addSinglePolygonToMap("data/rivers/Marañon/marañon1987_outline_small.json", "", "polygon", marañon_river_outline_data_layer, marañonRiverOutlineStyle, zoomAndPanToRiverCenter);
 
     }
 
@@ -961,7 +961,7 @@ function ucayali_submenu_option_clicked() {
 
         document.getElementById("selected-river-description-text").setAttribute("data-i18n", "ucayali-river-description");
         document.getElementById("selected-river-description-text").innerHTML = $.i18n("ucayali-river-description");
-        addSinglePolygonToMap("data/rivers/Ucayali/ucayali1987_outline_small.json", "polygon", ucayali_river_outline_data_layer, "#00BFDF", 1.0, "#00BFDF", 1.0, 2, zoomAndPanToRiverCenter);
+        addSinglePolygonToMap("data/rivers/Ucayali/ucayali1987_outline_small.json", "", "polygon", ucayali_river_outline_data_layer, ucayaliRiverOutlineStyle, zoomAndPanToRiverCenter);
 
     }
 
