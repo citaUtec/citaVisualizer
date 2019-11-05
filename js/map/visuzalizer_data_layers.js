@@ -720,6 +720,7 @@ function removeDisabledRiverPolygons() {
  */
 function addLastRemovedPolygon() {
 
+    
     if(last_disabled_river_removed !== -1){
 
         if(last_disabled_river_removed === 0){
