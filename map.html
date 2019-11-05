@@ -668,18 +668,22 @@
 
             <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 information-container-left-column">
 
+                <div id="information-close-button-container" class="information-close-button-container">
+                    <img src="img/side-bar-icon/back_arrow_icon.png" height="30" width="30" alt="information-close-button">
+                </div>
+
                 <div class="information-left-column-options-container">
                     <div id="information-about-option" class="information-left-column-option information-left-column-option-selected">
-                        <div class="information-left-column-option-text">Acerca de</div>
+                        <div class="information-left-column-option-text" data-i18n="information-left-column-about-title">About</div>
                     </div>
                     <div id="information-morphometrics-option" class="information-left-column-option">
-                        <div class="information-left-column-option-text">Morfométricas</div>
+                        <div class="information-left-column-option-text" data-i18n="information-left-column-morphometrics-title">Morphometrics</div>
                     </div>
                     <div id="information-field-measurements-option" class="information-left-column-option">
-                        <div class="information-left-column-option-text">Mediciones de campo</div>
+                        <div class="information-left-column-option-text" data-i18n="information-left-column-field-measurements-title">Field measurements</div>
                     </div>
                     <div id="information-language-option" class="information-left-column-option">
-                        <div class="information-left-column-option-text">Idiomas</div>
+                        <div class="information-left-column-option-text" data-i18n="information-left-column-language-title">Language</div>
                     </div>
                 </div>
 
@@ -697,38 +701,54 @@
                                 <img src="img/Logos/DRLogoBlue.png" height="80" width="480">
                             </div>
 
-                            <div style="align-self: center; font-size: 18px; padding: 0 100px 100px 100px; text-align: center">"Ríos Danzantes" da a conocer los resultados de la caracterización morfodinámica a nivel planimétrico y altimétrico de los principales ríos amazónicos: Marañón, Huallaga, Ucayali y Amazonas.
+                            <div style="align-self: center; font-size: 18px; padding: 0 100px 100px 100px; text-align: center; color: rgba(0,0,0,0.5)" data-i18n="information-about-description-1">"Ríos Danzantes" da a conocer los resultados de la caracterización morfodinámica a nivel planimétrico y altimétrico de los principales ríos amazónicos: Marañón, Huallaga, Ucayali y Amazonas.
                                 Con el propósito de comprender los patrones físicos de los ríos amazónicos, se desarrolló una metodología de línea base de las variables hidrogeomorfológicas de los ríos. Su enfoque permite estudiar a los ríos de manera completa, teniendo en cuenta sus características y dinámicas particulares.
                                 <br>
                                 <br>
-                                Este proyecto ha sido desarrollado por la Universidad de Ingeniería y Tecnología (UTEC), en colaboración con el Centro de Investigación y Tecnología del Agua (CITA) y la Fundación Gordon & Betty Moore
+                                <br>
+                                <div style="font-size: 15px" data-i18n="information-about-description-2">Este proyecto ha sido desarrollado por la Universidad de Ingeniería y Tecnología (UTEC), en colaboración con el Centro de Investigación y Tecnología del Agua (CITA) y la Fundación Gordon & Betty Moore</div>
                             </div>
 
                             <div style="display: flex; justify-content: space-evenly; align-content: center; padding: 0 100px">
-                                <img src="https://citadancingrivers.s3-us-west-1.amazonaws.com/img/logo_utec.png" height="70" width="175">
-                                <img src="img/Logos/cita_demo.png" height="60" width="180">
-                                <img src="img/Logos/moore_logo_color.png" height="60" width="150">
+                                <a href="https://www.utec.edu.pe/" target="_blank"><img class="information-about-logo" src="https://citadancingrivers.s3-us-west-1.amazonaws.com/img/logo_utec.png" height="60" width="130"></a>
+                                <a href="https://cita.utec.edu.pe/" target="_blank"><img class="information-about-logo" src="img/Logos/cita_demo.png" height="50" width="150"></a>
+                                <a href="https://www.moore.org/grant-detail?grantId=GBMF7711" target="_blank"><img class="information-about-logo" src="img/Logos/moore_logo_color.png" height="50" width="125"></a>
                             </div>
 
                         </div>
 
-                        <!--<div style="height: 25%; width: 100%; display: flex; justify-content: center; align-content: center">-->
-                            <!--<div style="align-self: center; width: 100%">-->
-
-                                <!--<div style="display: flex; justify-content: space-evenly; align-content: center; padding: 40px">-->
-                                    <!--<img src="img/Logos/moore_logo.png" height="60" width="150">-->
-                                    <!--<img src="img/Logos/moore_logo.png" height="60" width="150">-->
-                                    <!--<img src="img/Logos/moore_logo.png" height="60" width="150">-->
-                                <!--</div>-->
-
-                            <!--</div>-->
-                        <!--</div>-->
-
                     </div>
 
-                    <div id="information-morphometrics-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">Section2</div>
-                    <div id="information-field-measurements-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">Section3</div>
-                    <div id="information-language-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">Section4</div>
+                    <div id="information-morphometrics-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">
+                        <div class="information-morphometrics-main-container">
+                            <div class="information-morphometrics-title" data-i18n="information-left-column-morphometrics-title">Morphometrics</div>
+                            <div class="information-morphometrics-description" data-i18n="information-morphometrics-description">El análisis multitemporal de imágenes satelitales se realizó en el periodo 1987-2017, con intervalos de análisis de acuerdo a la tasa de migración del río. Para los ríos meándricos (Huallaga y Ucayali) el periodo de análisis fue de 4 años, mientras que para los ríos multicanal (Marañón y Amazonas) el periodo fue de 6 años. Las imágenes satelitales utilizadas fueron del satélite Landsat (Landsat 4, 5, 7 y 8) para los meses de junio a octubre, trabajándose a una resolución de 30 metros.</div>
+                            <img class="information-morphometrics-image" src="img/Logos/DRLogoBlue.png">
+                            <div class="information-morphometrics-reference" data-i18n="[append] information-description-visit-link">
+                                Para mayor información visita el siguiente enlace:
+                                <a href="https://www.utec.edu.pe/" target="_blank" class="information-morphometrics-hyperlink" data-i18n="information-morphometrics-hyperlink">www.google.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="information-field-measurements-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">
+                        <div class="information-morphometrics-main-container">
+                            <div class="information-morphometrics-title" data-i18n="information-left-column-field-measurements-title">Field Measurements</div>
+                            <div class="information-morphometrics-description" data-i18n="information-field-measurements-description">Las mediciones de campo se han venido realizando desde el 2018, con campañas de medición en las dos temporadas: creciente y vaciante. El trabajo de campo se divide en 3 unidades: la unidad hidrodinámica (caudal y velocidades), hidrosedimentológica (concentración de sedimentos suspendidos y granulometría de sedimentos en suspensión y de fondo) e hidrogeomorfológica (caracterización de dunas y transporte de fondo).</div>
+                            <img class="information-morphometrics-image" src="img/Logos/DRLogoBlue.png">
+                            <div class="information-morphometrics-reference" data-i18n="[append] information-description-visit-link">
+                                Para mayor información visita el siguiente enlace:
+                                <a href="https://www.utec.edu.pe/" target="_blank" class="information-morphometrics-hyperlink" data-i18n="information-field-measurements-hyperlink">www.google.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="information-language-content" class="information-section-content" style="background-color: transparent; display: none; width: 100%">
+
+                        <div class="information-language-main-container">
+                            <div id="information-spanish-language-button" class="information-language-option" data-i18n="spanish_submenu_option_title_id">Spanish</div>
+                            <div id="information-english-language-button" class="information-language-option information-language-option-selected" data-i18n="english_submenu_option_title_id">English</div>
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -1523,7 +1543,6 @@
     <!--TODO: Page splash loader-->
 
 
-
     <!--TODO: Visualizer full logic-->
     <script type="text/javascript" src="js/map/visualizer_colors.js"></script>
     <script type="text/javascript" src="js/map/visualizer_cita_data.js"></script>
@@ -1545,22 +1564,22 @@
     <script type="text/javascript" src="js/map/drone-overlay-logic.js"></script>
     <!--TODO: Video player logic JS script-->
 
-    <!--&lt;!&ndash;TODO: Language dependencies JS script&ndash;&gt;-->
-    <!--<script src="./lib/CLDRPluralRuleParser/CLDRPluralRuleParser.js"></script>-->
-    <!--<script src="./lib/jquery.i18n/jquery.i18n.js"></script>-->
-    <!--<script src="./lib/jquery.i18n/jquery.i18n.messagestore.js"></script>-->
-    <!--<script src="./lib/jquery.i18n/jquery.i18n.fallbacks.js"></script>-->
-    <!--<script src="./lib/jquery.i18n/jquery.i18n.language.js"></script>-->
-    <!--<script src="./lib/jquery.i18n/jquery.i18n.parser.js"></script>-->
-    <!--<script src="./lib/jquery.i18n/jquery.i18n.emitter.js"></script>-->
-    <!--<script src="./lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>-->
-    <!--<script src="./lib/history/jquery.history.js"></script>-->
-    <!--<script src="./lib/url/url.min.js"></script>-->
-    <!--&lt;!&ndash;TODO: Language dependencies JS script&ndash;&gt;-->
+    <!--TODO: Language dependencies JS script-->
+    <script src="./lib/CLDRPluralRuleParser/CLDRPluralRuleParser.js"></script>
+    <script src="./lib/jquery.i18n/jquery.i18n.js"></script>
+    <script src="./lib/jquery.i18n/jquery.i18n.messagestore.js"></script>
+    <script src="./lib/jquery.i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="./lib/jquery.i18n/jquery.i18n.language.js"></script>
+    <script src="./lib/jquery.i18n/jquery.i18n.parser.js"></script>
+    <script src="./lib/jquery.i18n/jquery.i18n.emitter.js"></script>
+    <script src="./lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="./lib/history/jquery.history.js"></script>
+    <script src="./lib/url/url.min.js"></script>
+    <!--TODO: Language dependencies JS script-->
 
-    <!--&lt;!&ndash;TODO: Language handler logic&ndash;&gt;-->
-    <!--<script type="text/javascript" src="js/index/language_handler_logic.js"></script>-->
-    <!--&lt;!&ndash;TODO: Language handler logic&ndash;&gt;-->
+    <!--TODO: Language handler logic-->
+    <script type="text/javascript" src="js/index/language_handler_logic.js"></script>
+    <!--TODO: Language handler logic-->
 
     <!--TODO: Google maps geometry library-->
     <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAq3F5ugcDYAm1NwcZ1gQL4IIszRpQmm_k&libraries=geometry"></script>-->
@@ -1577,20 +1596,20 @@
 </body>
 
 <!--TODO: Language dependencies JS script-->
-<script src="./lib/CLDRPluralRuleParser/CLDRPluralRuleParser.js"></script>
-<script src="./lib/jquery.i18n/jquery.i18n.js"></script>
-<script src="./lib/jquery.i18n/jquery.i18n.messagestore.js"></script>
-<script src="./lib/jquery.i18n/jquery.i18n.fallbacks.js"></script>
-<script src="./lib/jquery.i18n/jquery.i18n.language.js"></script>
-<script src="./lib/jquery.i18n/jquery.i18n.parser.js"></script>
-<script src="./lib/jquery.i18n/jquery.i18n.emitter.js"></script>
-<script src="./lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
-<script src="./lib/history/jquery.history.js"></script>
-<script src="./lib/url/url.min.js"></script>
+<!--<script src="./lib/CLDRPluralRuleParser/CLDRPluralRuleParser.js"></script>-->
+<!--<script src="./lib/jquery.i18n/jquery.i18n.js"></script>-->
+<!--<script src="./lib/jquery.i18n/jquery.i18n.messagestore.js"></script>-->
+<!--<script src="./lib/jquery.i18n/jquery.i18n.fallbacks.js"></script>-->
+<!--<script src="./lib/jquery.i18n/jquery.i18n.language.js"></script>-->
+<!--<script src="./lib/jquery.i18n/jquery.i18n.parser.js"></script>-->
+<!--<script src="./lib/jquery.i18n/jquery.i18n.emitter.js"></script>-->
+<!--<script src="./lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>-->
+<!--<script src="./lib/history/jquery.history.js"></script>-->
+<!--<script src="./lib/url/url.min.js"></script>-->
 <!--TODO: Language dependencies JS script-->
 
 <!--TODO: Language handler logic-->
-<script type="text/javascript" src="js/index/language_handler_logic.js"></script>
+<!--<script type="text/javascript" src="js/index/language_handler_logic.js"></script>-->
 <!--TODO: Language handler logic-->
 
 </html>

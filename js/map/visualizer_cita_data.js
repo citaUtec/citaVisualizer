@@ -446,7 +446,7 @@ var rivers_migration_JSON;
 var rivers_dunes_JSON;
 var rivers_bedload_JSON;
 
-
+var river_submenu_clicked = false;
 var morphometric_layers_added = false;
 var migration_layers_added = false;
 var erosion_deposition_layers_added = false;
@@ -848,6 +848,7 @@ function amazonas_submenu_option_clicked() {
     if(!data_submenu_options[0].options[0].submenu_option_enabled_state){
 
         activeRiverIndex = 0;
+        river_submenu_clicked = true;
 
         clearSubmenuEnabledStatus(1);
         clearSubmenuEnabledStatus(2);
@@ -859,8 +860,7 @@ function amazonas_submenu_option_clicked() {
 
         clearMap();
 
-        // removeCurrentDisabledRiver();
-        // addLastRemovedPolygon();
+        removeDisabledRiverPolygons();
 
         last_disabled_river_removed = 0;
 
@@ -881,6 +881,7 @@ function huallaga_submenu_option_clicked() {
     if(!data_submenu_options[0].options[1].submenu_option_enabled_state){
 
         activeRiverIndex = 1;
+        river_submenu_clicked = true;
 
         clearSubmenuEnabledStatus(1);
         clearSubmenuEnabledStatus(2);
@@ -892,8 +893,7 @@ function huallaga_submenu_option_clicked() {
 
         clearMap();
 
-        // removeCurrentDisabledRiver();
-        // addLastRemovedPolygon();
+        removeDisabledRiverPolygons();
 
         last_disabled_river_removed = 1;
 
@@ -914,6 +914,7 @@ function marañon_submenu_option_clicked() {
     if(!data_submenu_options[0].options[2].submenu_option_enabled_state){
 
         activeRiverIndex = 2;
+        river_submenu_clicked = true;
 
         clearSubmenuEnabledStatus(1);
         clearSubmenuEnabledStatus(2);
@@ -925,10 +926,13 @@ function marañon_submenu_option_clicked() {
 
         clearMap();
 
-        // removeCurrentDisabledRiver();
-        // addLastRemovedPolygon();
+        removeDisabledRiverPolygons();
 
         last_disabled_river_removed = 2;
+
+        if (window.getComputedStyle(document.getElementById("selected-river-description")).display === "none") {
+            fadeInElements(["selected-river-description"], 350);
+        }
 
         document.getElementById("selected-river-description-text").setAttribute("data-i18n", "marañon-river-description");
         document.getElementById("selected-river-description-text").innerHTML = $.i18n("marañon-river-description");
@@ -943,6 +947,7 @@ function ucayali_submenu_option_clicked() {
     if(!data_submenu_options[0].options[3].submenu_option_enabled_state){
 
         activeRiverIndex = 3;
+        river_submenu_clicked = true;
 
         clearSubmenuEnabledStatus(1);
         clearSubmenuEnabledStatus(2);
@@ -954,10 +959,13 @@ function ucayali_submenu_option_clicked() {
 
         clearMap();
 
-        // removeCurrentDisabledRiver();
-        // addLastRemovedPolygon();
+        removeDisabledRiverPolygons();
 
         last_disabled_river_removed = 3;
+
+        if (window.getComputedStyle(document.getElementById("selected-river-description")).display === "none") {
+            fadeInElements(["selected-river-description"], 350);
+        }
 
         document.getElementById("selected-river-description-text").setAttribute("data-i18n", "ucayali-river-description");
         document.getElementById("selected-river-description-text").innerHTML = $.i18n("ucayali-river-description");

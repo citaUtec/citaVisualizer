@@ -603,7 +603,7 @@ function addInteractiveSinglePolygonToMap(JSON_path, river_data_layer, polygonPr
             if(polygonProperty.localeCompare("arcwavelen") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': colorMapWavelength(feature.properties['arcwavelen']/1000), 'fillOpacity': 1.0, 'strokeWeight': 2.0});
             if(polygonProperty.localeCompare("islands") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': islands_fill_color, 'fillOpacity': 1.0, 'strokeWeight': 0.0});
             if(polygonProperty.localeCompare("confinam") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': colorMapConfinement(feature.properties[polygonProperty]), 'fillOpacity': 1.0, 'strokeWeight': 2.0});
-            if(polygonProperty.localeCompare("disabled") === 0) return ({'color': '#000000', 'strokeOpacity': 0.2, 'fillColor': '#555555', 'fillOpacity': 0.5, 'strokeWeight': 2.0});
+            if(polygonProperty.localeCompare("disabled") === 0) return ({'color': '#8c8c8c', 'strokeOpacity': 1.0, 'fillColor': '#d9d9d9', 'fillOpacity': 1.0, 'strokeWeight': 2.0});
             if(polygonProperty.localeCompare("limits") === 0) return ({'color': '#000000', 'strokeOpacity': 0.5, 'fillColor': '#CCCCCC', 'fillOpacity': 0.45, 'strokeWeight': 0.5});
             if(polygonProperty.localeCompare("communities") === 0) return ({'color': '#000000', 'strokeOpacity': 0.5, 'fillColor': '#0000FF', 'fillOpacity': 0.5, 'strokeWeight': 2.0});
             // if(polygonProperty.localeCompare("malos_pasos") === 0) return {icon: "img/marker-icons/rojo.png", title: feature.getProperty("NOMBRE")};
@@ -668,15 +668,50 @@ function addSinglePolygonToMap(JSON_path, markerIconPath, layer_type, river_data
 
 }
 
+
+function addDisabledRivers() {
+
+
+
+    // addInteractiveSinglePolygonToMap("data/disabled-rivers/Amazonas/amazonas_test_small.json", amazonas_disabled_river_data_layer, "disabled", null, null, null, null);
+    // addInteractiveSinglePolygonToMap("data/disabled-rivers/Huallaga/huallaga_test_small.json", huallaga_disabled_river_data_layer, "disabled", null, null, null, null);
+    // addInteractiveSinglePolygonToMap("data/disabled-rivers/Marañon/marañon_test_small.json", marañon_disabled_river_data_layer, "disabled", null, null, null, null);
+    // addInteractiveSinglePolygonToMap("data/disabled-rivers/Ucayali/ucayali_test_small.json", ucayali_disabled_river_data_layer, "disabled", null, null, null, function () {
+    //
+    //
+    //
+    //     amazonas_disabled_river_data_layer.addTo(map);
+    //     huallaga_disabled_river_data_layer.addTo(map);
+    //     marañon_disabled_river_data_layer.addTo(map);
+    //     ucayali_disabled_river_data_layer.addTo(map);
+    //
+    // });
+
+    addInteractiveSinglePolygonToMap("https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/Disabled_rivers/amazonas_disabled_river.json", amazonas_disabled_river_data_layer, "disabled", null, null, null, null);
+    addInteractiveSinglePolygonToMap("https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/Disabled_rivers/huallaga_disabled_river.json", huallaga_disabled_river_data_layer, "disabled", null, null, null, null);
+    addInteractiveSinglePolygonToMap("https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/Disabled_rivers/marañon_disabled_river.json", marañon_disabled_river_data_layer, "disabled", null, null, null, null);
+    addInteractiveSinglePolygonToMap("https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/Disabled_rivers/ucayali_disabled_river.json", ucayali_disabled_river_data_layer, "disabled", null, null, null, function () {
+
+
+
+        amazonas_disabled_river_data_layer.addTo(map);
+        huallaga_disabled_river_data_layer.addTo(map);
+        marañon_disabled_river_data_layer.addTo(map);
+        ucayali_disabled_river_data_layer.addTo(map);
+
+    });
+
+}
+
 /**
  * Removes disabled polygons (dark river outlines) from the map
  */
 function removeDisabledRiverPolygons() {
 
-    amazonas_disabled_river_data_layer.setMap(null);
-    huallaga_disabled_river_data_layer.setMap(null);
-    marañon_disabled_river_data_layer.setMap(null);
-    ucayali_disabled_river_data_layer.setMap(null);
+    amazonas_disabled_river_data_layer.remove();
+    huallaga_disabled_river_data_layer.remove();
+    marañon_disabled_river_data_layer.remove();
+    ucayali_disabled_river_data_layer.remove();
 
 }
 
@@ -688,13 +723,13 @@ function addLastRemovedPolygon() {
     if(last_disabled_river_removed !== -1){
 
         if(last_disabled_river_removed === 0){
-            amazonas_disabled_river_data_layer.setMap(map);
+            amazonas_disabled_river_data_layer.addTo(map);
         }else if(last_disabled_river_removed === 1){
-            huallaga_disabled_river_data_layer.setMap(map);
+            huallaga_disabled_river_data_layer.addTo(map);
         }else if(last_disabled_river_removed === 2){
-            marañon_disabled_river_data_layer.setMap(map);
+            marañon_disabled_river_data_layer.addTo(map);
         }else if((last_disabled_river_removed === 3)){
-            ucayali_disabled_river_data_layer.setMap(map);
+            ucayali_disabled_river_data_layer.addTo(map);
         }
 
     }
@@ -707,13 +742,13 @@ function addLastRemovedPolygon() {
 function removeCurrentDisabledRiver() {
 
     if(activeRiverIndex === 0){
-        amazonas_disabled_river_data_layer.setMap(null);
+        amazonas_disabled_river_data_layer.remove();
     }else if(activeRiverIndex === 1){
-        huallaga_disabled_river_data_layer.setMap(null);
+        huallaga_disabled_river_data_layer.remove();
     }else if(activeRiverIndex === 2){
-        marañon_disabled_river_data_layer.setMap(null);
+        marañon_disabled_river_data_layer.remove();
     }else if((activeRiverIndex === 3)){
-        ucayali_disabled_river_data_layer.setMap(null);
+        ucayali_disabled_river_data_layer.remove();
     }
 
 }
@@ -829,6 +864,12 @@ function clearMap(){
     fadeOutElements(["UHD-top-card-container", "UHD-bottom-card-container"], 350);
     fadeOutElements(["drone-flights-marker-click-container", "morphometrics-legend-container", "extra-legend-container", "background-legend-container", "water-level-card-container", "dunes-card-container", "bedload-card-container", "sediments-card-container"], 350);
     fadeOutElements(["progress-bar-container"], 350);
+
+    if(!river_submenu_clicked){
+        fadeOutElements(["selected-river-description"], 350);
+    }else{
+        river_submenu_clicked = false;
+    }
 
     if(erosion_deposition_layers_added) clearRiverErosionDepositionLayers();
 
