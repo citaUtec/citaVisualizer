@@ -129,13 +129,11 @@ let style_test = [
  */
 $(document).ready(function () {
 
-    hideLoader();
-    hideElements(["loading"]);
     hideElements(["senamhiCardsContainer", "crossSectionsCardsContainer", "UHGCardsContainer", "UHSCardsContainer", "metricsContainer", "imageZoomOverlay", "droneVideoButton", "droneVideoOverlay"]);
     hideElements(["morphometrics-legend-container", "progress-bar-container", "UHD-top-card-container", "UHD-bottom-card-container", "help-tooltip", "UHD-top-card-cross-icon", "UHD-bottom-card-cross-icon"]);
     hideElements(["drone-flights-marker-click-container", "water-level-card-container", "dunes-card-container", "bedload-card-container", "sediments-card-container"]);
     hideElements(["map-bottom-left-container"]);
-    // hideElements(["general-loader-container"]);
+    hideElements(["general-loader-container"]);
 
 
     // map = L.map('mapid', {zoomControl: false, maxBounds: L.latLngBounds(L.latLng(0.037389, -82.290353), L.latLng(-18.313536, -66.780152)), maxBoundsViscosity: 1.0}).setView([-9.466665, -75.549894], 6);

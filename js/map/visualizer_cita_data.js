@@ -850,7 +850,6 @@ function amazonas_submenu_option_clicked() {
         activeRiverIndex = 0;
         river_submenu_clicked = true;
 
-        
         clearSubmenuEnabledStatus(1);
         clearSubmenuEnabledStatus(2);
         clearSubmenuEnabledStatus(3);

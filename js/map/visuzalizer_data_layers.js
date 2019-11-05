@@ -628,6 +628,55 @@ function addInteractiveSinglePolygonToMap(JSON_path, river_data_layer, polygonPr
         if(completionCallback !== null) completionCallback();
     });
 
+    // $.ajax({
+    //     url: JSON_path,
+    //     headers: {  'Access-Control-Allow-Origin': '*' }
+    // }).done(function (json) {
+    //
+    //     river_data_layer.addData(json);
+    //     river_data_layer.setStyle(function(feature){
+    //
+    //         if(polygonProperty.localeCompare("migration") === 0){
+    //             if(feature.properties.tipo.localeCompare("migration") === 0) return ({'color': colorMapMigration(feature.properties.tipo.migration/1000), 'strokeOpacity': 1.0, 'strokeWeight': 3.0});
+    //             if(feature.properties.tipo.localeCompare("centerline_older") === 0) return ({'color': migration_older_year, 'strokeOpacity': 1.0, 'strokeWeight': 3.0});
+    //             if(feature.properties.tipo.localeCompare("centerline_recent") === 0) return ({'color': migration_recent_year, 'strokeOpacity': 1.0, 'strokeWeight': 3.0});
+    //             if(feature.properties.tipo.localeCompare("change of channel") === 0) return ({'color': migration_channel_change, 'strokeOpacity': 1.0, 'strokeWeight': 3.0});
+    //             if(feature.properties.tipo.localeCompare("cutoff") === 0) return ({'color': migration_cut_off, 'strokeOpacity': 1.0, 'strokeWeight': 3.0});
+    //         }
+    //
+    //         if(polygonProperty.localeCompare("dunes_sections") === 0) return ({'color': dunes_section_border_color, 'strokeOpacity': 1.0, 'fillColor': dunes_sections_color, 'fillOpacity': 0.9, 'strokeWeight': 3.0});
+    //         if(polygonProperty.localeCompare("dunes_lines") === 0) return ({'color': dunes_lines_color, 'strokeOpacity': 1.0, 'strokeWeight': 2.0});
+    //         if(polygonProperty.localeCompare("bedload") === 0) return ({'color': '#000000', 'strokeOpacity': 0.8, 'fillColor': bedload_sections_color, 'fillOpacity': 0.9, 'strokeWeight': 1.0});
+    //         if(polygonProperty.localeCompare("av_width") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': colorMapWidth(feature.properties['av_width']/1000), 'fillOpacity': 1.0, 'strokeWeight': 2.0});
+    //         if(polygonProperty.localeCompare("sinuosity") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': colorMapSinuosity(feature.properties['sinuosity']), 'fillOpacity': 1.0, 'strokeWeight': 2.0});
+    //         if(polygonProperty.localeCompare("arcwavelen") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': colorMapWavelength(feature.properties['arcwavelen']/1000), 'fillOpacity': 1.0, 'strokeWeight': 2.0});
+    //         if(polygonProperty.localeCompare("islands") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': islands_fill_color, 'fillOpacity': 1.0, 'strokeWeight': 0.0});
+    //         if(polygonProperty.localeCompare("confinam") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': colorMapConfinement(feature.properties[polygonProperty]), 'fillOpacity': 1.0, 'strokeWeight': 2.0});
+    //         if(polygonProperty.localeCompare("disabled") === 0) return ({'color': '#8c8c8c', 'strokeOpacity': 1.0, 'fillColor': '#d9d9d9', 'fillOpacity': 1.0, 'strokeWeight': 2.0});
+    //         if(polygonProperty.localeCompare("limits") === 0) return ({'color': '#000000', 'strokeOpacity': 0.5, 'fillColor': '#CCCCCC', 'fillOpacity': 0.45, 'strokeWeight': 0.5});
+    //         if(polygonProperty.localeCompare("communities") === 0) return ({'color': '#000000', 'strokeOpacity': 0.5, 'fillColor': '#0000FF', 'fillOpacity': 0.5, 'strokeWeight': 2.0});
+    //         // if(polygonProperty.localeCompare("malos_pasos") === 0) return {icon: "img/marker-icons/rojo.png", title: feature.getProperty("NOMBRE")};
+    //         // if(polygonProperty.localeCompare("malos_pasos_lineas") === 0) return {strokeColor: "#000000", strokeOpacity: 1.0, strokeWeight: 3.0};
+    //         if(polygonProperty.localeCompare("rivers_valley") === 0) return ({'color': '#000000', 'strokeOpacity': 1.0, 'fillColor': '#00FF00', 'fillOpacity': 0.9, 'strokeWeight': 1.0});
+    //         if(polygonProperty.localeCompare("drone_animation") === 0) return ({'color': drone_animation_color, 'strokeOpacity': 1.0, 'strokeWeight': 2.0});
+    //         if(polygonProperty.localeCompare("test") === 0) return ({'color': "#000000", 'strokeOpacity': 0.2, 'fillColor': "#000000", 'fillOpacity': 0.2, 'strokeWeight': 0.5});
+    //
+    //     });
+    //
+    //     river_data_layer.eachLayer(function (layer) {
+    //
+    //         layer.on('click', function (event) { if(clickCallback !== null) clickCallback(event) });
+    //
+    //         layer.on('mouseover', function () { if(mouseoverCallback !== null) mouseoverCallback(this) });
+    //
+    //         layer.on('mouseout', function () { if(mouseoutCallback !== null) mouseoutCallback(this, river_data_layer) });
+    //
+    //     });
+    //
+    //     if(completionCallback !== null) completionCallback();
+    //
+    // })
+
 }
 
 /**
@@ -692,12 +741,11 @@ function addDisabledRivers() {
     addInteractiveSinglePolygonToMap("https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/Disabled_rivers/marañon_disabled_river.json", marañon_disabled_river_data_layer, "disabled", null, null, null, null);
     addInteractiveSinglePolygonToMap("https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/Disabled_rivers/ucayali_disabled_river.json", ucayali_disabled_river_data_layer, "disabled", null, null, null, function () {
 
-
-
         amazonas_disabled_river_data_layer.addTo(map);
         huallaga_disabled_river_data_layer.addTo(map);
         marañon_disabled_river_data_layer.addTo(map);
         ucayali_disabled_river_data_layer.addTo(map);
+        hideSplashOverlay();
 
     });
 

@@ -2399,4 +2399,10 @@ function hideLoader() {
 
 }
 
+function hideSplashOverlay() {
+
+    $("#loading").fadeOut();
+
+}
+
 //</editor-fold>

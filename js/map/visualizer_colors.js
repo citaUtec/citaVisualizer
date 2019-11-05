@@ -62,7 +62,7 @@ let ucayaliRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3d
 
 //Background Data colors
 
-//Geopolitical
+//GEOPOLITICAL
 
 //Administrative Divisions
 
@@ -78,7 +78,9 @@ let administrativeDivisionsProvinceStyle = {
     fillOpacity: 0.0,
     color: "#5F1A37",
     strokeOpacity: 0.7,
-    weight: 1.0
+    weight: 1.0,
+    dashArray: "5 10",
+
 };
 let administrativeDivisionsDistrictStyle = {
     fillColor: "#FFFFFF",
@@ -131,6 +133,7 @@ let protectedAreasDepartmentStyle = {
     strokeOpacity: 1.0,
     weight: 1.0
 };
+
 let protectedAreasRegionalStyle = {
     fillColor: "#AA0000",
     fillOpacity: 0.35,
@@ -138,6 +141,15 @@ let protectedAreasRegionalStyle = {
     strokeOpacity: 1.0,
     weight: 1.0
 };
+
+let protectedAreasPrivateStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+
 let protectedAreasBufferZoneStyle = {
     fillColor: "#AA0000",
     fillOpacity: 0.35,
@@ -146,55 +158,79 @@ let protectedAreasBufferZoneStyle = {
     weight: 1.0
 };
 
-//Geography
+//GEOGRAPHY
 
 //Hydrography
-let hydrography_basin_fill_color = "#AA0000";
-let hydrography_basin_fill_opacity = 0.35;
-let hydrography_basin_stroke_color = "#000000";
-let hydrography_basin_stroke_opacity = 1.0;
-let hydrography_basin_stroke_weigth = 1;
-let hydrography_rivers_fill_color = "#AA0000";
-let hydrography_rivers_fill_opacity = 0.35;
-let hydrography_rivers_stroke_color = "#000000";
-let hydrography_rivers_stroke_opacity = 1.0;
-let hydrography_rivers_stroke_weigth = 1;
-let hydrography_lakes_fill_color = "#AA0000";
-let hydrography_lakes_fill_opacity = 0.35;
-let hydrography_lakes_stroke_color = "#000000";
-let hydrography_lakes_stroke_opacity = 1.0;
-let hydrography_lakes_stroke_weigth = 1;
-let hydrography_glaciers_fill_color = "#AA0000";
-let hydrography_glaciers_fill_opacity = 0.35;
-let hydrography_glaciers_stroke_color = "#000000";
-let hydrography_glaciers_stroke_opacity = 1.0;
-let hydrography_glaciers_stroke_weigth = 1;
 
-//Infrastructure
+let hydrographyBasinStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+
+let hydrographyRiversStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+
+let hydrographyLakesStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+
+let hydrographyGlaciersStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+
+//INFRASTRUCTURE
 
 //Transportation
-let transportation_ports_fill_color = "#AA0000";
-let transportation_ports_fill_opacity = 0.35;
-let transportation_ports_stroke_color = "#000000";
-let transportation_ports_stroke_opacity = 1.0;
-let transportation_ports_stroke_weigth = 1;
-let transportation_airports_fill_color = "#AA0000";
-let transportation_airports_fill_opacity = 0.35;
-let transportation_airports_stroke_color = "#000000";
-let transportation_airports_stroke_opacity = 1.0;
-let transportation_airports_stroke_weigth = 1;
+
+let transportationPortsStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+
+let transportationAirportsStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
 
 //Extractive
-let extractive_mining_projects_fill_color = "#AA0000";
-let extractive_mining_projects_fill_opacity = 0.35;
-let extractive_mining_projects_stroke_color = "#000000";
-let extractive_mining_projects_stroke_opacity = 1.0;
-let extractive_mining_projects_stroke_weigth = 1;
-let extractive_hydrocarbons_fill_color = "#AA0000";
-let extractive_hydrocarbons_fill_opacity = 0.35;
-let extractive_hydrocarbons_stroke_color = "#000000";
-let extractive_hydrocarbons_stroke_opacity = 1.0;
-let extractive_hydrocarbons_stroke_weigth = 1;
+
+let extractiveMiningProjectsStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
+
+let extractiveHydrocarbonsStyle = {
+    fillColor: "#AA0000",
+    fillOpacity: 0.35,
+    color: "#000000",
+    strokeOpacity: 1.0,
+    weight: 1.0
+};
 
 //</editor-fold>
 

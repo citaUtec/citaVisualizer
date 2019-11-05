@@ -1932,38 +1932,37 @@ function setSubmenuOptionClickedAction(submenuImageId, submenuTitleId, markerIco
 
 function addDistrictsDatalLayer() {
 
-    setSubmenuOptionClickedAction("district_submenu_image_id", "district_submenu_option_title_id", "", "districts_layers_visible", "district", "districts_layers_added", "districts_data_layer", "data/Background_data/Geopolitical/Districts/districts.geojson","polygon", geopolitical_district_stroke_color, geopolitical_district_stroke_opacity, geopolitical_district_stroke_weigth, geopolitical_district_fill_color, geopolitical_district_fill_opacity);
+    setSubmenuOptionClickedAction("district_submenu_image_id", "district_submenu_option_title_id", "", "districts_layers_visible", "district", "districts_layers_added", "districts_data_layer", "data/Background_data/Geopolitical/Districts/districts.geojson","polygon", administrativeDivisionsDistrictStyle);
 
 }
 
 function addProvincesDatalLayer() {
 
-    setSubmenuOptionClickedAction("provincial_submenu_image_id", "provincial_submenu_option_title_id", "", "provinces_layers_visible", "province", "provinces_layers_added", "provinces_data_layer", "data/Background_data/Geopolitical/Provinces/provinces.geojson", "polygon", geopolitical_province_stroke_color, geopolitical_province_stroke_opacity, geopolitical_province_stroke_weigth, geopolitical_province_fill_color, geopolitical_province_fill_opacity);
+    setSubmenuOptionClickedAction("provincial_submenu_image_id", "provincial_submenu_option_title_id", "", "provinces_layers_visible", "province", "provinces_layers_added", "provinces_data_layer", "data/Background_data/Geopolitical/Provinces/provinces.geojson", "polygon", administrativeDivisionsProvinceStyle);
 
 }
 
 function addDepartmentsDataLayer() {
 
-
-    setSubmenuOptionClickedAction("regional_submenu_image_id", "regional_submenu_option_title_id", "", "departments_layers_visible", "departamental", "departments_layers_added", "departments_data_layer", "data/Background_data/Geopolitical/Departments/departments.geojson", "polygon", geopolitical_department_stroke_color, geopolitical_department_stroke_opacity, geopolitical_department_stroke_weigth, geopolitical_department_fill_color, geopolitical_department_fill_opacity);
+    setSubmenuOptionClickedAction("regional_submenu_image_id", "regional_submenu_option_title_id", "", "departments_layers_visible", "departamental", "departments_layers_added", "departments_data_layer", "data/Background_data/Geopolitical/Departments/departments.geojson", "polygon", administrativeDivisionsDepartmentStyle);
 
 }
 
 function addPopulationDepartmentCapitalLayer() {
 
-    setSubmenuOptionClickedAction("region_capitals_submenu_image_id", "region_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_red_marker.png", "population_department_capital_visible", "department_capital", "population_department_capital_added", "population_department_capital_data_layer", "data/Background_data/Population/departamental.geojson", "marker", population_department_stroke_color, population_department_stroke_opacity, population_department_stroke_weigth, population_department_fill_color, population_department_fill_opacity);
+    setSubmenuOptionClickedAction("region_capitals_submenu_image_id", "region_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_red_marker.png", "population_department_capital_visible", "department_capital", "population_department_capital_added", "population_department_capital_data_layer", "data/Background_data/Population/departamental.geojson", "marker", populationDepartmentStyle);
 
 }
 
 function addPopulationProvinceCapitalLayer() {
 
-    setSubmenuOptionClickedAction("province_capitals_submenu_image_id", "province_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png", "population_province_capital_visible", "province_capital", "population_province_capital_added", "population_department_province_data_layer", "data/Background_data/Population/provincial.geojson", "marker", population_province_stroke_color, population_province_stroke_opacity, population_province_stroke_weigth, population_province_fill_color, population_province_fill_opacity);
+    setSubmenuOptionClickedAction("province_capitals_submenu_image_id", "province_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png", "population_province_capital_visible", "province_capital", "population_province_capital_added", "population_department_province_data_layer", "data/Background_data/Population/provincial.geojson", "marker", populationProvinceStyle);
 
 }
 
 function addPopulationDistrictCapitalLayer() {
 
-    setSubmenuOptionClickedAction("district_capitals_submenu_image_id", "district_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_gray_marker.png", "population_district_capital_visible", "district_capital", "population_district_capital_added", "population_department_district_data_layer", "data/Background_data/Population/distrital.geojson", "marker", population_district_stroke_color, population_district_stroke_opacity, population_district_stroke_weigth, population_district_fill_color, population_district_fill_opacity);
+    setSubmenuOptionClickedAction("district_capitals_submenu_image_id", "district_capitals_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_gray_marker.png", "population_district_capital_visible", "district_capital", "population_district_capital_added", "population_department_district_data_layer", "data/Background_data/Population/distrital.geojson", "marker", populationDistrictStyle);
 
 }
 
@@ -1997,73 +1996,73 @@ function addPopulatedAreasNativeCommunitiesLayer() {
 
 function addPopulatedAreasRuralCommunitiesLayer() {
 
-    setSubmenuOptionClickedAction("farmers_communities_submenu_image_id", "farmers_communities_submenu_option_title_id", "", "populated_areas_rural_communities_layers_visible", "rural_communities", "populated_areas_rural_communities_layers_added", "populated_areas_rural_communities_data_layer", "data/Background_data/Populated_Areas/rural_communities.geojson", "polygon", populated_areas_rural_stroke_color, populated_areas_rural_stroke_opacity, populated_areas_rural_stroke_weigth, populated_areas_rural_fill_color, populated_areas_rural_fill_opacity);
+    setSubmenuOptionClickedAction("farmers_communities_submenu_image_id", "farmers_communities_submenu_option_title_id", "", "populated_areas_rural_communities_layers_visible", "rural_communities", "populated_areas_rural_communities_layers_added", "populated_areas_rural_communities_data_layer", "data/Background_data/Populated_Areas/rural_communities.geojson", "polygon", populatedAreasRuralStyle);
 
 }
 
 function addPNARegionalLayer() {
 
-    setSubmenuOptionClickedAction("anp_regional_submenu_image_id", "anp_regional_submenu_option_title_id", "", "pna_regional_layers_visible", "anp_regional", "pna_regional_layers_added", "pna_regional_data_layer", "data/Background_data/Protected_Natural_Areas/pna_regional.geojson", "polygon", pna_regional_stroke_color, pna_regional_stroke_opacity, pna_regional_stroke_weigth, pna_regional_fill_color, pna_regional_fill_opacity);
+    setSubmenuOptionClickedAction("anp_regional_submenu_image_id", "anp_regional_submenu_option_title_id", "", "pna_regional_layers_visible", "anp_regional", "pna_regional_layers_added", "pna_regional_data_layer", "data/Background_data/Protected_Natural_Areas/pna_regional.geojson", "polygon", protectedAreasRegionalStyle);
 
 }
 
 function addPNAPrivateLayer() {
 
-    setSubmenuOptionClickedAction("anp_private_submenu_image_id", "anp_private_submenu_option_title_id", "", "pna_buffer_zone_layers_visible", "anp_private", "pna_private_layers_added", "pna_private_data_layer", "data/Background_data/Protected_Natural_Areas/pna_private.geojson", "polygon", pna_private_stroke_color, pna_private_stroke_opacity, pna_private_stroke_weigth, pna_private_fill_color, pna_private_fill_opacity);
+    setSubmenuOptionClickedAction("anp_private_submenu_image_id", "anp_private_submenu_option_title_id", "", "pna_buffer_zone_layers_visible", "anp_private", "pna_private_layers_added", "pna_private_data_layer", "data/Background_data/Protected_Natural_Areas/pna_private.geojson", "polygon", protectedAreasPrivateStyle);
     
 }
 
 function addPNABufferZoneLayer() {
 
-    setSubmenuOptionClickedAction("buffer_zone_submenu_image_id", "buffer_zone_submenu_option_title_id", "", "pna_private_layers_visible", "anp_buffer_zone", "pna_buffer_zone_layers_added", "pna_buffer_zone_data_layer", "data/Background_data/Protected_Natural_Areas/pna_buffer_zone.geojson", "polygon", pna_buffer_stroke_color, pna_buffer_stroke_opacity, pna_buffer_stroke_weigth, pna_buffer_fill_color, pna_buffer_fill_opacity);
+    setSubmenuOptionClickedAction("buffer_zone_submenu_image_id", "buffer_zone_submenu_option_title_id", "", "pna_private_layers_visible", "anp_buffer_zone", "pna_buffer_zone_layers_added", "pna_buffer_zone_data_layer", "data/Background_data/Protected_Natural_Areas/pna_buffer_zone.geojson", "polygon", protectedAreasBufferZoneStyle);
         
 }
 
 function addHydrographyBasinsLayer() {
 
-    setSubmenuOptionClickedAction("hydrography_basin_submenu_image_id", "hydrography_basin_submenu_option_title_id", "","hydrography_basins_visible", "hydrography_basin", "hydrography_basins_added", "hidrography_basins_data_layer", "data/Background_data/Hydrography/hydrography_basins.geojson", "polygon", hydrography_basin_stroke_color, hydrography_basin_stroke_opacity, hydrography_basin_stroke_weigth, hydrography_basin_fill_color, hydrography_basin_fill_opacity);
+    setSubmenuOptionClickedAction("hydrography_basin_submenu_image_id", "hydrography_basin_submenu_option_title_id", "","hydrography_basins_visible", "hydrography_basin", "hydrography_basins_added", "hidrography_basins_data_layer", "data/Background_data/Hydrography/hydrography_basins.geojson", "polygon", hydrographyBasinStyle);
 
 }
 
 function addHydrographyRiversLayer() {
 
-    setSubmenuOptionClickedAction("hydrography_rivers_submenu_image_id", "hydrography_rivers_submenu_option_title_id", "", "hydrography_rivers_visible", "geography_river", "hydrography_rivers_added", "hidrography_rivers_data_layer", "data/Background_data/Hydrography/hydrography_rivers.geojson", "polygon", hydrography_rivers_stroke_color, hydrography_rivers_stroke_opacity, hydrography_rivers_stroke_weigth, hydrography_rivers_fill_color, hydrography_rivers_fill_opacity);
+    setSubmenuOptionClickedAction("hydrography_rivers_submenu_image_id", "hydrography_rivers_submenu_option_title_id", "", "hydrography_rivers_visible", "geography_river", "hydrography_rivers_added", "hidrography_rivers_data_layer", "data/Background_data/Hydrography/hydrography_rivers.geojson", "polygon", hydrographyRiversStyle);
 
 }
 
 function addHydrographyLakesLayer() {
 
-    setSubmenuOptionClickedAction("lagoons_lakes_submenu_image_id", "lagoons_lakes_submenu_option_title_id", "", "hydrography_lakes_visible", "lake_lagoon", "hydrography_lakes_added", "hidrography_lakes_data_layer", "data/Background_data/Hydrography/hydrography_lakes.geojson", "polygon", hydrography_lakes_stroke_color, hydrography_lakes_stroke_opacity, hydrography_lakes_stroke_weigth, hydrography_lakes_fill_color, hydrography_lakes_fill_opacity);
+    setSubmenuOptionClickedAction("lagoons_lakes_submenu_image_id", "lagoons_lakes_submenu_option_title_id", "", "hydrography_lakes_visible", "lake_lagoon", "hydrography_lakes_added", "hidrography_lakes_data_layer", "data/Background_data/Hydrography/hydrography_lakes.geojson", "polygon", hydrographyLakesStyle);
 
 }
 
 function addHydrographyGlaciersLayer() {
 
-    setSubmenuOptionClickedAction("glaciers_submenu_image_id", "glaciers_submenu_option_title_id", "", "hydrography_glaciers_visible", "glaciers", "hydrography_glaciers_added", "hidrography_glaciers_data_layer", "data/Background_data/Hydrography/hydrography_glaciers.geojson", "polygon", hydrography_glaciers_stroke_color, hydrography_glaciers_stroke_opacity, hydrography_glaciers_stroke_weigth, hydrography_glaciers_fill_color, hydrography_glaciers_fill_opacity);
+    setSubmenuOptionClickedAction("glaciers_submenu_image_id", "glaciers_submenu_option_title_id", "", "hydrography_glaciers_visible", "glaciers", "hydrography_glaciers_added", "hidrography_glaciers_data_layer", "data/Background_data/Hydrography/hydrography_glaciers.geojson", "polygon", hydrographyGlaciersStyle);
 
 }
 
 function addTransportPortLayer() {
 
-    setSubmenuOptionClickedAction("ports_submenu_image_id", "ports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png", "transport_ports_visible", "ports", 'transport_ports_added', "transport_ports_data_layer", "data/Background_data/Transport/ports.geojson", "marker", transportation_ports_stroke_color, transportation_ports_stroke_opacity, transportation_ports_stroke_weigth, transportation_ports_fill_color, transportation_ports_fill_opacity);
+    setSubmenuOptionClickedAction("ports_submenu_image_id", "ports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png", "transport_ports_visible", "ports", 'transport_ports_added', "transport_ports_data_layer", "data/Background_data/Transport/ports.geojson", "marker", transportationPortsStyle);
 
 }
 
 function addTransportAirportLayer() {
 
-    setSubmenuOptionClickedAction("airports_submenu_image_id", "airports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png    ", "transport_airports_visible", "airports", "transport_airports_added", "transport_airports_data_layer", "data/Background_data/Transport/airports.geojson", "marker", transportation_airports_stroke_color, transportation_airports_stroke_opacity, transportation_airports_stroke_weigth, transportation_airports_fill_color, transportation_airports_fill_opacity);
+    setSubmenuOptionClickedAction("airports_submenu_image_id", "airports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png    ", "transport_airports_visible", "airports", "transport_airports_added", "transport_airports_data_layer", "data/Background_data/Transport/airports.geojson", "marker", transportationAirportsStyle);
 
 }
 
 function addExtractiveMiningProjectsLayer() {
 
-    setSubmenuOptionClickedAction("mining_projects_submenu_image_id", "mining_projects_submenu_option_title_id", "", "extractive_mining_projects_visible", "mining_projects", "extractive_mining_projects_added", "extractive_mining_projects_data_layer", "data/Background_data/Extractive/mining_projects.geojson", "polygon", extractive_mining_projects_stroke_color, extractive_mining_projects_stroke_opacity, extractive_mining_projects_stroke_weigth, extractive_mining_projects_fill_color, extractive_mining_projects_fill_opacity);
+    setSubmenuOptionClickedAction("mining_projects_submenu_image_id", "mining_projects_submenu_option_title_id", "", "extractive_mining_projects_visible", "mining_projects", "extractive_mining_projects_added", "extractive_mining_projects_data_layer", "data/Background_data/Extractive/mining_projects.geojson", "polygon", extractiveMiningProjectsStyle);
 
 }
 
 function addExtractiveHydrocarbonsLayer() {
 
-    setSubmenuOptionClickedAction("hydrocarbons_submenu_image_id", "hydrocarbons_submenu_option_title_id", "", "extractive_hydrocarbons_visible", "hydrocarbons_projects", "extractive_hydrocarbons_added", "extractive_hydrocarbons_data_layer", "data/Background_data/Extractive/hydrocarbons.geojson", "polygon", extractive_hydrocarbons_stroke_color, extractive_hydrocarbons_stroke_opacity, extractive_hydrocarbons_stroke_weigth, extractive_hydrocarbons_fill_color, extractive_hydrocarbons_fill_opacity);
+    setSubmenuOptionClickedAction("hydrocarbons_submenu_image_id", "hydrocarbons_submenu_option_title_id", "", "extractive_hydrocarbons_visible", "hydrocarbons_projects", "extractive_hydrocarbons_added", "extractive_hydrocarbons_data_layer", "data/Background_data/Extractive/hydrocarbons.geojson", "polygon", extractiveHydrocarbonsStyle);
 
 }
 

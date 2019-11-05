@@ -3,12 +3,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 20000000;
     width: 100vw;
     height: 100vh;
-    background-color: #e6ffff;
-    background-image: url("../../Gif/generated_gifs/cita.gif");
-    background-size: 80px 80px;
+    background-color: white;
+    background-image: url("../../img/Logos/DRLogoBlue.png");
     background-repeat: no-repeat;
     background-position: center;
 }
