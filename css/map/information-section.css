@@ -4,14 +4,30 @@
     background-color: white;
 }
 
+.information-section-content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
 .information-container-left-column{
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.02);
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     padding: 0;
 }
+
+.information-close-button-container{
+    align-self: center;
+    width: 100%;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
 
 .information-container-right-column{
     /*background-color: rgba(0,0,0,0.2);*/
@@ -60,4 +76,73 @@
 .information-left-column-option-text{
     align-self: center;
     font-size: 14px;
+}
+
+.information-morphometrics-main-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.information-morphometrics-title{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px 100px;
+    color: rgba(0,0,0,0.5);
+}
+
+.information-morphometrics-description{
+    font-size: 18px;
+    padding: 20px 100px 60px 100px;
+    color: rgba(0,0,0,0.5);
+}
+
+.information-morphometrics-image{
+    width: 50%;
+    height: 80%;
+    padding: 20px 100px 60px 100px;
+    align-self: center;
+}
+
+.information-morphometrics-reference{
+    font-size: 14px;
+    padding: 20px 100px;
+    color: rgba(0,0,0,0.5);
+}
+
+.information-morphometrics-hyperlink{
+    cursor: pointer;
+}
+
+.information-morphometrics-hyperlink:hover{
+    color: #00BFDF;
+}
+
+.information-language-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.information-language-option{
+    align-self: center;
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(0,0,0,0.5);
+}
+
+.information-language-option-selected{
+    color: rgba(153, 240, 255, 1.0);
+}
+
+.information-language-option:hover{
+    color: rgba(153, 240, 255, 1.0);
+}
+
+.information-about-logo{
+    cursor: pointer;
 }

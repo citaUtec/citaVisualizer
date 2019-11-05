@@ -138,11 +138,8 @@ $(document).ready(function () {
     // hideElements(["general-loader-container"]);
 
 
-
     // map = L.map('mapid', {zoomControl: false, maxBounds: L.latLngBounds(L.latLng(0.037389, -82.290353), L.latLng(-18.313536, -66.780152)), maxBoundsViscosity: 1.0}).setView([-9.466665, -75.549894], 6);
     map = L.map('mapid', {zoomControl: false}).setView([-9.466665, -75.549894], 6);
-
-    // map.setMinZoom( map.getBoundsZoom( map.options.maxBounds ) );
 
     L.control.zoom({position:'bottomright'}).addTo(map);
 
@@ -396,23 +393,18 @@ $(document).ready(function () {
     addRightPanelToggleListener();
     setDroneFlightCards();
     renderDroneVideoList();
-    //
+    addDisabledRivers();
+
     hideElements(["lspiv-marker-click-container"]);
-    //
-    //TODO: BACKGROUND DATA CLICK LISTENERS
-    // document.getElementById("communities_menu_button_option_id").addEventListener("click", communitiesOptionClicked);
-    // document.getElementById("dem_menu_button_option_id").addEventListener("click", demMenuOptionClicked);
-    // document.getElementById("malos_pasos_menu_button_option_id").addEventListener("click", firesMenuOptionClicked);
-    // document.getElementById("clear_map_menu_button_option_id").addEventListener("click", clearMapSubmenuOptionClicked);
+
     document.getElementById("card-1-marker-row-1").addEventListener("click", function () {
         fadeInElements(["droneVideoOverlay"], 350);
     });
+
     document.getElementById("imageZoomOverlay").addEventListener("click", function () {
         fadeOutElements(["imageZoomOverlay"], 350);
     });
-    // //TODO: BACKGROUND DATA CLICK LISTENERS
-    //
-    // document.getElementById("clear-map-button").addEventListener("click", clearMapSubmenuOptionClicked);
+
     document.getElementById("spanish-button").addEventListener("click", spanishLanguageClickFunction);
     document.getElementById("english-button").addEventListener("click", engliishLanguageClickFunction);
     toggleButtonTooltipLanguage();
