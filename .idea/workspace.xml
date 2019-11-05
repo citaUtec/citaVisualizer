@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/map.html" line="703" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d0528cfd-90d7-48de-8fac-06c056030cc1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/map/information-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/map/information-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/map/map-overlay-elements.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/map/map-overlay-elements.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map/visualizer_background_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map/visualizer_background_data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/map/visualizer_cita_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map/visualizer_cita_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map/visualizer_colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map/visualizer_colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map/visualizer_information.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map/visualizer_information.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map/visualizer_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map/visualizer_main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map/visualizer_dom_handle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map/visualizer_dom_handle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map/visuzalizer_data_layers.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map/visuzalizer_data_layers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +42,14 @@
               <caret line="344" column="6" lean-forward="true" selection-start-line="344" selection-start-column="6" selection-end-line="344" selection-end-column="6" />
               <folding>
                 <element signature="e#125#2452#0" />
+                <element signature="e#0#6#0" expanded="true" />
+                <element signature="e#88#94#1" expanded="true" />
+                <element signature="e#6089#12795#0" />
+                <element signature="e#12836#19193#0" />
+                <element signature="e#19233#23684#0" />
+                <element signature="e#23715#24294#0" />
+                <element signature="e#24321#26128#0" />
+                <element signature="e#26157#27420#0" />
                 <element signature="n#!!block;n#initMap#0" />
               </folding>
             </state>
@@ -59,6 +81,15 @@
               <caret line="722" lean-forward="true" selection-start-line="722" selection-end-line="722" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +102,14 @@
               <caret line="851" column="8" selection-start-line="851" selection-start-column="8" selection-end-line="851" selection-end-column="8" />
               <folding>
                 <element signature="e#595#26338#0" />
+                <element signature="e#27341#29488#0" />
+                <element signature="e#29520#30182#0" />
+                <element signature="e#30570#41245#0" />
+                <element signature="e#41284#44923#0" />
+                <element signature="e#44959#45742#0" />
+                <element signature="e#45782#47597#0" />
+                <element signature="e#47625#49093#0" />
+                <element signature="e#49123#50841#0" />
               </folding>
             </state>
           </provider>
@@ -98,6 +137,9 @@
     <findStrings>
       <find>information</find>
       <find>w3</find>
+      <find>English</find>
+      <find>visualizer_information</find>
+      <find>disabled</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,12 +148,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/map/visualizer_background_data.js" />
         <option value="$PROJECT_DIR$/js/map/visualizer_dom_handle.js" />
+        <option value="$PROJECT_DIR$/js/map/visualizer_background_data.js" />
         <option value="$PROJECT_DIR$/css/map/map-overlay-elements.css" />
         <option value="$PROJECT_DIR$/js/map/visualizer_information.js" />
         <option value="$PROJECT_DIR$/css/map/information-section.css" />
         <option value="$PROJECT_DIR$/map.html" />
+        <option value="$PROJECT_DIR$/i18n/es.json" />
+        <option value="$PROJECT_DIR$/i18n/en.json" />
+        <option value="$PROJECT_DIR$/js/map/visualizer_colors.js" />
+        <option value="$PROJECT_DIR$/js/map/visualizer_cita_data.js" />
+        <option value="$PROJECT_DIR$/js/map/visualizer_main.js" />
+        <option value="$PROJECT_DIR$/js/index/language_handler_logic.js" />
         <option value="$PROJECT_DIR$/js/map/visuzalizer_data_layers.js" />
         <option value="$PROJECT_DIR$/js/map/visualizer_cita_data.js" />
       </list>
@@ -175,12 +223,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572447520942</updated>
-      <workItem from="1572447523802" duration="13824000" />
+      <workItem from="1572447523802" duration="20144000" />
+      <workItem from="1572884639429" duration="3208000" />
+      <workItem from="1572894342432" duration="10875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13882000" />
+    <option name="totallyTimeSpent" value="13882000" />\
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -197,8 +247,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -211,62 +261,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/map/visualizer_background_data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="1535" column="28" lean-forward="true" selection-start-line="1535" selection-start-column="28" selection-end-line="1535" selection-end-column="28" />
-          <folding>
-            <element signature="e#457#3299#0" />
-            <element signature="e#3341#33764#0" />
-            <element signature="e#3435#8102#0" />
-            <element signature="e#16660#21576#0" />
-            <element signature="e#27764#33738#0" />
-            <element signature="e#34155#34159#0" />
-            <element signature="e#46036#68897#0" />
-            <element signature="e#46129#53443#0" />
-            <element signature="e#53461#54629#0" />
-            <element signature="e#68907#96334#0" />
-            <element signature="e#69005#74817#0" />
-            <element signature="e#74835#80904#0" />
-            <element signature="e#80922#86738#0" />
-            <element signature="e#86756#91616#0" />
-            <element signature="e#98025#98029#0" />
-            <element signature="e#108594#111062#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/map/drone-overlay-logic.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/map/visualizer_google_maps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map/visuzalizer_data_layers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="666" selection-start-line="666" selection-end-line="666" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map/visualizer_dom_handle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map/visualizer_main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2364">
-          <caret line="344" column="6" lean-forward="true" selection-start-line="344" selection-start-column="6" selection-end-line="344" selection-end-column="6" />
-          <folding>
-            <element signature="e#125#2452#0" />
-            <element signature="n#!!block;n#initMap#0" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/map/horizontal-side-bar.css">
@@ -281,23 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/map/map-overlay-elements.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="137" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map/visualizer_cita_data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="851" column="8" selection-start-line="851" selection-start-column="8" selection-end-line="851" selection-end-column="8" />
-          <folding>
-            <element signature="e#595#26338#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/index/cita_logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -306,20 +289,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/Logos/cita_demo.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map/visualizer_information.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/map/information-section.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/index/utec_logo.png">
       <provider selected="true" editor-type-id="images" />
@@ -330,13 +299,157 @@
     <entry file="file://$PROJECT_DIR$/img/Logos/DRLogoBlue.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery.i18n/jquery.i18n.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery.i18n/jquery.i18n.language.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map/visualizer_background_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="666" selection-start-line="666" selection-end-line="666" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/side-bar-icon/cross_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map/visualizer_dom_handle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/map/map-overlay-elements.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2364">
+          <caret line="344" column="6" lean-forward="true" selection-start-line="344" selection-start-column="6" selection-end-line="344" selection-end-column="6" />
+          <folding>
+            <element signature="e#125#2452#0" />
+            <element signature="n#!!block;n#initMap#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/map/information-section.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="269" column="89" lean-forward="true" selection-start-line="269" selection-start-column="89" selection-end-line="269" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i18n/es.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="256" column="63" selection-start-line="256" selection-start-column="63" selection-end-line="256" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="851" column="8" selection-start-line="851" selection-start-column="8" selection-end-line="851" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map/visualizer_colors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="57" column="84" selection-start-line="57" selection-start-column="84" selection-end-line="57" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/disabled-rivers/Amazonas/amazonas_test_small.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map/visualizer_information.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map/visualizer_cita_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="964" lean-forward="true" selection-start-line="964" selection-end-line="964" />
+          <folding>
+            <element signature="e#595#26338#0" />
+            <element signature="e#27341#29488#0" />
+            <element signature="e#29520#30182#0" />
+            <element signature="e#30570#41245#0" />
+            <element signature="e#41284#44923#0" />
+            <element signature="e#44959#45742#0" />
+            <element signature="e#45782#47597#0" />
+            <element signature="e#47625#49093#0" />
+            <element signature="e#49123#50841#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index/language_handler_logic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map/visualizer_main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="722" lean-forward="true" selection-start-line="722" selection-end-line="722" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#22;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#125#2452#0" />
+            <element signature="e#0#6#0" expanded="true" />
+            <element signature="e#88#94#1" expanded="true" />
+            <element signature="e#6089#12795#0" />
+            <element signature="e#12836#19193#0" />
+            <element signature="e#19233#23684#0" />
+            <element signature="e#23715#24294#0" />
+            <element signature="e#24321#26128#0" />
+            <element signature="e#26157#27420#0" />
+            <element signature="n#!!block;n#initMap#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map/visuzalizer_data_layers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="694" lean-forward="true" selection-start-line="694" selection-end-line="694" />
         </state>
       </provider>
     </entry>

@@ -1944,6 +1944,7 @@ function addProvincesDatalLayer() {
 
 function addDepartmentsDataLayer() {
 
+
     setSubmenuOptionClickedAction("regional_submenu_image_id", "regional_submenu_option_title_id", "", "departments_layers_visible", "departamental", "departments_layers_added", "departments_data_layer", "data/Background_data/Geopolitical/Departments/departments.geojson", "polygon", geopolitical_department_stroke_color, geopolitical_department_stroke_opacity, geopolitical_department_stroke_weigth, geopolitical_department_fill_color, geopolitical_department_fill_opacity);
 
 }

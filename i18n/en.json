@@ -254,7 +254,20 @@
   "amazon-publications-tab-infographics": "Infographics",
   "amazon-education-tab": "Education",
   "amazon-education-tab-work-other-groups": "Work with other groups",
-  "amazon-education-tab-workshops": "Workshops"
+  "amazon-education-tab-workshops": "Workshops",
+
+
+  "information-left-column-about-title": "About",
+      "information-about-description-1": "\"Dancing Rivers\" da a conocer los resultados de la caracterización morfodinámica a nivel planimétrico y altimétrico de los principales ríos amazónicos: Marañón, Huallaga, Ucayali y Amazonas.\n                                Con el propósito de comprender los patrones físicos de los ríos amazónicos, se desarrolló una metodología de línea base de las variables hidrogeomorfológicas de los ríos. Su enfoque permite estudiar a los ríos de manera completa, teniendo en cuenta sus características y dinámicas particulares.",
+      "information-about-description-2": "Este proyecto ha sido desarrollado por la Universidad de Ingeniería y Tecnología (UTEC), en colaboración con el Centro de Investigación y Tecnología del Agua (CITA) y la Fundación Gordon & Betty Moore",
+  "information-left-column-morphometrics-title": "Morphometrics",
+      "information-morphometrics-description": "El análisis multitemporal de imágenes satelitales se realizó en el periodo 1987-2017, con intervalos de análisis de acuerdo a la tasa de migración del río. Para los ríos meándricos (Huallaga y Ucayali) el periodo de análisis fue de 4 años, mientras que para los ríos multicanal (Marañón y Amazonas) el periodo fue de 6 años. Las imágenes satelitales utilizadas fueron del satélite Landsat (Landsat 4, 5, 7 y 8) para los meses de junio a octubre, trabajándose a una resolución de 30 metros.",
+      "information-morphometrics-hyperlink": "www.google.com.EN",
+  "information-left-column-field-measurements-title": "Field measurements",
+      "information-field-measurements-description": "Las mediciones de campo se han venido realizando desde el 2018, con campañas de medición en las dos temporadas: creciente y vaciante. El trabajo de campo se divide en 3 unidades: la unidad hidrodinámica (caudal y velocidades), hidrosedimentológica (concentración de sedimentos suspendidos y granulometría de sedimentos en suspensión y de fondo) e hidrogeomorfológica (caracterización de dunas y transporte de fondo).",
+      "information-field-measurements-hyperlink": "www.google.com.EN",
+  "information-left-column-language-title": "Language",
+  "information-description-visit-link": "For more information visit the following link: "
 
 }
 

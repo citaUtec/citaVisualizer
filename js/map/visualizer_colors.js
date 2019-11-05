@@ -55,10 +55,10 @@ let metrics_wavelength_colors = [
 
 //River Outline Styles
 
-let amazonasRiverOutlineStyle = {color: "#00BFDF", opacity: 1.0, fillColor: "#00BFDF", fillOpacity: 1.0, weight: 2};
-let huallagaRiverOutlineStyle = {color: "#00BFDF", opacity: 1.0, fillColor: "#00BFDF", fillOpacity: 1.0, weight: 2};
-let marañonRiverOutlineStyle = {color: "#00BFDF", opacity: 1.0, fillColor: "#00BFDF", fillOpacity: 1.0, weight: 2};
-let ucayaliRiverOutlineStyle = {color: "#00BFDF", opacity: 1.0, fillColor: "#00BFDF", fillOpacity: 1.0, weight: 2};
+let amazonasRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3daff", fillOpacity: 1.0, weight: 2};
+let huallagaRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3daff", fillOpacity: 1.0, weight: 2};
+let marañonRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3daff", fillOpacity: 1.0, weight: 2};
+let ucayaliRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3daff", fillOpacity: 1.0, weight: 2};
 
 //Background Data colors
 
