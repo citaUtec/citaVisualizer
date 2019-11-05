@@ -849,6 +849,7 @@ function amazonas_submenu_option_clicked() {
 
         activeRiverIndex = 0;
 
+        
         clearSubmenuEnabledStatus(1);
         clearSubmenuEnabledStatus(2);
         clearSubmenuEnabledStatus(3);
