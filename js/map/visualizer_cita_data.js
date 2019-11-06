@@ -1009,7 +1009,7 @@ function width_submenu_option_clicked() {
         toggleDataLayerVisibility(rivers_morphometrics_JSON[activeRiverIndex].river_width_layer, 0);
         toggleDataLayerVisibility(upper_rivers_morphometrics_JSON[activeRiverIndex].river_width_layer, 0);
         removeElementChildNodesWithClass("extraLegendDIVStyle");
-        addExtraLegend(["#d7191c", "#fe960f", "#ecec0e", "#1e961e"], ["1.2+ km", "0.8 - 1.2", "0.4 - 0.8", "0.0  - 0.4"]);
+        addExtraLegend(metrics_width_colors, ["1.2+ km", "0.8 - 1.2", "0.4 - 0.8", "0.0  - 0.4"]);
 
         // zoomAndPanToRiverCenter();
 
@@ -1038,7 +1038,7 @@ function sinuosity_submenu_option_clicked() {
         fadeInElements(["progress-bar-container"], 350);
         toggleDataLayerVisibility(rivers_morphometrics_JSON[activeRiverIndex].river_sinuosity_layer, 0);
         removeElementChildNodesWithClass("extraLegendDIVStyle");
-        addExtraLegend(["#d7191c", "#fe960f", "#ecec0e", "#1e961e"], ["2.0+", "1.70 - 2.0", "1.35 - 1.70", "1.00  - 1.35"]);
+        addExtraLegend(metrics_sinuosity_colors, ["2.0+", "1.70 - 2.0", "1.35 - 1.70", "1.00  - 1.35"]);
 
         // zoomAndPanToRiverCenter();
 
@@ -1070,10 +1070,10 @@ function arc_wavelength_submenu_option_clicked() {
         removeElementChildNodesWithClass("legendDIVStyle");
         removeElementChildNodesWithClass("extraLegendDIVStyle");
 
-        if(activeRiverIndex === 0) addExtraLegend(["#d7191c", "#fe960f", "#ecec0e", "#1e961e"], ["20.0+", "17.0 - 20.0", "13.5 - 17.0", "10.0  - 13.5"]);
-        if(activeRiverIndex === 1) addExtraLegend(["#d7191c", "#fe960f", "#ecec0e", "#1e961e"], ["0.9+", "0.6 - 0.9", "0.3 - 0.6", "0.0  - 0.3"]);
-        if(activeRiverIndex === 2) addExtraLegend(["#d7191c", "#fe960f", "#ecec0e", "#1e961e"], ["20.0+", "17.0 - 20.0", "13.5 - 17.0", "10.0  - 13.5"]);
-        if(activeRiverIndex === 3) addExtraLegend(["#d7191c", "#fe960f", "#ecec0e", "#1e961e"], ["15.0+", "10.0 - 15.0", "0.5 - 10.0", "0.0  - 0.5"]);
+        if(activeRiverIndex === 0) addExtraLegend(metrics_wavelength_colors, ["20.0+", "17.0 - 20.0", "13.5 - 17.0", "10.0  - 13.5"]);
+        if(activeRiverIndex === 1) addExtraLegend(metrics_wavelength_colors, ["0.9+", "0.6 - 0.9", "0.3 - 0.6", "0.0  - 0.3"]);
+        if(activeRiverIndex === 2) addExtraLegend(metrics_wavelength_colors, ["20.0+", "17.0 - 20.0", "13.5 - 17.0", "10.0  - 13.5"]);
+        if(activeRiverIndex === 3) addExtraLegend( metrics_wavelength_colors, ["15.0+", "10.0 - 15.0", "0.5 - 10.0", "0.0  - 0.5"]);
 
         // zoomAndPanToRiverCenter();
 
@@ -1186,7 +1186,7 @@ function erosion_submenu_option_clicked() {
 
         fadeInElements(["progress-bar-container"], 350);
         removeElementChildNodesWithClass("extraLegendDIVStyle");
-        addExtraLegend(["#143291", "#B71632", "#64AF62"], ["No change", "Erosion", "Deposition"]);
+        addExtraLegend([noChangeColor_erosionDeposition, erosionColor_erosionDeposition, depositionColor_erosionDeposition], ["No change", "Erosion", "Deposition"]);
 
         // zoomAndPanToRiverCenter();
 

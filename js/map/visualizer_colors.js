@@ -7,21 +7,21 @@
 
 let cita_main_color = "#00BFDF";
 let islands_fill_color = "#69BC89";
-let noChangeColor_erosionDeposition = "#143291";
-let erosionColor_erosionDeposition = "#B71632";
-let depositionColor_erosionDeposition = "#64AF62";
+let noChangeColor_erosionDeposition = "#5469AF";
+let erosionColor_erosionDeposition = "#CA5569";
+let depositionColor_erosionDeposition = "#8EC48C";
 let dunes_section_border_color = "#252323";
 let dunes_sections_color = "#7F95D1";
 let dunes_lines_color = "#252323";
 let bedload_sections_color = "#99FFFF";
-let migration_green = "#1E961E";
-let migration_yellow = "#ECEC0E";
-let migration_orange = "#FE960F";
-let migration_red = "#D7191C";
-let migration_older_year = "#DA3659";
-let migration_recent_year = "#000000";
-let migration_channel_change = "#7849F1";
-let migration_cut_off = "#3D86E4";
+let migration_green = "#6FBC6F";
+let migration_yellow = "#F4F47B";
+let migration_orange = "#FEC57C";
+let migration_red = "#E98183";
+let migration_older_year = "#E05A77";
+let migration_recent_year = "#454545";
+let migration_channel_change = "#9C7AF4";
+let migration_cut_off = "#71A7EB";
 let drone_animation_color = "#FF0000";
 let panel_header_title_color = "#212529";
 let menu_option_text_color = "#7A838B";
@@ -29,26 +29,26 @@ let submenu_option_text_color = "#686777";
 let second_level_submenu_option_text_color = "#4B5358";
 let metrics_width_colors = [
 
-    "#d7191c",
-    "#fe960f",
-    "#ecec0e",
-    "#1e961e"
+    "#E98183",
+    "#FEC57C",
+    "#F4F47B",
+    "#6FBC6F"
 
 ];
 let metrics_sinuosity_colors = [
 
-    "#d7191c",
-    "#fe960f",
-    "#ecec0e",
-    "#1e961e"
+    "#E98183",
+    "#FEC57C",
+    "#F4F47B",
+    "#6FBC6F"
 
 ];
 let metrics_wavelength_colors = [
 
-    "#d7191c",
-    "#fe960f",
-    "#ecec0e",
-    "#1e961e"
+    "#E98183",
+    "#FEC57C",
+    "#F4F47B",
+    "#6FBC6F"
 
 ];
 
@@ -59,6 +59,130 @@ let amazonasRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3
 let huallagaRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3daff", fillOpacity: 1.0, weight: 2};
 let marañonRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3daff", fillOpacity: 1.0, weight: 2};
 let ucayaliRiverOutlineStyle = {color: "#b3daff", opacity: 1.0, fillColor: "#b3daff", fillOpacity: 1.0, weight: 2};
+
+function averageWidthPolygonStyle(featureValue){
+
+    return {
+        'color': menu_option_text_color,
+        'opacity': 1.0,
+        'fillColor': colorMapWidth(featureValue),
+        'fillOpacity': 1.0,
+        'weight': 2.0
+    }
+
+}
+
+
+function sinuosityPolygonStyle(featureValue){
+
+    return {
+        'color': '#000000',
+        'opacity': 1.0,
+        'fillColor': colorMapSinuosity(featureValue),
+        'fillOpacity': 1.0,
+        'weight': 2.0
+    }
+
+}
+
+function arcwavelengthPolygonStyle(featureValue){
+
+    return {
+        'color': '#000000',
+        'opacity': 1.0,
+        'fillColor': colorMapWavelength(featureValue),
+        'fillOpacity': 1.0,
+        'weight': 2.0
+    }
+
+}
+
+let islandsPolygonStyle = {
+    'color': '#000000',
+    'opacity': 1.0,
+    'fillColor': islands_fill_color,
+    'fillOpacity': 1.0,
+    'weight': 0.0
+};
+
+function migrationLineStyle(featureValue){
+
+    return {
+        'color': colorMapMigration(featureValue),
+        'opacity': 1.0,
+        'weight': 3.0
+    }
+
+}
+
+let migrationCenterlineOlder = {
+    'color': migration_older_year,
+    'opacity': 1.0,
+    'weight': 3.0
+};
+
+let migrationCenterlineRecent = {
+    'color': migration_recent_year,
+    'opacity': 1.0,
+    'weight': 3.0
+};
+
+let migrationChangeChannelStyle = {
+    'color': migration_channel_change,
+    'opacity': 1.0,
+    'weight': 3.0
+};
+
+let migrationCutOffStyle = {
+    'color': migration_cut_off,
+    'opacity': 1.0,
+    'weight': 3.0
+};
+
+let dunesSectionsStyle = {
+    'color': dunes_section_border_color,
+    'opacity': 1.0,
+    'fillColor': dunes_sections_color,
+    'fillOpacity': 0.9,
+    'weight': 3.0
+};
+
+let dunesLinesStyle = {
+    'color': dunes_lines_color,
+    'strokeOpacity': 1.0,
+    'strokeWeight': 2.0
+};
+
+let bedloadSectionsStyle = {
+    'color': '#000000',
+    'opacity': 0.8,
+    'fillColor': bedload_sections_color,
+    'fillOpacity': 0.9,
+    'weight': 1.0
+};
+
+function confinementPolygonStyle(featureValue) {
+
+    return {
+        'color': '#000000',
+        'opacity': 1.0,
+        'fillColor': colorMapConfinement(featureValue),
+        'fillOpacity': 1.0,
+        'weight': 2.0
+    }
+}
+
+let disabledRiversPolygonStyle = {
+    'color': '#8C8C8C',
+    'opacity': 1.0,
+    'fillColor': '#d9d9d9',
+    'fillOpacity': 1.0,
+    'weight': 2.0
+};
+
+
+
+
 
 //Background Data colors
 

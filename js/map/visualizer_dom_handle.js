@@ -432,7 +432,7 @@ function addMigrationYearProgressBar8(){
     var progressBarTemplate = document.getElementsByTagName("template")[20];
     var progressBarTemplateContent = document.importNode(progressBarTemplate.content,true);
     document.getElementById("progress-bar-container").appendChild(progressBarTemplateContent);
-    document.getElementById("play-pause-year-button").addEventListener("click", playYearSlider8);
+    // document.getElementById("play-pause-year-button").addEventListener("click", playYearSlider8);
     setYearContainersListener8();
 
 }
@@ -448,7 +448,7 @@ function setYearContainersListener8(){
 
             showLoader();
 
-            document.getElementById("play-pause-year-button").src = "img/side-bar-icon/play_icon.png";
+            // document.getElementById("play-pause-year-button").src = "img/side-bar-icon/play_icon.png";
             clearInterval(id);
             isYearPlaying = false;
 
@@ -456,7 +456,7 @@ function setYearContainersListener8(){
 
                 if(yearContainer.id === "year-label-1"){
 
-                    document.getElementById("myBar").style.width = "12.5%";
+                    if(document.getElementById("myBar")) document.getElementById("myBar").style.width = "12.5%";
                     width = 12;
 
                     if(data_submenu_options[1].options[0].submenu_option_enabled_state){
@@ -497,7 +497,7 @@ function setYearContainersListener8(){
 
                 }else if(yearContainer.id === "year-label-2"){
 
-                    document.getElementById("myBar").style.width = "25%";
+                    if(document.getElementById("myBar")) document.getElementById("myBar").style.width = "25%";
                     width = 25;
 
                     if(data_submenu_options[1].options[0].submenu_option_enabled_state){
@@ -538,7 +538,7 @@ function setYearContainersListener8(){
 
                 }else if(yearContainer.id === "year-label-3"){
 
-                    document.getElementById("myBar").style.width = "37.5%";
+                    if(document.getElementById("myBar")) document.getElementById("myBar").style.width = "37.5%";
                     width = 38;
 
                     if(data_submenu_options[1].options[0].submenu_option_enabled_state){
@@ -579,8 +579,7 @@ function setYearContainersListener8(){
 
                 }else if(yearContainer.id === "year-label-4"){
 
-                    console.log("6");
-                    document.getElementById("myBar").style.width = "50%";
+                    if(document.getElementById("myBar")) document.getElementById("myBar").style.width = "50%";
                     width = 50;
 
                     if(data_submenu_options[1].options[0].submenu_option_enabled_state){
@@ -621,7 +620,7 @@ function setYearContainersListener8(){
 
                 }else if(yearContainer.id === "year-label-5"){
 
-                    document.getElementById("myBar").style.width = "62.5%";
+                    if(document.getElementById("myBar")) document.getElementById("myBar").style.width = "62.5%";
                     width = 63;
 
                     if(data_submenu_options[1].options[0].submenu_option_enabled_state){
@@ -662,7 +661,7 @@ function setYearContainersListener8(){
 
                 }else if(yearContainer.id === "year-label-6"){
 
-                    document.getElementById("myBar").style.width = "75%";
+                    if(document.getElementById("myBar")) document.getElementById("myBar").style.width = "75%";
                     width = 75;
 
                     if(data_submenu_options[1].options[0].submenu_option_enabled_state){
@@ -703,7 +702,7 @@ function setYearContainersListener8(){
 
                 }else if(yearContainer.id === "year-label-7"){
 
-                    document.getElementById("myBar").style.width = "87.5%";
+                    if(document.getElementById("myBar")) document.getElementById("myBar").style.width = "87.5%";
                     width = 88;
 
                     if(data_submenu_options[1].options[0].submenu_option_enabled_state){
@@ -744,7 +743,7 @@ function setYearContainersListener8(){
 
                 }else if(yearContainer.id === "year-label-8"){
 
-                    document.getElementById("myBar").style.width = "100%";
+                    if(document.getElementById("myBar")) document.getElementById("myBar").style.width = "100%";
                     width = 100;
 
                     if(data_submenu_options[1].options[0].submenu_option_enabled_state){

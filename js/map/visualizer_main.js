@@ -135,7 +135,6 @@ $(document).ready(function () {
     hideElements(["map-bottom-left-container"]);
     hideElements(["general-loader-container"]);
 
-
     // map = L.map('mapid', {zoomControl: false, maxBounds: L.latLngBounds(L.latLng(0.037389, -82.290353), L.latLng(-18.313536, -66.780152)), maxBoundsViscosity: 1.0}).setView([-9.466665, -75.549894], 6);
     map = L.map('mapid', {zoomControl: false}).setView([-9.466665, -75.549894], 6);
 
@@ -162,8 +161,22 @@ $(document).ready(function () {
             "river_sinuosity_layer": [amazonas_sinuosity_data_layer_1987, amazonas_sinuosity_data_layer_1993, amazonas_sinuosity_data_layer_1999, amazonas_sinuosity_data_layer_2005, amazonas_sinuosity_data_layer_2011, amazonas_sinuosity_data_layer_2017],
             "river_wavelength_layer": [amazonas_wavelength_data_layer_1987, amazonas_wavelength_data_layer_1993, amazonas_wavelength_data_layer_1999, amazonas_wavelength_data_layer_2005, amazonas_wavelength_data_layer_2011, amazonas_wavelength_data_layer_2017],
             "river_islands_layer": [amazonas_islands_data_layer_1987, amazonas_islands_data_layer_1993, amazonas_islands_data_layer_1999, amazonas_islands_data_layer_2005, amazonas_islands_data_layer_2011, amazonas_islands_data_layer_2017],
-            "river_path": ["data/rivers/Amazon/amazon1987.json", "data/rivers/Amazon/amazon1993.json", "data/rivers/Amazon/amazon1999.json", "data/rivers/Amazon/amazon2005.json", "data/rivers/Amazon/amazon2011.json", "data/rivers/Amazon/amazon2017.json"],
-            "river_island_path": ["data/rivers_islands/Amazonas/awislas_amaz_1987.geojson", "data/rivers_islands/Amazonas/awislas_amaz_1993.geojson", "data/rivers_islands/Amazonas/awislas_amaz_1999.geojson", "data/rivers_islands/Amazonas/awislas_amaz_2005.geojson", "data/rivers_islands/Amazonas/awislas_amaz_2011.geojson", "data/rivers_islands/Amazonas/awislas_amaz_2017.geojson"]
+            "river_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Amazon/amazon1987.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Amazon/amazon1993.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Amazon/amazon1999.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Amazon/amazon2005.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Amazon/amazon2011.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Amazon/amazon2017.json"
+            ],
+            "river_island_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Amazon/islands_1987.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Amazon/islands_1993.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Amazon/islands_1999.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Amazon/islands_2005.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Amazon/islands_2011.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Amazon/islands_2017.geojson"
+            ]
         },
         {
             "river": "Huallaga",
@@ -171,7 +184,16 @@ $(document).ready(function () {
             "river_sinuosity_layer": [huallaga_sinuosity_data_layer_1989, huallaga_sinuosity_data_layer_1993, huallaga_sinuosity_data_layer_1997, huallaga_sinuosity_data_layer_2001, huallaga_sinuosity_data_layer_2005, huallaga_sinuosity_data_layer_2009, huallaga_sinuosity_data_layer_2013, huallaga_sinuosity_data_layer_2017],
             "river_wavelength_layer": [huallaga_wavelength_data_layer_1989, huallaga_wavelength_data_layer_1993, huallaga_wavelength_data_layer_1997, huallaga_wavelength_data_layer_2001, huallaga_wavelength_data_layer_2005, huallaga_wavelength_data_layer_2009, huallaga_wavelength_data_layer_2013, huallaga_wavelength_data_layer_2017],
             "river_islands_layer": [huallaga_islands_data_layer_1987, huallaga_islands_data_layer_1993, huallaga_islands_data_layer_1999, huallaga_islands_data_layer_2005, huallaga_islands_data_layer_2011, huallaga_islands_data_layer_2017],
-            "river_path": ["data/rivers/Huallaga/huallaga1989.json", "data/rivers/Huallaga/huallaga1993.json", "data/rivers/Huallaga/huallaga1997.json", "data/rivers/Huallaga/huallaga2001.json", "data/rivers/Huallaga/huallaga2005.json", "data/rivers/Huallaga/huallaga2009.json", "data/rivers/Huallaga/huallaga2013.json", "data/rivers/Huallaga/huallaga2017.json"],
+            "river_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Huallaga/huallaga1989.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Huallaga/huallaga1993.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Huallaga/huallaga1997.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Huallaga/huallaga2001.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Huallaga/huallaga2005.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Huallaga/huallaga2009.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Huallaga/huallaga2013.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Huallaga/huallaga2017.json"
+            ],
             "river_island_path": []
         },
         {
@@ -180,8 +202,22 @@ $(document).ready(function () {
             "river_sinuosity_layer": [marañon_sinuosity_data_layer_1987, marañon_sinuosity_data_layer_1993, marañon_sinuosity_data_layer_1999, marañon_sinuosity_data_layer_2005, marañon_sinuosity_data_layer_2011, marañon_sinuosity_data_layer_2017],
             "river_wavelength_layer": [marañon_wavelength_data_layer_1987, marañon_wavelength_data_layer_1993, marañon_wavelength_data_layer_1999, marañon_wavelength_data_layer_2005, marañon_wavelength_data_layer_2011, marañon_wavelength_data_layer_2017],
             "river_islands_layer": [marañon_islands_data_layer_1987, marañon_islands_data_layer_1993, marañon_islands_data_layer_1999, marañon_islands_data_layer_2005, marañon_islands_data_layer_2011, marañon_islands_data_layer_2017],
-            "river_path": ["data/rivers/Marañon/maranon1987.json", "data/rivers/Marañon/maranon1993.json", "data/rivers/Marañon/maranon1999.json", "data/rivers/Marañon/maranon2005.json", "data/rivers/Marañon/maranon2011.json", "data/rivers/Marañon/maranon2017.json"],
-            "river_island_path": ["data/rivers_islands/Marañon/awislas_mara_1987.geojson", "data/rivers_islands/Marañon/awislas_mara_1993.geojson", "data/rivers_islands/Marañon/awislas_mara_1999.geojson", "data/rivers_islands/Marañon/awislas_mara_2005.geojson", "data/rivers_islands/Marañon/awislas_mara_2011.geojson", "data/rivers_islands/Marañon/awislas_mara_2017.geojson"]
+            "river_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Mara%C3%B1on/maranon1987.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Mara%C3%B1on/maranon1993.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Mara%C3%B1on/maranon1999.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Mara%C3%B1on/maranon2005.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Mara%C3%B1on/maranon2011.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Mara%C3%B1on/maranon2017.json"
+            ],
+            "river_island_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Mara%C3%B1on/islands_1987.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Mara%C3%B1on/islands_1993.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Mara%C3%B1on/islands_1999.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Mara%C3%B1on/islands_2005.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Mara%C3%B1on/islands_2011.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_islands/Mara%C3%B1on/islands_2017.geojson"
+            ]
         },
         {
             "river": "Ucayali",
@@ -189,7 +225,16 @@ $(document).ready(function () {
             "river_sinuosity_layer": [ucayali_sinuosity_data_layer_1989, ucayali_sinuosity_data_layer_1993, ucayali_sinuosity_data_layer_1997, ucayali_sinuosity_data_layer_2001, ucayali_sinuosity_data_layer_2005, ucayali_sinuosity_data_layer_2009, ucayali_sinuosity_data_layer_2013, ucayali_sinuosity_data_layer_2017],
             "river_wavelength_layer": [ucayali_wavelength_data_layer_1989, ucayali_wavelength_data_layer_1993, ucayali_wavelength_data_layer_1997, ucayali_wavelength_data_layer_2001, ucayali_wavelength_data_layer_2005, ucayali_wavelength_data_layer_2009, ucayali_wavelength_data_layer_2013, ucayali_wavelength_data_layer_2017],
             "river_islands_layer": [ucayali_islands_data_layer_1987, ucayali_islands_data_layer_1993, ucayali_islands_data_layer_1999, ucayali_islands_data_layer_2005, ucayali_islands_data_layer_2011, ucayali_islands_data_layer_2017],
-            "river_path": ["data/rivers/Ucayali/ucayali1989.json", "data/rivers/Ucayali/ucayali1993.json", "data/rivers/Ucayali/ucayali1997.json", "data/rivers/Ucayali/ucayali2001.json", "data/rivers/Ucayali/ucayali2005.json", "data/rivers/Ucayali/ucayali2009.json", "data/rivers/Ucayali/ucayali2013.json", "data/rivers/Ucayali/ucayali2017.json"],
+            "river_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Ucayali/ucayali1989.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Ucayali/ucayali1993.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Ucayali/ucayali1997.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Ucayali/ucayali2001.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Ucayali/ucayali2005.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Ucayali/ucayali2009.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Ucayali/ucayali2013.json",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_morphometrics/Ucayali/ucayali2017.json"
+            ],
             "river_island_path": []
 
         }
@@ -240,9 +285,27 @@ $(document).ready(function () {
             "river_data_NC_layer": [amazonas_erosion_deposition_NC_data_layer_1993, amazonas_erosion_deposition_NC_data_layer_1999, amazonas_erosion_deposition_NC_data_layer_2005, amazonas_erosion_deposition_NC_data_layer_2011, amazonas_erosion_deposition_NC_data_layer_2017],
             "river_data_E_layer": [amazonas_erosion_deposition_E_data_layer_1993, amazonas_erosion_deposition_E_data_layer_1999, amazonas_erosion_deposition_E_data_layer_2005, amazonas_erosion_deposition_E_data_layer_2011, amazonas_erosion_deposition_E_data_layer_2017],
             "river_data_D_layer": [amazonas_erosion_deposition_D_data_layer_1993, amazonas_erosion_deposition_D_data_layer_1999, amazonas_erosion_deposition_D_data_layer_2005, amazonas_erosion_deposition_D_data_layer_2011, amazonas_erosion_deposition_D_data_layer_2017],
-            "no_change_JSON_path": ["data/rivers/Amazon/Erosion-deposition/1993/noch_amazonas1993.geojson", "data/rivers/Amazon/Erosion-deposition/1999/noch_amazonas1999.geojson", "data/rivers/Amazon/Erosion-deposition/2005/noch_amazonas2005.geojson", "data/rivers/Amazon/Erosion-deposition/2011/noch_amazonas2011.geojson", "data/rivers/Amazon/Erosion-deposition/2017/noch_amazonas2017.geojson"],
-            "erosion_JSON_path": ["data/rivers/Amazon/Erosion-deposition/1993/ero_amazonas1993.geojson", "data/rivers/Amazon/Erosion-deposition/1999/ero_amazonas1999.geojson", "data/rivers/Amazon/Erosion-deposition/2005/ero_amazonas2005.geojson", "data/rivers/Amazon/Erosion-deposition/2011/ero_amazonas2011.geojson", "data/rivers/Amazon/Erosion-deposition/2017/ero_amazonas2017.geojson"],
-            "deposition_JSON_path": ["data/rivers/Amazon/Erosion-deposition/1993/depo_amazonas1993.geojson", "data/rivers/Amazon/Erosion-deposition/1999/depo_amazonas1999.geojson", "data/rivers/Amazon/Erosion-deposition/2005/depo_amazonas2005.geojson", "data/rivers/Amazon/Erosion-deposition/2011/depo_amazonas2011.geojson", "data/rivers/Amazon/Erosion-deposition/2017/depo_amazonas2017.geojson"],
+            "no_change_JSON_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/1993/no_change.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/1999/no_change.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2005/no_change.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2011/no_change.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2017/no_change.geojson"
+            ],
+            "erosion_JSON_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/1993/erosion.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/1999/erosion.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2005/erosion.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2011/erosion.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2017/erosion.geojson"
+            ],
+            "deposition_JSON_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/1993/deposition.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/1999/deposition.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2005/deposition.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2011/deposition.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Amazonas/2017/deposition.geojson"
+            ],
 
         },
         {
@@ -257,9 +320,27 @@ $(document).ready(function () {
             "river_data_NC_layer": [marañon_erosion_deposition_NC_data_layer_1993, marañon_erosion_deposition_NC_data_layer_1999, marañon_erosion_deposition_NC_data_layer_2005, marañon_erosion_deposition_NC_data_layer_2011, marañon_erosion_deposition_NC_data_layer_2017],
             "river_data_E_layer": [marañon_erosion_deposition_E_data_layer_1993, marañon_erosion_deposition_E_data_layer_1999, marañon_erosion_deposition_E_data_layer_2005, marañon_erosion_deposition_E_data_layer_2011, marañon_erosion_deposition_E_data_layer_2017],
             "river_data_D_layer": [marañon_erosion_deposition_D_data_layer_1993, marañon_erosion_deposition_D_data_layer_1999, marañon_erosion_deposition_D_data_layer_2005, marañon_erosion_deposition_D_data_layer_2011, marañon_erosion_deposition_D_data_layer_2017],
-            "no_change_JSON_path": ["data/rivers/Marañon/Erosion-deposition/1993/noch_marañon1993.geojson", "data/rivers/Marañon/Erosion-deposition/1999/noch_marañon1999.geojson", "data/rivers/Marañon/Erosion-deposition/2005/noch_marañon2005.geojson", "data/rivers/Marañon/Erosion-deposition/2011/noch_marañon2011.geojson", "data/rivers/Marañon/Erosion-deposition/2017/noch_marañon2017.geojson"],
-            "erosion_JSON_path": ["data/rivers/Marañon/Erosion-deposition/1993/ero_marañon1993.geojson", "data/rivers/Marañon/Erosion-deposition/1999/ero_marañon1999.geojson", "data/rivers/Marañon/Erosion-deposition/2005/ero_marañon2005.geojson", "data/rivers/Marañon/Erosion-deposition/2011/ero_marañon2011.geojson", "data/rivers/Marañon/Erosion-deposition/2017/ero_marañon2017.geojson"],
-            "deposition_JSON_path": ["data/rivers/Marañon/Erosion-deposition/1993/depo_marañon1993.geojson", "data/rivers/Marañon/Erosion-deposition/1999/depo_marañon1999.geojson", "data/rivers/Marañon/Erosion-deposition/2005/depo_marañon2005.geojson", "data/rivers/Marañon/Erosion-deposition/2011/depo_marañon2011.geojson", "data/rivers/Marañon/Erosion-deposition/2017/depo_marañon2017.geojson"],
+            "no_change_JSON_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/1993/no_change.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/1999/no_change.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2005/no_change.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2011/no_change.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2017/no_change.geojson",
+            ],
+            "erosion_JSON_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/1993/erosion.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/1999/erosion.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2005/erosion.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2011/erosion.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2017/erosion.geojson"
+            ],
+            "deposition_JSON_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/1993/deposition.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/1999/deposition.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2005/deposition.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2011/deposition.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_erosion_deposition/Mara%C3%B1on/2017/deposition.geojson"
+            ],
 
         },
         {
@@ -312,9 +393,15 @@ $(document).ready(function () {
         {
             "river": "Huallaga",
             "campaign_1_layers": [huallaga_dunes_campaign_1_sections_layer, huallaga_dunes_campaign_1_lines_layer],
-            "campaign_1_layers_path": ["data/UHG-dunes/Huallaga/Campaign_1/sections.geojson", "data/UHG-dunes/Huallaga/Campaign_1/lines.geojson"],
+            "campaign_1_layers_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_dunes/Huallaga/Campaign_1/sections.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_dunes/Huallaga/Campaign_1/lines.geojson"
+            ],
             "campaign_2_layers": [huallaga_dunes_campaign_2_sections_layer, huallaga_dunes_campaign_1_lines_layer],
-            "campaign_2_layers_path": ["data/UHG-dunes/Huallaga/Campaign_2/sections.geojson", "data/UHG-dunes/Huallaga/Campaign_1/lines.geojson"],
+            "campaign_2_layers_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_dunes/Huallaga/Campaign_2/sections.geojson",
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_dunes/Huallaga/Campaign_1/lines.geojson"
+            ],
             "campaign_3_layers": [],
             "campaign_3_layers_path": []
         },
@@ -323,16 +410,22 @@ $(document).ready(function () {
             "campaign_1_layers": [],
             "campaign_1_layers_path": [],
             "campaign_2_layers": [marañon_dunes_campaign_2_sections_layer],
-            "campaign_2_layers_path": ["data/UHG-dunes/Marañon/Campaign_2/sections.geojson"],
+            "campaign_2_layers_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_dunes/Mara%C3%B1on/Campaign_2/sections.geojson"
+            ],
             "campaign_3_layers": [marañon_dunes_campaign_3_sections_layer],
-            "campaign_3_layers_path": ["data/UHG-dunes/Marañon/Campaign_3/sections.geojson"]
+            "campaign_3_layers_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_dunes/Mara%C3%B1on/Campaign_3/sections.geojson"
+            ]
         },
         {
             "river": "Ucayali",
             "campaign_1_layers": [],
             "campaign_1_layers_path": [],
             "campaign_2_layers": [ucayali_dunes_campaign_2_sections_layer],
-            "campaign_2_layers_path": ["data/UHG-dunes/Ucayali/Campaign_2/sections.geojson"],
+            "campaign_2_layers_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_dunes/Ucayali/Campaign_2/sections.geojson"
+            ],
             "campaign_3_layers": [],
             "campaign_3_layers_path": []
         }
@@ -353,7 +446,9 @@ $(document).ready(function () {
         {
             "river": "Huallaga",
             "campaign_1_layers": [huallaga_bedload_campaign_1_sections_layer],
-            "campaign_1_layers_path": ["data/UHG-bedload/Huallaga/Campaign_1/sections.geojson"],
+            "campaign_1_layers_path": [
+                "https://citavisualizador.s3-us-west-1.amazonaws.com/json/Project+Data/River_bedload/Huallaga/Campaign_1/sections.geojson"
+            ],
             "campaign_2_layers": [],
             "campaign_2_layers_path": [],
             "campaign_3_layers": [],

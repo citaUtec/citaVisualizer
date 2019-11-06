@@ -359,8 +359,8 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 20vw;
-    top: 73.75vh;
+    right: 14vw;
+    bottom: 0.75vh;
     height: 25vh;
     width: 12.5vw;
     z-index: 1000001;
@@ -373,13 +373,20 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 7.5vw;
-    top: 73.75vh;
+    right: 3vw;
+    bottom: 0.75vh;
     height: 25vh;
     width: 12.5vw;
     z-index: 1000001;
     visibility: hidden;
 }
+
+.legend-header-title{
+    color: var(--side-bar-background-color);
+    align-self: center;
+    margin: 0;
+}
+
 #background-legend-container{
     background-color: transparent;
     display: flex;
@@ -397,7 +404,7 @@
 /*</editor-fold>*/
 /*<editor-fold desc="OPTIONS CONTAINER">*/
 #legend-content{
-    background-color: #4a4a4a;
+    background-color: var(--side-bar-background-color);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -405,7 +412,7 @@
     height: 80%;
 }
 #extra-legend-content{
-    background-color: #4a4a4a;
+    background-color: var(--side-bar-background-color);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -642,7 +649,7 @@
 
 .year-label-container-active{
     width: 15%;
-    background-color: #4a4a4a;
+    background-color: var(--side-bar-background-color);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -651,7 +658,7 @@
 
 .year-label-container-active-hover{
     width: 16%;
-    background-color: #4a4a4a;
+    background-color: var(--side-bar-background-color);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -681,6 +688,7 @@
     margin: 0;
     font-size: 1vw;
     align-self: center;
+    color: var(--side-bar-background-color);
 }
 
 .year-label-active{
@@ -700,7 +708,7 @@
 }
 
 #play-pause-year-button{
-    background-color: #4a4a4a;
+    background-color: var(--side-bar-background-color);
     width: 3.5em;
     border-radius: 50%;
     height: 50%;
@@ -726,7 +734,7 @@
 }
 #myBar{
     width:12.5%;
-    background-color: #4a4a4a !important;
+    background-color: var(--side-bar-background-color) !important;
     padding: 0.125em 0 0.125em 0;
 }
 .progress-bar-buttons-container{
