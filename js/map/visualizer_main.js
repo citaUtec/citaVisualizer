@@ -136,7 +136,25 @@ $(document).ready(function () {
     hideElements(["general-loader-container"]);
 
     // map = L.map('mapid', {zoomControl: false, maxBounds: L.latLngBounds(L.latLng(0.037389, -82.290353), L.latLng(-18.313536, -66.780152)), maxBoundsViscosity: 1.0}).setView([-9.466665, -75.549894], 6);
-    map = L.map('mapid', {zoomControl: false}).setView([-9.466665, -75.549894], 6);
+
+    let bounds = L.latLngBounds(L.latLng(0.037389, -82.290353), L.latLng(-18.313536, -66.780152));
+
+    // map = L.map('mapid', {
+    //
+    //     zoomControl: false,
+    //
+    //
+    // }).setView([-9.466665, -75.549894], 6);
+
+    map = L.map('mapid', {
+        center: bounds.getCenter(),
+        zoom: 6,
+        minZoom: demMinZoom,
+        maxZoom: demMaxZoom,
+        zoomControl: false,
+        maxBounds: bounds,
+        maxBoundsViscosity: 1.0,
+    });
 
     L.control.zoom({position:'bottomright'}).addTo(map);
 

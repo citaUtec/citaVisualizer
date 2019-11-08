@@ -1186,8 +1186,8 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Extractive",
                     "submenu_option_title_id": "extractive_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/dunes_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/dunes_enabled_icon.png",
+                    "submenu_option_image_ref": "img/side-bar-icon/extractive_icon.png",
+                    "submenu_option_image_enabled_ref": "img/side-bar-icon/extractive_enabled_icon.png",
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/dunes_blocked_icon.png",
                     "submenu_option_image_id": "extractive_submenu_image_id",
                     "submenu_option_id": "extractive_submenu_option_id",
@@ -1532,6 +1532,9 @@ var background_data_menu_options = background_data_dancing_rivers["data_menu_opt
 var background_data_submenu_options = background_data_dancing_rivers["data_submenu_options"];
 var dem_layer_status = false;
 var dem_enabled = false;
+var demTileLayer;
+let demMinZoom = 5;
+let demMaxZoom = 12;
 
 //Background Data Geopolitic
 
@@ -2213,44 +2216,22 @@ function communitiesOptionClicked() {
 function demMenuOptionClicked() {
 
     if(dem_enabled){
-        map.overlayMapTypes.removeAt(0);
+        demTileLayer.remove();
         hideElements(["background-legend-container"]);
-        document.getElementById("dem_geography_submenu_image_id").src = "img/side-bar-icon/elevation_icon.png";
+        document.getElementById("dem_geography_submenu_image_id").src = "img/side-bar-icon/dem_icon.png";
         document.getElementById("dem_geography_submenu_option_title_id").style.color = "#FFFFFF";
     }else{
-        document.getElementById("dem_geography_submenu_image_id").src = "img/side-bar-icon/elevation_enabled_icon.png";
+        document.getElementById("dem_geography_submenu_image_id").src = "img/side-bar-icon/dem_enabled_icon.png";
         document.getElementById("dem_geography_submenu_option_title_id").style.color = "#00BFDF";
-        // removeElementChildNodesWithClass("legendDIVStyle");
-        // removeElementChildNodesWithClass("extraLegendDIVStyle");
         removeElementChildNodesWithClass("backgroundLegendDIVStyle");
-        // addMorphometricsLegend(["#050505", "#424242", "#808080", "#bdbdbd", "#fafafa"], ["6246 m.a.s.l", "2928 m.a.s.l", "478 m.a.s.l", "183 m.a.s.l", "0 m.a.s.l"]);
-        // addExtraLegend(["#050505", "#424242", "#808080", "#bdbdbd", "#fafafa"], ["6246 m.a.s.l", "2928 m.a.s.l", "478 m.a.s.l", "183 m.a.s.l", "0 m.a.s.l"]);
-        addBackgroundDataLegend(["#050505", "#424242", "#808080", "#bdbdbd", "#fafafa"], ["6246 m.a.s.l", "2928 m.a.s.l", "478 m.a.s.l", "183 m.a.s.l", "0 m.a.s.l"]);
+        addBackgroundDataLegend(hydrographyDEMColors, ["6246 m.a.s.l", "2928 m.a.s.l", "478 m.a.s.l", "183 m.a.s.l", "0 m.a.s.l"]);
 
-        var mapBounds = new google.maps.LatLngBounds(new google.maps.LatLng(-18.358391, -81.298417), new google.maps.LatLng(0.007659, -68.673950));
-        var mapMinZoom = 0;
-        var mapMaxZoom = 12;
-        dem_overlay_map = new google.maps.ImageMapType({
-            getTileUrl: function(coord, zoom) {
-                var proj = map.getProjection();
-                var z2 = Math.pow(2, zoom);
-                var tileXSize = 256 / z2;
-                var tileYSize = 256 / z2;
-                var tileBounds = new google.maps.LatLngBounds(
-                    proj.fromPointToLatLng(new google.maps.Point(coord.x * tileXSize, (coord.y + 1) * tileYSize)),
-                    proj.fromPointToLatLng(new google.maps.Point((coord.x + 1) * tileXSize, coord.y * tileYSize))
-                );
-                var x = coord.x >= 0 ? coord.x : z2 + coord.x;
-                var y = coord.y;
-                if (mapBounds.intersects(tileBounds) && (mapMinZoom <= zoom) && (zoom <= mapMaxZoom))
-                    return "img/DEM/" + zoom + "/" + x + "/" + y + ".png";
-            },
-            tileSize: new google.maps.Size(256, 256),
-            isPng: true,
-            opacity: 1.0
-        });
-
-        map.overlayMapTypes.insertAt(0, dem_overlay_map);
+        demTileLayer = L.tileLayer('{z}/{x}/{y}.png', {
+            minZoom: demMinZoom,
+            maxZoom: demMaxZoom,
+            opacity: 1.0,
+            tms: false
+        }).addTo(map);
 
     }
 

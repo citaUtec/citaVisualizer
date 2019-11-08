@@ -52,6 +52,18 @@ let metrics_wavelength_colors = [
 
 ];
 
+//DEM
+
+let hydrographyDEMColors = [
+
+    "#494949",
+    "#757575",
+    "#A2A2A2",
+    "#CFCFCF",
+    "#FBFBFB"
+
+];
+
 
 //River Outline Styles
 
@@ -317,6 +329,8 @@ let hydrographyGlaciersStyle = {
     strokeOpacity: 1.0,
     weight: 1.0
 };
+
+
 
 //INFRASTRUCTURE
 

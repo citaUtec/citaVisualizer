@@ -394,8 +394,8 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 7.5vw;
-    top: 50vh;
+    right: 3vw;
+    bottom: 22.5vh;
     height: 25vh;
     width: 12.5vw;
     z-index: 1000001;
@@ -420,7 +420,7 @@
     height: 80%;
 }
 #background-legend-content{
-    background-color: #4a4a4a;
+    background-color: var(--side-bar-background-color);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -457,7 +457,7 @@
     left: 30vw;
     top: 90vh;
     height: auto;
-    width: auto;
+    width: 50vw;
     z-index: 1000001;
 }
 /*</editor-fold>*/
@@ -639,7 +639,7 @@
     width: 15%;
     margin-right: 2%;
     background-color: rgba(255,255,255,0.75);
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -650,16 +650,16 @@
 .year-label-container-active{
     width: 15%;
     background-color: var(--side-bar-background-color);
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
 .year-label-container-active-hover{
-    width: 16%;
+    width: 15%;
     background-color: var(--side-bar-background-color);
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -668,7 +668,7 @@
 .year-label-container-first{
     width: 15%;
     margin-left: 2%;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -677,7 +677,7 @@
 .year-label-container-last{
     width: 15%;
     margin-right: 2%;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -719,7 +719,7 @@
 }
 
 .progress-bar-container{
-    width: 80%;
+    width: 100%;
     padding: 10px;
     height: 50%;
     display: flex;
