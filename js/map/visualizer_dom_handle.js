@@ -2185,9 +2185,9 @@ function setUHDDropdownsListeners(features) {
 
         UHDHuallagaMarkers.forEach(function (marker) {
 
-            if(UHDHuallagaMarkers.indexOf(marker) !== UHDMarkerIndexTop && UHDHuallagaMarkers.indexOf(marker) !== UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: 'img/marker-icons/blanco.png'}));
-            if(UHDHuallagaMarkers.indexOf(marker) === UHDMarkerIndexTop) marker.setIcon(L.icon({iconUrl: 'img/marker-icons/rojo.png'}));
-            if(UHDHuallagaMarkers.indexOf(marker) === UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: 'img/marker-icons/azul.png'}));
+            if(UHDHuallagaMarkers.indexOf(marker) !== UHDMarkerIndexTop && UHDHuallagaMarkers.indexOf(marker) !== UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_gray}));
+            if(UHDHuallagaMarkers.indexOf(marker) === UHDMarkerIndexTop) marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_red}));
+            if(UHDHuallagaMarkers.indexOf(marker) === UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_blue}));
 
         });
 
@@ -2210,9 +2210,9 @@ function setUHDDropdownsListeners(features) {
 
         UHDHuallagaMarkers.forEach(function (marker) {
 
-            if(UHDHuallagaMarkers.indexOf(marker) !== UHDMarkerIndexTop && UHDHuallagaMarkers.indexOf(marker) !== UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: 'img/marker-icons/blanco.png'}));
-            if(UHDHuallagaMarkers.indexOf(marker) === UHDMarkerIndexTop) marker.setIcon(L.icon({iconUrl: 'img/marker-icons/rojo.png'}));
-            if(UHDHuallagaMarkers.indexOf(marker) === UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: 'img/marker-icons/azul.png'}));
+            if(UHDHuallagaMarkers.indexOf(marker) !== UHDMarkerIndexTop && UHDHuallagaMarkers.indexOf(marker) !== UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_gray}));
+            if(UHDHuallagaMarkers.indexOf(marker) === UHDMarkerIndexTop) marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_red}));
+            if(UHDHuallagaMarkers.indexOf(marker) === UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_blue}));
 
         });
 
@@ -2336,9 +2336,7 @@ function toggleIconAndTextEnabled(submenuOptionButtonId, menuIndex) {
  */
 function toggleBackgroundIconAndTextEnabled(submenuOptionImageId, submenuOptionTextId, submenuOptionFlag, submenuOptionStringKey) {
 
-    console.log(submenuOptionFlag);
-
-    document.getElementById(submenuOptionImageId).src = "img/side-bar-icon/" + submenuOptionStringKey + (submenuOptionFlag ? "_icon.png" : "_enabled_icon.png");
+    document.getElementById(submenuOptionImageId).src = window[submenuOptionStringKey + (submenuOptionFlag ? "_icon_link" : "_enabled_icon_link")];
     document.getElementById(submenuOptionTextId).style.color = submenuOptionFlag ? "white" : cita_main_color;
 
 }

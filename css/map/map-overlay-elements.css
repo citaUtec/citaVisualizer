@@ -285,9 +285,9 @@
 
 /*<editor-fold desc="ORIGINAL DATA CONTAINER">*/
 #data-original-container {
-    display: none;
+    /*display: none;*/
     background-color: transparent;
-    /*display: flex;*/
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -304,10 +304,10 @@
 
 /*<editor-fold desc="BACKGROUND DATA CONTAINER">*/
 #data-background-container {
-    /*display: none;*/
+    display: none;
     height: 100vh;
     background-color: transparent;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -777,5 +777,9 @@
     height: 50px;
     width: 50px;
     padding: 10px;
+}
+
+.tooltip{
+    background-color: red;
 }
 

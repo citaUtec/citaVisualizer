@@ -14,7 +14,7 @@ let original_data_dancing_rivers = {
         {
             "menu_option_title": "Rivers",
             "menu_option_title_id": "rivers_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/river_icon.png",
+            "menu_option_image_ref": rivers_icon_link,
             "menu_option_id": "rivers_menu_option_id",
             "menu_button_option_id": "rivers_menu_button_option_id",
             "menu_bottom_arrow_button_id": "rivers_menu_bottom_arrow_button_id",
@@ -23,7 +23,7 @@ let original_data_dancing_rivers = {
         {
             "menu_option_title": "Morphometrics",
             "menu_option_title_id": "morphometrics_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/metric_icon.png",
+            "menu_option_image_ref": morphometrics_icon_link,
             "menu_option_id": "metrics_menu_option_id",
             "menu_button_option_id": "metrics_menu_button_option_id",
             "menu_bottom_arrow_button_id": "morphometrics_menu_bottom_arrow_button_id",
@@ -32,7 +32,7 @@ let original_data_dancing_rivers = {
         {
             "menu_option_title": "Field Measurements",
             "menu_option_title_id": "field_measurements_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/measure_icon.png",
+            "menu_option_image_ref": field_measurements_icon_link,
             "menu_option_id": "measurements_menu_option_id",
             "menu_button_option_id": "measurements_menu_button_option_id",
             "menu_bottom_arrow_button_id": "measurements_menu_bottom_arrow_button_id",
@@ -59,7 +59,7 @@ let original_data_dancing_rivers = {
         {
             "menu_option_title": "Drone Flights",
             "menu_option_title_id": "drone_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/drone_icon.png",
+            "menu_option_image_ref": drone_flights_icon_link,
             "menu_option_id": "drone_menu_option_id",
             "menu_button_option_id": "drone_menu_button_option_id",
             "menu_bottom_arrow_button_id": "drone_projects_menu_bottom_arrow_button_id",
@@ -77,8 +77,8 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Amazonas",
                     "submenu_option_title_id": "amazonas_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/A_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+                    "submenu_option_image_ref": rivers_amazon_icon_link,
+                    "submenu_option_image_enabled_ref": rivers_amazon_enabled_icon_link,
                     "submenu_option_image_id": "amazonas_submenu_image_id",
                     "submenu_option_id": "amazonas_submenu_option_id",
                     "submenu_option_button_id": "amazonas_submenu_option_button",
@@ -92,8 +92,8 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Huallaga",
                     "submenu_option_title_id": "huallaga_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/H_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                    "submenu_option_image_ref": rivers_huallaga_icon_link,
+                    "submenu_option_image_enabled_ref": rivers_huallaga_enabled_icon_link,
                     "submenu_option_image_id": "huallaga_submenu_image_id",
                     "submenu_option_id": "huallaga_submenu_option_id",
                     "submenu_option_button_id": "huallaga_submenu_option_button",
@@ -107,8 +107,8 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Marañon",
                     "submenu_option_title_id": "marañon_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/M_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/M_enabled_icon.png",
+                    "submenu_option_image_ref": rivers_marañon_icon_link,
+                    "submenu_option_image_enabled_ref": rivers_marañon_enabled_icon_link,
                     "submenu_option_image_id": "marañon_submenu_image_id",
                     "submenu_option_id": "marañon_submenu_option_id",
                     "submenu_option_button_id": "marañon_submenu_option_button",
@@ -122,8 +122,8 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Ucayali",
                     "submenu_option_title_id": "ucayali_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/U_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/U_enabled_icon.png",
+                    "submenu_option_image_ref": rivers_ucayali_icon_link,
+                    "submenu_option_image_enabled_ref": rivers_ucayali_enabled_icon_link,
                     "submenu_option_image_id": "ucayali_submenu_image_id",
                     "submenu_option_id": "ucayali_submenu_option_id",
                     "submenu_option_button_id": "ucayali_submenu_option_button",
@@ -145,9 +145,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Average Width",
                     "submenu_option_title_id": "width_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/width_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/width_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/width_blocked_icon.png",
+                    "submenu_option_image_ref": morphometrics_average_width_icon_link,
+                    "submenu_option_image_enabled_ref": morphometrics_average_width_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": morphometrics_average_width_blocked_icon_link,
                     "submenu_option_image_id": "width_submenu_image_id",
                     "submenu_option_id": "width_submenu_option_id",
                     "submenu_option_button_id": "width_submenu_option_button",
@@ -162,9 +162,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Sinuosity",
                     "submenu_option_title_id": "sinuosity_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/sinuosity_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/sinuosity_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/sinuosity_blocked_icon.png",
+                    "submenu_option_image_ref": morphometrics_sinuosity_icon_link,
+                    "submenu_option_image_enabled_ref": morphometrics_sinuosity_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": morphometrics_sinuosity_blocked_icon_link,
                     "submenu_option_image_id": "sinuosity_submenu_image_id",
                     "submenu_option_id": "sinuosity_submenu_option_id",
                     "submenu_option_button_id": "sinuosity_submenu_option_button",
@@ -178,9 +178,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Arc Wavelength",
                     "submenu_option_title_id": "arc_wavelength_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/arc_wavelength_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/arc_wavelength_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/arc_wavelength_blocked_icon.png",
+                    "submenu_option_image_ref": morphometrics_arc_wavelength_icon_link,
+                    "submenu_option_image_enabled_ref": morphometrics_arc_wavelength_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": morphometrics_arc_wavelength_blocked_icon_link,
                     "submenu_option_image_id": "arc_wavelength_submenu_image_id",
                     "submenu_option_id": "arc_wavelength_submenu_option_id",
                     "submenu_option_button_id": "arc_wavelength_submenu_option_button",
@@ -194,9 +194,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Migration",
                     "submenu_option_title_id": "migration_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/migration_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/migration_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/migration_blocked_icon.png",
+                    "submenu_option_image_ref": morphometrics_migration_icon_link,
+                    "submenu_option_image_enabled_ref": morphometrics_migration_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": morphometrics_migration_blocked_icon_link,
                     "submenu_option_image_id": "migration_submenu_image_id",
                     "submenu_option_id": "migration_submenu_option_id",
                     "submenu_option_button_id": "migration_submenu_option_button",
@@ -210,9 +210,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Erosion - Deposition",
                     "submenu_option_title_id": "erosion_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/erosion_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/erosion_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/erosion_blocked_icon.png",
+                    "submenu_option_image_ref": morphometrics_erosion_deposition_icon_link,
+                    "submenu_option_image_enabled_ref": morphometrics_erosion_deposition_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": morphometrics_erosion_deposition_blocked_icon_link,
                     "submenu_option_image_id": "erosion_submenu_image_id",
                     "submenu_option_id": "erosion_submenu_option_id",
                     "submenu_option_button_id": "erosion_submenu_option_button",
@@ -226,9 +226,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Islands",
                     "submenu_option_title_id": "islands_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/islands_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/islands_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/islands_blocked_icon.png",
+                    "submenu_option_image_ref": morphometrics_islands_icon_link,
+                    "submenu_option_image_enabled_ref": morphometrics_islands_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": morphometrics_islands_blocked_icon_link,
                     "submenu_option_image_id": "islands_submenu_image_id",
                     "submenu_option_id": "islands_submenu_option_id",
                     "submenu_option_button_id": "islands_submenu_option_button",
@@ -239,22 +239,22 @@ let original_data_dancing_rivers = {
                     "river_availability": [true, false, true, false, false],
                     "data_second_level_submenu_options": []
                 },
-                {
-                    "submenu_option_title": "Confinement",
-                    "submenu_option_title_id": "confinement_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/confinement_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/confinement_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/confinement_blocked_icon.png",
-                    "submenu_option_image_id": "confinement_submenu_image_id",
-                    "submenu_option_id": "confinement_submenu_option_id",
-                    "submenu_option_button_id": "confinement_submenu_option_button",
-                    "submenu_option_button_check_icon_id": "confinement_submenu_option_check",
-                    "submenu_option_button_click_function": confinement_submenu_option_clicked,
-                    "submenu_option_enabled_state": false,
-                    "available": false,
-                    "river_availability": [false, true, true, false, false],
-                    "data_second_level_submenu_options": []
-                }
+                // {
+                //     "submenu_option_title": "Confinement",
+                //     "submenu_option_title_id": "confinement_submenu_option_title_id",
+                //     "submenu_option_image_ref": morphometrics_confinement_icon_link,
+                //     "submenu_option_image_enabled_ref": morphometrics_confinement_enabled_icon_link,
+                //     "submenu_option_image_blocked_ref": morphometrics_confinement_blocked_icon_link,
+                //     "submenu_option_image_id": "confinement_submenu_image_id",
+                //     "submenu_option_id": "confinement_submenu_option_id",
+                //     "submenu_option_button_id": "confinement_submenu_option_button",
+                //     "submenu_option_button_check_icon_id": "confinement_submenu_option_check",
+                //     "submenu_option_button_click_function": confinement_submenu_option_clicked,
+                //     "submenu_option_enabled_state": false,
+                //     "available": false,
+                //     "river_availability": [false, true, true, false, false],
+                //     "data_second_level_submenu_options": []
+                // }
 
             ]
 
@@ -266,9 +266,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Water Levels",
                     "submenu_option_title_id": "water_level_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/water_level_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/water_level_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/water_level_blocked_icon.png",
+                    "submenu_option_image_ref": field_measurements_water_level_icon_link,
+                    "submenu_option_image_enabled_ref": field_measurements_water_level_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": field_measurements_water_level_blocked_icon_link,
                     "submenu_option_image_id": "water_level_submenu_image_id",
                     "submenu_option_id": "water_level_submenu_option_id",
                     "submenu_option_button_id": "water_level_submenu_option_button",
@@ -282,9 +282,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Flow Rates",
                     "submenu_option_title_id": "flow_rate_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/flow_rates_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/flow_rates_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/flow_rates_blocked_icon.png",
+                    "submenu_option_image_ref": field_measurements_flow_rate_icon_link,
+                    "submenu_option_image_enabled_ref": field_measurements_flow_rate_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": field_measurements_flow_rate_blocked_icon_link,
                     "submenu_option_image_id": "flow_rate_submenu_image_id",
                     "submenu_option_id": "flow_rate_submenu_option_id",
                     "submenu_option_button_id": "flow_rate_submenu_option_button",
@@ -298,9 +298,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Flow Velocity",
                     "submenu_option_title_id": "hydrodynamic_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/hydrodynamic_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/hydrodynamic_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/hydrodynamic_blocked_icon.png",
+                    "submenu_option_image_ref": field_measurements_flow_velocity_icon_link,
+                    "submenu_option_image_enabled_ref": field_measurements_flow_velocity_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": field_measurements_flow_velocity_blocked_icon_link,
                     "submenu_option_image_id": "hydrodynamic_submenu_image_id",
                     "submenu_option_id": "hydrodynamic_submenu_option_id",
                     "submenu_option_button_id": "hydrodynamic_submenu_option_button",
@@ -314,9 +314,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Dunes",
                     "submenu_option_title_id": "dunes_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/dunes_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/dunes_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/dunes_blocked_icon.png",
+                    "submenu_option_image_ref": field_measurements_dunes_icon_link,
+                    "submenu_option_image_enabled_ref": field_measurements_dunes_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": field_measurements_dunes_blocked_icon_link,
                     "submenu_option_image_id": "dunes_submenu_image_id",
                     "submenu_option_id": "dunes_submenu_option_id",
                     "submenu_option_button_id": "dunes_submenu_option_button",
@@ -330,9 +330,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Bedload",
                     "submenu_option_title_id": "bedload_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/bedload_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/bedload_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/bedload_blocked_icon.png",
+                    "submenu_option_image_ref": field_measurements_bedload_icon_link,
+                    "submenu_option_image_enabled_ref": field_measurements_bedload_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": field_measurements_bedload_blocked_icon_link,
                     "submenu_option_image_id": "bedload_submenu_image_id",
                     "submenu_option_id": "bedload_submenu_option_id",
                     "submenu_option_button_id": "bedload_submenu_option_button",
@@ -346,9 +346,9 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Sediments",
                     "submenu_option_title_id": "sediments_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/sediment_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/sediment_enabled_icon.png",
-                    "submenu_option_image_blocked_ref": "img/side-bar-icon/sediment_blocked_icon.png",
+                    "submenu_option_image_ref": field_measurements_sediments_icon_link,
+                    "submenu_option_image_enabled_ref": field_measurements_sediments_enabled_icon_link,
+                    "submenu_option_image_blocked_ref": field_measurements_sediments_blocked_icon_link,
                     "submenu_option_image_id": "sediments_submenu_image_id",
                     "submenu_option_id": "sediment_submenu_option_id",
                     "submenu_option_button_id": "sediment_submenu_option_button",
@@ -398,8 +398,8 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "On Map",
                     "submenu_option_title_id": "drone_map_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/marker_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/marker_enabled_icon.png",
+                    "submenu_option_image_ref": drone_flights_map_icon_link,
+                    "submenu_option_image_enabled_ref": drone_flights_map_enabled_icon_link,
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/marker_blocked_icon.png",
                     "submenu_option_image_id": "drone_map_submenu_image_id",
                     "submenu_option_id": "drone_map_submenu_option_id",
@@ -414,8 +414,8 @@ let original_data_dancing_rivers = {
                 {
                     "submenu_option_title": "List",
                     "submenu_option_title_id": "drone_list_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/grid_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/grid_enabled_icon.png",
+                    "submenu_option_image_ref": drone_flights_list_icon_link,
+                    "submenu_option_image_enabled_ref": drone_flights_list_enabled_icon_link,
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/grid_blocked_icon.png",
                     "submenu_option_image_id": "drone_list_submenu_image_id",
                     "submenu_option_id": "drone_list_submenu_option_id",
@@ -590,6 +590,8 @@ function set_original_data_menu(menu_options_JSON, submenu_options_JSON){
         original_data_content_menu_option_template_content.getElementById("data-original-menu-icon").src = menu_options_JSON[i].menu_option_image_ref;
         if(submenu_options_JSON[i].options.length <= 0) original_data_content_menu_option_template_content.getElementById("menu-arrow-bottom-image").style.visibility = "hidden";
         original_data_content_menu_option_template_content.getElementById("menu-arrow-bottom-image").id = menu_options_JSON[i].menu_bottom_arrow_button_id;
+
+        if(menu_options_JSON[i].menu_option_id.localeCompare("rivers_menu_option_id") === 0) original_data_content_menu_option_template_content.getElementById(menu_options_JSON[i].menu_option_id).style.maxHeight = "40vh";
 
         (function (i) {
 
@@ -1274,10 +1276,10 @@ function water_level_submenu_option_clicked() {
 
         if(water_level_markers.length <= 0){
 
-            if(activeRiverIndex === 0) addWaterLevelMarkersGeoJSON("data/Water-levels/Amazonas/Estaciones_UTEC.geojson", water_level_data_layer, "img/marker-icons/azul.png", waterLevelsMarkerClickCallback, null, null, water_level_markers);
-            if(activeRiverIndex === 1) addWaterLevelMarkersGeoJSON("data/Water-levels/Huallaga/Estaciones_UTEC.geojson", water_level_data_layer, "img/marker-icons/azul.png", waterLevelsMarkerClickCallback, null, null, water_level_markers);
-            if(activeRiverIndex === 2) addWaterLevelMarkersGeoJSON("data/Water-levels/Marañon/Estaciones_UTEC.geojson", water_level_data_layer, "img/marker-icons/azul.png", waterLevelsMarkerClickCallback, null, null, water_level_markers);
-            if(activeRiverIndex === 3) addWaterLevelMarkersGeoJSON("data/Water-levels/Ucayali/Estaciones_UTEC.geojson", water_level_data_layer, "img/marker-icons/azul.png", waterLevelsMarkerClickCallback, null, null, water_level_markers);
+            if(activeRiverIndex === 0) addWaterLevelMarkersGeoJSON("data/Water-levels/Amazonas/Estaciones_UTEC.geojson", water_level_data_layer, water_level_marker_icon, waterLevelsMarkerClickCallback, null, null, water_level_markers);
+            if(activeRiverIndex === 1) addWaterLevelMarkersGeoJSON("data/Water-levels/Huallaga/Estaciones_UTEC.geojson", water_level_data_layer, water_level_marker_icon, waterLevelsMarkerClickCallback, null, null, water_level_markers);
+            if(activeRiverIndex === 2) addWaterLevelMarkersGeoJSON("data/Water-levels/Marañon/Estaciones_UTEC.geojson", water_level_data_layer, water_level_marker_icon, waterLevelsMarkerClickCallback, null, null, water_level_markers);
+            if(activeRiverIndex === 3) addWaterLevelMarkersGeoJSON("data/Water-levels/Ucayali/Estaciones_UTEC.geojson", water_level_data_layer, water_level_marker_icon, waterLevelsMarkerClickCallback, null, null, water_level_markers);
 
         }else{
             water_level_data_layer.addTo(map);
@@ -1306,10 +1308,10 @@ function hydrodynamic_submenu_option_clicked() {
         addButtonOptionsUHDDropdown(UHDDropdownItems[activeRiverIndex], "dropdown-uhd-top-buttons-container");
         addButtonOptionsUHDDropdown(UHDDropdownItems[activeRiverIndex], "dropdown-uhd-bottom-buttons-container");
 
-        if(activeRiverIndex === 0) addUHDMarkers("data/cross_sections/Amazonas/amazonas-cross-section-location.geojson", "img/marker-icons/blanco.png", UHDHuallagaMarkers, UHDHuallagaMarkersPositions, hydrodynamic_marker_click_function);
-        if(activeRiverIndex === 1) addUHDMarkers("data/cross_sections/Huallaga/huallaga-cross-section-location.geojson", "img/marker-icons/blanco.png", UHDHuallagaMarkers, UHDHuallagaMarkersPositions, hydrodynamic_marker_click_function);
-        if(activeRiverIndex === 2) addUHDMarkers("data/cross_sections/Marañon/marañon-cross-section-location.geojson", "img/marker-icons/blanco.png", UHDHuallagaMarkers, UHDHuallagaMarkersPositions, hydrodynamic_marker_click_function);
-        if(activeRiverIndex === 3) addUHDMarkers("data/cross_sections/Ucayali/ucayali-cross-section-location.geojson", "img/marker-icons/blanco.png", UHDHuallagaMarkers, UHDHuallagaMarkersPositions, hydrodynamic_marker_click_function);
+        if(activeRiverIndex === 0) addUHDMarkers("data/cross_sections/Amazonas/amazonas-cross-section-location.geojson", flow_velocity_marker_icon_gray, UHDHuallagaMarkers, UHDHuallagaMarkersPositions, hydrodynamic_marker_click_function);
+        if(activeRiverIndex === 1) addUHDMarkers("data/cross_sections/Huallaga/huallaga-cross-section-location.geojson", flow_velocity_marker_icon_gray, UHDHuallagaMarkers, UHDHuallagaMarkersPositions, hydrodynamic_marker_click_function);
+        if(activeRiverIndex === 2) addUHDMarkers("data/cross_sections/Marañon/marañon-cross-section-location.geojson", flow_velocity_marker_icon_gray, UHDHuallagaMarkers, UHDHuallagaMarkersPositions, hydrodynamic_marker_click_function);
+        if(activeRiverIndex === 3) addUHDMarkers("data/cross_sections/Ucayali/ucayali-cross-section-location.geojson", flow_velocity_marker_icon_gray, UHDHuallagaMarkers, UHDHuallagaMarkersPositions, hydrodynamic_marker_click_function);
 
     }else{}
 
@@ -1460,8 +1462,8 @@ function hydrodynamic_marker_click_function(features){
 
     UHDHuallagaMarkers.forEach(function (marker) {
 
-        if(UHDHuallagaMarkers.indexOf(marker) + 1 === UHDMarkerIndexBottom)  marker.setIcon(L.icon({iconUrl: 'img/marker-icons/azul.png'}));
-        if(UHDHuallagaMarkers.indexOf(marker) + 1 !== UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: 'img/marker-icons/blanco.png'}));
+        if(UHDHuallagaMarkers.indexOf(marker) + 1 === UHDMarkerIndexBottom)  marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_blue}));
+        if(UHDHuallagaMarkers.indexOf(marker) + 1 !== UHDMarkerIndexBottom) marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_gray}));
 
     });
 

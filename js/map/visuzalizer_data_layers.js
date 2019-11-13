@@ -654,6 +654,10 @@ function addSinglePolygonToMap(JSON_path, markerIconPath, layer_type, river_data
         if(layer_type.localeCompare("polygon") === 0){
             // river_data_layer.setStyle({ color: strokeColor, opacity: strokeOpacity, fillColor: fillColor, fillOpacity: fillOpacity, weight: strokeWeight});
             river_data_layer.setStyle(styleOptions);
+            // river_data_layer.bindTooltip(function (layer) {
+            //         return layer.feature.properties.NOMBDEP; //merely sets the tooltip text
+            //     }, {opacity: 0.8, sticky: true, className: 'tooltip'}  //then add your options
+            // ).addTo(map);
         }else if(layer_type.localeCompare("marker") === 0){
             river_data_layer.eachLayer(function (layer) {
                 layer.setIcon(L.icon({iconUrl: markerIconPath}));

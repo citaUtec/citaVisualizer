@@ -77,10 +77,10 @@
 
             <header id="right-side-bar-header">
 
-                <div id="background-panel-background-title" class="panel-background-title panel-title-selected">
+                <div id="background-panel-background-title" class="panel-background-title">
                     <span class="header-tab" data-i18n="side-bar-right-title">Base</span>
                 </div>
-                <div id="background-panel-cita-title" class="panel-cita-title">
+                <div id="background-panel-cita-title" class="panel-cita-title panel-title-selected">
                     <span class="header-tab" data-i18n="side-bar-left-title">Project</span>
                 </div>
 
@@ -272,10 +272,10 @@
 
             <header id="left-side-bar-header">
 
-                <div id="cita-panel-background-title" class="panel-background-title panel-title-selected">
+                <div id="cita-panel-background-title" class="panel-background-title">
                     <span id="side-bar-right-title" data-i18n="side-bar-right-title">Base</span>
                 </div>
-                <div id="cita-panel-cita-title" class="panel-cita-title">
+                <div id="cita-panel-cita-title" class="panel-cita-title panel-title-selected">
                     <span id="side-bar-left-title" data-i18n="side-bar-left-title" style="color: white !important;">Project</span>
                 </div>
 
@@ -696,13 +696,13 @@
 
                     <div id="information-about-content" class="information-section-content" style="background-color: transparent; display: block; width: 100%">
 
-                        <div style="height: 100%; width: 100%; display: flex; flex-direction: column; justify-content: center; align-content: center">
+                        <div class="information-about-main-container">
 
-                            <div style="align-self: center; padding: 80px">
+                            <div class="information-about-logo-container">
                                 <img src="img/Logos/DRLogoBlue.png" height="80" width="480">
                             </div>
 
-                            <div style="align-self: center; font-size: 18px; padding: 0 100px 100px 100px; text-align: center; color: rgba(0,0,0,0.5)" data-i18n="information-about-description-1">"Ríos Danzantes" da a conocer los resultados de la caracterización morfodinámica a nivel planimétrico y altimétrico de los principales ríos amazónicos: Marañón, Huallaga, Ucayali y Amazonas.
+                            <div class="information-about-description-container" data-i18n="information-about-description-1">"Ríos Danzantes" da a conocer los resultados de la caracterización morfodinámica a nivel planimétrico y altimétrico de los principales ríos amazónicos: Marañón, Huallaga, Ucayali y Amazonas.
                                 Con el propósito de comprender los patrones físicos de los ríos amazónicos, se desarrolló una metodología de línea base de las variables hidrogeomorfológicas de los ríos. Su enfoque permite estudiar a los ríos de manera completa, teniendo en cuenta sus características y dinámicas particulares.
                                 <br>
                                 <br>
@@ -710,7 +710,7 @@
                                 <div style="font-size: 15px" data-i18n="information-about-description-2">Este proyecto ha sido desarrollado por la Universidad de Ingeniería y Tecnología (UTEC), en colaboración con el Centro de Investigación y Tecnología del Agua (CITA) y la Fundación Gordon & Betty Moore</div>
                             </div>
 
-                            <div style="display: flex; justify-content: space-evenly; align-content: center; padding: 0 100px">
+                            <div class="information-about-collaborators-container">
                                 <a href="https://www.utec.edu.pe/" target="_blank"><img class="information-about-logo" src="https://citadancingrivers.s3-us-west-1.amazonaws.com/img/logo_utec.png" height="60" width="130"></a>
                                 <a href="https://cita.utec.edu.pe/" target="_blank"><img class="information-about-logo" src="img/Logos/cita_demo.png" height="50" width="150"></a>
                                 <a href="https://www.moore.org/grant-detail?grantId=GBMF7711" target="_blank"><img class="information-about-logo" src="img/Logos/moore_logo_color.png" height="50" width="125"></a>
@@ -1546,6 +1546,7 @@
 
     <!--TODO: Visualizer full logic-->
     <script type="text/javascript" src="js/map/visualizer_colors.js"></script>
+    <script type="text/javascript" src="js/map/resources_links.js"></script>
     <script type="text/javascript" src="js/map/visualizer_cita_data.js"></script>
     <script type="text/javascript" src="js/map/visualizer_background_data.js"></script>
     <script type="text/javascript" src="js/map/visuzalizer_data_layers.js"></script>

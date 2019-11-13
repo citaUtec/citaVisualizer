@@ -185,7 +185,7 @@ function addUHDMarkers(filePath, markerImagePath, markersArray, markersPositionA
 
                     markerClickFunction(json.features);
                     offsetCenter(marker.getLatLng(), 12);
-                    marker.setIcon(L.icon({iconUrl: 'img/marker-icons/rojo.png'}));
+                    marker.setIcon(L.icon({iconUrl: flow_velocity_marker_icon_red}));
                     document.getElementById("UHD-marker-top-card-location").innerHTML = json.features[i].properties.lugar + ", " + json.features[i].properties.departamento + ", " + json.features[i].properties.distrito;
 
                     if(activeRiverIndex === 0) document.getElementById("UHD-top-card-image").src = "img/cross_sections_images/Amazonas/" + json.features[i].properties.id + ".png";

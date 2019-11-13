@@ -78,6 +78,39 @@
     font-size: 14px;
 }
 
+.information-about-main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.information-about-logo-container{
+    align-self: center;
+    padding: 80px;
+}
+
+.information-about-description-container{
+    align-self: center;
+    font-size: 18px;
+    padding: 0 100px 65px 100px;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+
+.information-about-collaborators-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 0 100px;
+}
+
+.information-about-logo{
+    cursor: pointer;
+}
+
 .information-morphometrics-main-container{
     display: flex;
     flex-direction: column;
@@ -141,8 +174,4 @@
 
 .information-language-option:hover{
     color: rgba(153, 240, 255, 1.0);
-}
-
-.information-about-logo{
-    cursor: pointer;
 }

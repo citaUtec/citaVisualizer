@@ -215,7 +215,7 @@ let administrativeDivisionsProvinceStyle = {
     color: "#5F1A37",
     strokeOpacity: 0.7,
     weight: 1.0,
-    dashArray: "5 10",
+    // dashArray: "5 10",
 
 };
 let administrativeDivisionsDistrictStyle = {
@@ -223,7 +223,8 @@ let administrativeDivisionsDistrictStyle = {
     fillOpacity: 0.0,
     color: "#5F1A37",
     strokeOpacity: 0.4,
-    weight: 0.5
+    weight: 0.5,
+    dashArray: "5 10",
 };
 
 //Population
@@ -255,41 +256,49 @@ let populationDistrictStyle = {
 let populatedAreasRuralStyle = {
     fillColor: "#AA0000",
     fillOpacity: 0.35,
-    color: "#000000",
-    strokeOpacity: 1.0,
+    color: "#AA0000",
+    opacity: 0.4,
+    weight: 1.0
+};
+
+let populatedAreasNativeStyle = {
+    fillColor: "#7A557A",
+    fillOpacity: 0.35,
+    color: "#7A557A",
+    opacity: 0.4,
     weight: 1.0
 };
 
 //Protected Natural Areas
 
 let protectedAreasDepartmentStyle = {
-    fillColor: "#AA0000",
+    fillColor: "#608C60",
     fillOpacity: 0.35,
-    color: "#000000",
+    color: "#608C60",
     strokeOpacity: 1.0,
     weight: 1.0
 };
 
 let protectedAreasRegionalStyle = {
-    fillColor: "#AA0000",
+    fillColor: "#2D5663",
     fillOpacity: 0.35,
-    color: "#000000",
+    color: "#2D5663",
     strokeOpacity: 1.0,
     weight: 1.0
 };
 
 let protectedAreasPrivateStyle = {
-    fillColor: "#AA0000",
+    fillColor: "#A87A5C",
     fillOpacity: 0.35,
-    color: "#000000",
+    color: "#A87A5C",
     strokeOpacity: 1.0,
     weight: 1.0
 };
 
 let protectedAreasBufferZoneStyle = {
-    fillColor: "#AA0000",
+    fillColor: "#7A7A7A",
     fillOpacity: 0.35,
-    color: "#000000",
+    color: "#7A7A7A",
     strokeOpacity: 1.0,
     weight: 1.0
 };
@@ -299,31 +308,31 @@ let protectedAreasBufferZoneStyle = {
 //Hydrography
 
 let hydrographyBasinStyle = {
-    fillColor: "#AA0000",
+    fillColor: "#B9C9CE",
     fillOpacity: 0.35,
-    color: "#000000",
+    color: "#B9C9CE",
     strokeOpacity: 1.0,
     weight: 1.0
 };
 
 let hydrographyRiversStyle = {
-    fillColor: "#AA0000",
+    fillColor: "#2D5663",
     fillOpacity: 0.35,
-    color: "#000000",
+    color: "#2D5663",
     strokeOpacity: 1.0,
     weight: 1.0
 };
 
 let hydrographyLakesStyle = {
-    fillColor: "#AA0000",
+    fillColor: "#B0DAE5",
     fillOpacity: 0.35,
-    color: "#000000",
+    color: "#99BDC6",
     strokeOpacity: 1.0,
     weight: 1.0
 };
 
 let hydrographyGlaciersStyle = {
-    fillColor: "#AA0000",
+    fillColor: "#E8E8E8",
     fillOpacity: 0.35,
     color: "#000000",
     strokeOpacity: 1.0,

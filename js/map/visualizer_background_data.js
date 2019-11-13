@@ -13,7 +13,7 @@ let background_data_dancing_rivers = {
         {
             "menu_option_title": "Geopolitic",
             "menu_option_title_id": "geopolitic_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/geopolitic_icon.png",
+            "menu_option_image_ref": geopolitic_icon_link,
             "menu_option_id": "geopolitic_menu_option_id",
             "menu_button_option_id": "geopolitic_menu_button_option_id",
             "menu_bottom_arrow_button_id": "geopolitic_menu_bottom_arrow_button_id",
@@ -31,7 +31,7 @@ let background_data_dancing_rivers = {
         {
             "menu_option_title": "Geography",
             "menu_option_title_id": "geography_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/geography_icon.png",
+            "menu_option_image_ref": geography_icon_link,
             "menu_option_id": "geography_menu_option_id",
             "menu_button_option_id": "geography_menu_button_option_id",
             "menu_bottom_arrow_button_id": "geography_menu_bottom_arrow_button_id",
@@ -40,7 +40,7 @@ let background_data_dancing_rivers = {
         {
             "menu_option_title": "Infrastructure",
             "menu_option_title_id": "infrastructure_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/infrastructure_icon.png",
+            "menu_option_image_ref": infrastructure_icon_link,
             "menu_option_id": "infrastructure_menu_option_id",
             "menu_button_option_id": "infrastructure_menu_button_option_id",
             "menu_bottom_arrow_button_id": "infrastructure_menu_bottom_arrow_button_id",
@@ -58,7 +58,7 @@ let background_data_dancing_rivers = {
         {
             "menu_option_title": "Stations",
             "menu_option_title_id": "stations_menu_option_title_id",
-            "menu_option_image_ref": "img/side-bar-icon/station_icon.png",
+            "menu_option_image_ref": stations_icon_link,
             "menu_option_id": "stations_menu_option_id",
             "menu_button_option_id": "stations_menu_button_option_id",
             "menu_bottom_arrow_button_id": "stations_menu_bottom_arrow_button_id",
@@ -76,7 +76,7 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Politic Limits",
                     "submenu_option_title_id": "politic_limits_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/political_limits_icon.png",
+                    "submenu_option_image_ref": administrative_divisions_icon_link,
                     "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
                     "submenu_option_image_id": "politic_limits_submenu_image_id",
                     "submenu_option_id": "politic_limits_submenu_option_id",
@@ -91,8 +91,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Departamental",
                             "submenu_option_title_id": "regional_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/departamental_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/departamental_enabled_icon.png",
+                            "submenu_option_image_ref": administrative_divisions_departmental_icon_link,
+                            "submenu_option_image_enabled_ref": administrative_divisions_departmental_enabled_icon_link,
                             "submenu_option_image_id": "regional_submenu_image_id",
                             "submenu_option_id": "regional_submenu_option_id",
                             "submenu_option_button_id": "regional_submenu_option_button",
@@ -106,8 +106,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Provincial",
                             "submenu_option_title_id": "provincial_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/province_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/province_enabled_icon.png",
+                            "submenu_option_image_ref": administrative_divisions_province_icon_link,
+                            "submenu_option_image_enabled_ref": administrative_divisions_province_enabled_icon_link,
                             "submenu_option_image_id": "provincial_submenu_image_id",
                             "submenu_option_id": "provincial_submenu_option_id",
                             "submenu_option_button_id": "provincial_submenu_option_button",
@@ -121,8 +121,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "District",
                             "submenu_option_title_id": "district_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/district_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/district_enabled_icon.png",
+                            "submenu_option_image_ref": administrative_divisions_district_icon_link,
+                            "submenu_option_image_enabled_ref": administrative_divisions_district_enabled_icon_link,
                             "submenu_option_image_id": "district_submenu_image_id",
                             "submenu_option_id": "district_submenu_option_id",
                             "submenu_option_button_id": "district_submenu_option_button",
@@ -247,7 +247,7 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Populated Areas",
                     "submenu_option_title_id": "populated_areas_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/populated_areas_icon.png",
+                    "submenu_option_image_ref":populated_areas_icon_link,
                     "submenu_option_image_enabled_ref": "img/side-bar-icon/U_enabled_icon.png",
                     "submenu_option_image_id": "populated_areas_submenu_image_id",
                     "submenu_option_id": "populated_areas_submenu_option_id",
@@ -262,8 +262,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Native Communities",
                             "submenu_option_title_id": "native_communities_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/native_communities_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/native_communities_enabled_icon.png",
+                            "submenu_option_image_ref": populated_areas_native_communities_icon_link,
+                            "submenu_option_image_enabled_ref": populated_areas_native_communities_enabled_icon_link,
                             "submenu_option_image_id": "native_communities_submenu_image_id",
                             "submenu_option_id": "native_communities_submenu_option_id",
                             "submenu_option_button_id": "native_communities_submenu_option_button",
@@ -277,8 +277,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Farmers Communities",
                             "submenu_option_title_id": "farmers_communities_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/rural_communities_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/rural_communities_enabled_icon.png",
+                            "submenu_option_image_ref": populated_areas_rural_communities_icon_link,
+                            "submenu_option_image_enabled_ref": populated_areas_rural_communities_enabled_icon_link,
                             "submenu_option_image_id": "farmers_communities_submenu_image_id",
                             "submenu_option_id": "farmers_communities_submenu_option_id",
                             "submenu_option_button_id": "farmers_communities_submenu_option_button",
@@ -386,7 +386,7 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Protected Natural Areas",
                     "submenu_option_title_id": "protected_natural_areas_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/protected_area_icon.png",
+                    "submenu_option_image_ref": protected_natural_areas_icon_link,
                     "submenu_option_image_enabled_ref": "img/side-bar-icon/U_enabled_icon.png",
                     "submenu_option_image_id": "protected_natural_areas_submenu_image_id",
                     "submenu_option_id": "protected_natural_areas_submenu_option_id",
@@ -401,8 +401,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "National",
                             "submenu_option_title_id": "anp_national_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/anp_national_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/anp_national_enabled_icon.png",
+                            "submenu_option_image_ref": protected_natural_areas_national_icon_link,
+                            "submenu_option_image_enabled_ref": protected_natural_areas_national_enabled_icon_link,
                             "submenu_option_image_id": "anp_national_submenu_image_id",
                             "submenu_option_id": "anp_national_submenu_option_id",
                             "submenu_option_button_id": "anp_national_submenu_option_button",
@@ -416,8 +416,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Regional",
                             "submenu_option_title_id": "anp_regional_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/anp_regional_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/anp_regional_enabled_icon.png",
+                            "submenu_option_image_ref": protected_natural_areas_regional_icon_link,
+                            "submenu_option_image_enabled_ref": protected_natural_areas_regional_enabled_icon_link,
                             "submenu_option_image_id": "anp_regional_submenu_image_id",
                             "submenu_option_id": "anp_regional_submenu_option_id",
                             "submenu_option_button_id": "anp_regional_submenu_option_button",
@@ -431,8 +431,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Private",
                             "submenu_option_title_id": "anp_private_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/anp_private_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/anp_private_enabled_icon.png",
+                            "submenu_option_image_ref": protected_natural_areas_private_icon_link,
+                            "submenu_option_image_enabled_ref": protected_natural_areas_private_enabled_icon_link,
                             "submenu_option_image_id": "anp_private_submenu_image_id",
                             "submenu_option_id": "anp_private_submenu_option_id",
                             "submenu_option_button_id": "anp_private_submenu_option_button",
@@ -446,8 +446,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Buffer zone",
                             "submenu_option_title_id": "buffer_zone_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/buffer_zone_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/buffer_zone_enabled_icon.png",
+                            "submenu_option_image_ref": protected_natural_areas_buffer_zone_icon_link,
+                            "submenu_option_image_enabled_ref": protected_natural_areas_buffer_zone_enabled_icon_link,
                             "submenu_option_image_id": "buffer_zone_submenu_image_id",
                             "submenu_option_id": "buffer_zone_submenu_option_id",
                             "submenu_option_button_id": "buffer_zone_submenu_option_button",
@@ -638,9 +638,9 @@ let background_data_dancing_rivers = {
             "options": [
 
                 {
-                    "submenu_option_title": "Hidrography",
+                    "submenu_option_title": "Hydrography",
                     "submenu_option_title_id": "hidrography_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/hydrography_icon.png",
+                    "submenu_option_image_ref": hydrography_icon_link,
                     "submenu_option_image_enabled_ref": "img/side-bar-icon/water_level_enabled_icon.png",
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/water_level_blocked_icon.png",
                     "submenu_option_image_id": "hidrography_submenu_image_id",
@@ -656,8 +656,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Basin",
                             "submenu_option_title_id": "hydrography_basin_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/hydrography_basin_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/hydrography_basin_enabled_icon.png",
+                            "submenu_option_image_ref": hydrography_basins_icon_link,
+                            "submenu_option_image_enabled_ref": hydrography_basins_enabled_icon_link,
                             "submenu_option_image_id": "hydrography_basin_submenu_image_id",
                             "submenu_option_id": "hydrography_basin_submenu_option_id",
                             "submenu_option_button_id": "hydrography_basin_submenu_option_button",
@@ -671,8 +671,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Rivers",
                             "submenu_option_title_id": "hydrography_rivers_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/geography_river_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/geography_river_enabled_icon.png",
+                            "submenu_option_image_ref": hydrography_rivers_icon_link,
+                            "submenu_option_image_enabled_ref": hydrography_rivers_enabled_icon_link,
                             "submenu_option_image_id": "hydrography_rivers_submenu_image_id",
                             "submenu_option_id": "hydrography_rivers_submenu_option_id",
                             "submenu_option_button_id": "hydrography_rivers_submenu_option_button",
@@ -701,8 +701,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Lagoons & Lakes",
                             "submenu_option_title_id": "lagoons_lakes_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/lake_lagoon_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/lake_lagoon_enabled_icon.png",
+                            "submenu_option_image_ref": hydrography_lakes_icon_link,
+                            "submenu_option_image_enabled_ref": hydrography_lakes_enabled_icon_link,
                             "submenu_option_image_id": "lagoons_lakes_submenu_image_id",
                             "submenu_option_id": "lagoons_lakes_submenu_option_id",
                             "submenu_option_button_id": "lagoons_lakes_submenu_option_button",
@@ -716,8 +716,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Glaciers",
                             "submenu_option_title_id": "glaciers_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/glaciers_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/glaciers_enabled_icon.png",
+                            "submenu_option_image_ref": hydrography_glaciers_icon_link,
+                            "submenu_option_image_enabled_ref": hydrography_glaciers_enabled_icon_link,
                             "submenu_option_image_id": "glaciers_submenu_image_id",
                             "submenu_option_id": "glaciers_submenu_option_id",
                             "submenu_option_button_id": "glaciers_submenu_option_button",
@@ -733,8 +733,8 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Geology",
                     "submenu_option_title_id": "geology_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/geology_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/flow_rates_enabled_icon.png",
+                    "submenu_option_image_ref": geology_icon_link,
+                    "submenu_option_image_enabled_ref": geology_enabled_icon_link,
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/flow_rates_blocked_icon.png",
                     "submenu_option_image_id": "geology_submenu_image_id",
                     "submenu_option_id": "geology_submenu_option_id",
@@ -784,8 +784,8 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "DEM",
                     "submenu_option_title_id": "dem_geography_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/dem_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/dunes_enabled_icon.png",
+                    "submenu_option_image_ref": dem_icon_link,
+                    "submenu_option_image_enabled_ref": dem_enabled_icon_link,
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/dunes_blocked_icon.png",
                     "submenu_option_image_id": "dem_geography_submenu_image_id",
                     "submenu_option_id": "dem_geography_submenu_option_id",
@@ -952,7 +952,7 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Transport",
                     "submenu_option_title_id": "transport_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/transport_icon.png",
+                    "submenu_option_image_ref": transportation_icon_link,
                     "submenu_option_image_enabled_ref": "img/side-bar-icon/water_level_enabled_icon.png",
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/water_level_blocked_icon.png",
                     "submenu_option_image_id": "transport_submenu_image_id",
@@ -968,8 +968,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Roadways",
                             "submenu_option_title_id": "roadways_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/road_network_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+                            "submenu_option_image_ref": transportation_roads_icon_link,
+                            "submenu_option_image_enabled_ref": transportation_roads_enabled_icon_link,
                             "submenu_option_image_id": "roadways_submenu_image_id",
                             "submenu_option_id": "roadways_submenu_option_id",
                             "submenu_option_button_id": "roadways_submenu_option_button",
@@ -983,8 +983,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Ports",
                             "submenu_option_title_id": "ports_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/ports_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/ports_enabled_icon.png",
+                            "submenu_option_image_ref": transportation_ports_icon_link,
+                            "submenu_option_image_enabled_ref": transportation_ports_enabled_icon_link,
                             "submenu_option_image_id": "ports_submenu_image_id",
                             "submenu_option_id": "ports_submenu_option_id",
                             "submenu_option_button_id": "ports_submenu_option_button",
@@ -998,8 +998,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Airports",
                             "submenu_option_title_id": "airports_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/airports_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/airports_enabled_icon.png",
+                            "submenu_option_image_ref": transportation_airports_icon_link,
+                            "submenu_option_image_enabled_ref": transportation_airports_enabled_icon_link,
                             "submenu_option_image_id": "airports_submenu_image_id",
                             "submenu_option_id": "airports_submenu_option_id",
                             "submenu_option_button_id": "airports_submenu_option_button",
@@ -1013,8 +1013,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Railways",
                             "submenu_option_title_id": "railways_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/railroads_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                            "submenu_option_image_ref": transportation_railroad_icon_link,
+                            "submenu_option_image_enabled_ref": transportation_railroad_enabled_icon_link,
                             "submenu_option_image_id": "railways_submenu_image_id",
                             "submenu_option_id": "railways_submenu_option_id",
                             "submenu_option_button_id": "railways_submenu_option_button",
@@ -1030,7 +1030,7 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Energy",
                     "submenu_option_title_id": "energy_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/energy_icon.png",
+                    "submenu_option_image_ref": energy_icon_link,
                     "submenu_option_image_enabled_ref": "img/side-bar-icon/flow_rates_enabled_icon.png",
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/flow_rates_blocked_icon.png",
                     "submenu_option_image_id": "energy_submenu_image_id",
@@ -1076,8 +1076,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Transmission Lines",
                             "submenu_option_title_id": "transmission_lines_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/transmission_lines_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                            "submenu_option_image_ref": energy_transmission_lines_icon_link,
+                            "submenu_option_image_enabled_ref": energy_transmission_lines_enabled_icon_link,
                             "submenu_option_image_id": "transmission_lines_submenu_image_id",
                             "submenu_option_id": "transmission_lines_submenu_option_id",
                             "submenu_option_button_id": "transmission_lines_submenu_option_button",
@@ -1091,8 +1091,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Power plants",
                             "submenu_option_title_id": "power_plants_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/hydroelectric_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/H_enabled_icon.png",
+                            "submenu_option_image_ref": energy_power_plants_icon_link,
+                            "submenu_option_image_enabled_ref": energy_power_plants_enabled_icon_link,
                             "submenu_option_image_id": "power_plants_submenu_image_id",
                             "submenu_option_id": "power_plants_submenu_option_id",
                             "submenu_option_button_id": "power_plants_submenu_option_button",
@@ -1108,7 +1108,7 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Irrigation",
                     "submenu_option_title_id": "irrigation_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/irrigation_icon.png",
+                    "submenu_option_image_ref": irrigation_icon_link,
                     "submenu_option_image_enabled_ref": "img/side-bar-icon/hydrodynamic_enabled_icon.png",
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/hydrodynamic_blocked_icon.png",
                     "submenu_option_image_id": "irrigation_submenu_image_id",
@@ -1186,7 +1186,7 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "Extractive",
                     "submenu_option_title_id": "extractive_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/extractive_icon.png",
+                    "submenu_option_image_ref": extractive_icon_link,
                     "submenu_option_image_enabled_ref": "img/side-bar-icon/extractive_enabled_icon.png",
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/dunes_blocked_icon.png",
                     "submenu_option_image_id": "extractive_submenu_image_id",
@@ -1202,8 +1202,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Mining projects",
                             "submenu_option_title_id": "mining_projects_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/mining_projects_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/mining_projects_enabled_icon.png",
+                            "submenu_option_image_ref": extractive_minning_projects_icon_link,
+                            "submenu_option_image_enabled_ref": extractive_minning_projects_enabled_icon_link,
                             "submenu_option_image_id": "mining_projects_submenu_image_id",
                             "submenu_option_id": "mining_projects_submenu_option_id",
                             "submenu_option_button_id": "mining_projects_submenu_option_button",
@@ -1217,8 +1217,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Hydrocarbons",
                             "submenu_option_title_id": "hydrocarbons_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/hydrocarbons_projects_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/hydrocarbons_projects_enabled_icon.png",
+                            "submenu_option_image_ref": extractive_hydrocarbons_icon_link,
+                            "submenu_option_image_enabled_ref": extractive_hydrocarbons_enabled_icon_link,
                             "submenu_option_image_id": "hydrocarbons_submenu_image_id",
                             "submenu_option_id": "hydrocarbons_submenu_option_id",
                             "submenu_option_button_id": "hydrocarbons_submenu_option_button",
@@ -1232,8 +1232,8 @@ let background_data_dancing_rivers = {
                         {
                             "submenu_option_title": "Wood industry",
                             "submenu_option_title_id": "wood_industry_submenu_option_title_id",
-                            "submenu_option_image_ref": "img/side-bar-icon/wood_projects_icon.png",
-                            "submenu_option_image_enabled_ref": "img/side-bar-icon/A_enabled_icon.png",
+                            "submenu_option_image_ref": extractive_wood_industry_icon_link,
+                            "submenu_option_image_enabled_ref": extractive_wood_industry_enabled_icon_link,
                             "submenu_option_image_id": "wood_industry_submenu_image_id",
                             "submenu_option_id": "wood_industry_submenu_option_id",
                             "submenu_option_button_id": "wood_industry_submenu_option_button",
@@ -1488,8 +1488,8 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "IGN",
                     "submenu_option_title_id": "ign_map_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/ign_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/marker_enabled_icon.png",
+                    "submenu_option_image_ref": ign_icon_link,
+                    "submenu_option_image_enabled_ref": ign_enabled_icon_link,
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/marker_blocked_icon.png",
                     "submenu_option_image_id": "ign_map_submenu_image_id",
                     "submenu_option_id": "ign_map_submenu_option_id",
@@ -1505,8 +1505,8 @@ let background_data_dancing_rivers = {
                 {
                     "submenu_option_title": "SENAMHI",
                     "submenu_option_title_id": "senamhi_map_submenu_option_title_id",
-                    "submenu_option_image_ref": "img/side-bar-icon/senamhi_icon.png",
-                    "submenu_option_image_enabled_ref": "img/side-bar-icon/grid_enabled_icon.png",
+                    "submenu_option_image_ref": senamhi_icon_link,
+                    "submenu_option_image_enabled_ref": senamhi_enabled_icon_link,
                     "submenu_option_image_blocked_ref": "img/side-bar-icon/grid_blocked_icon.png",
                     "submenu_option_image_id": "senamhi_map_submenu_image_id",
                     "submenu_option_id": "senamhi_map_submenu_option_id",
@@ -1928,26 +1928,21 @@ function setSubmenuOptionClickedAction(submenuImageId, submenuTitleId, markerIco
 
 }
 
-
-
-
-
-
 function addDistrictsDatalLayer() {
 
-    setSubmenuOptionClickedAction("district_submenu_image_id", "district_submenu_option_title_id", "", "districts_layers_visible", "district", "districts_layers_added", "districts_data_layer", "data/Background_data/Geopolitical/Districts/districts.geojson","polygon", administrativeDivisionsDistrictStyle);
+    setSubmenuOptionClickedAction("district_submenu_image_id", "district_submenu_option_title_id", "", "districts_layers_visible", "administrative_divisions_district", "districts_layers_added", "districts_data_layer", "data/Background_data/Geopolitical/Districts/districts.geojson","polygon", administrativeDivisionsDistrictStyle);
 
 }
 
 function addProvincesDatalLayer() {
 
-    setSubmenuOptionClickedAction("provincial_submenu_image_id", "provincial_submenu_option_title_id", "", "provinces_layers_visible", "province", "provinces_layers_added", "provinces_data_layer", "data/Background_data/Geopolitical/Provinces/provinces.geojson", "polygon", administrativeDivisionsProvinceStyle);
+    setSubmenuOptionClickedAction("provincial_submenu_image_id", "provincial_submenu_option_title_id", "", "provinces_layers_visible", "administrative_divisions_province", "provinces_layers_added", "provinces_data_layer", "data/Background_data/Geopolitical/Provinces/provinces.geojson", "polygon", administrativeDivisionsProvinceStyle);
 
 }
 
 function addDepartmentsDataLayer() {
 
-    setSubmenuOptionClickedAction("regional_submenu_image_id", "regional_submenu_option_title_id", "", "departments_layers_visible", "departamental", "departments_layers_added", "departments_data_layer", "data/Background_data/Geopolitical/Departments/departments.geojson", "polygon", administrativeDivisionsDepartmentStyle);
+    setSubmenuOptionClickedAction("regional_submenu_image_id", "regional_submenu_option_title_id", "", "departments_layers_visible", "administrative_divisions_departmental", "departments_layers_added", "departments_data_layer", "data/Background_data/Geopolitical/Departments/departments.geojson", "polygon", administrativeDivisionsDepartmentStyle);
 
 }
 
@@ -1999,73 +1994,73 @@ function addPopulatedAreasNativeCommunitiesLayer() {
 
 function addPopulatedAreasRuralCommunitiesLayer() {
 
-    setSubmenuOptionClickedAction("farmers_communities_submenu_image_id", "farmers_communities_submenu_option_title_id", "", "populated_areas_rural_communities_layers_visible", "rural_communities", "populated_areas_rural_communities_layers_added", "populated_areas_rural_communities_data_layer", "data/Background_data/Populated_Areas/rural_communities.geojson", "polygon", populatedAreasRuralStyle);
+    setSubmenuOptionClickedAction("farmers_communities_submenu_image_id", "farmers_communities_submenu_option_title_id", "", "populated_areas_rural_communities_layers_visible", "populated_areas_rural_communities", "populated_areas_rural_communities_layers_added", "populated_areas_rural_communities_data_layer", "data/Background_data/Populated_Areas/rural_communities.geojson", "polygon", populatedAreasRuralStyle);
 
 }
 
 function addPNARegionalLayer() {
 
-    setSubmenuOptionClickedAction("anp_regional_submenu_image_id", "anp_regional_submenu_option_title_id", "", "pna_regional_layers_visible", "anp_regional", "pna_regional_layers_added", "pna_regional_data_layer", "data/Background_data/Protected_Natural_Areas/pna_regional.geojson", "polygon", protectedAreasRegionalStyle);
+    setSubmenuOptionClickedAction("anp_regional_submenu_image_id", "anp_regional_submenu_option_title_id", "", "pna_regional_layers_visible", "protected_natural_areas_regional", "pna_regional_layers_added", "pna_regional_data_layer", "data/Background_data/Protected_Natural_Areas/pna_regional.geojson", "polygon", protectedAreasRegionalStyle);
 
 }
 
 function addPNAPrivateLayer() {
 
-    setSubmenuOptionClickedAction("anp_private_submenu_image_id", "anp_private_submenu_option_title_id", "", "pna_buffer_zone_layers_visible", "anp_private", "pna_private_layers_added", "pna_private_data_layer", "data/Background_data/Protected_Natural_Areas/pna_private.geojson", "polygon", protectedAreasPrivateStyle);
+    setSubmenuOptionClickedAction("anp_private_submenu_image_id", "anp_private_submenu_option_title_id", "", "pna_buffer_zone_layers_visible", "protected_natural_areas_private", "pna_private_layers_added", "pna_private_data_layer", "data/Background_data/Protected_Natural_Areas/pna_private.geojson", "polygon", protectedAreasPrivateStyle);
     
 }
 
 function addPNABufferZoneLayer() {
 
-    setSubmenuOptionClickedAction("buffer_zone_submenu_image_id", "buffer_zone_submenu_option_title_id", "", "pna_private_layers_visible", "anp_buffer_zone", "pna_buffer_zone_layers_added", "pna_buffer_zone_data_layer", "data/Background_data/Protected_Natural_Areas/pna_buffer_zone.geojson", "polygon", protectedAreasBufferZoneStyle);
+    setSubmenuOptionClickedAction("buffer_zone_submenu_image_id", "buffer_zone_submenu_option_title_id", "", "pna_private_layers_visible", "protected_natural_areas_buffer_zone", "pna_buffer_zone_layers_added", "pna_buffer_zone_data_layer", "data/Background_data/Protected_Natural_Areas/pna_buffer_zone.geojson", "polygon", protectedAreasBufferZoneStyle);
         
 }
 
 function addHydrographyBasinsLayer() {
 
-    setSubmenuOptionClickedAction("hydrography_basin_submenu_image_id", "hydrography_basin_submenu_option_title_id", "","hydrography_basins_visible", "hydrography_basin", "hydrography_basins_added", "hidrography_basins_data_layer", "data/Background_data/Hydrography/hydrography_basins.geojson", "polygon", hydrographyBasinStyle);
+    setSubmenuOptionClickedAction("hydrography_basin_submenu_image_id", "hydrography_basin_submenu_option_title_id", "","hydrography_basins_visible", "hydrography_basins", "hydrography_basins_added", "hidrography_basins_data_layer", "data/Background_data/Hydrography/hydrography_basins.geojson", "polygon", hydrographyBasinStyle);
 
 }
 
 function addHydrographyRiversLayer() {
 
-    setSubmenuOptionClickedAction("hydrography_rivers_submenu_image_id", "hydrography_rivers_submenu_option_title_id", "", "hydrography_rivers_visible", "geography_river", "hydrography_rivers_added", "hidrography_rivers_data_layer", "data/Background_data/Hydrography/hydrography_rivers.geojson", "polygon", hydrographyRiversStyle);
+    setSubmenuOptionClickedAction("hydrography_rivers_submenu_image_id", "hydrography_rivers_submenu_option_title_id", "", "hydrography_rivers_visible", "hydrography_rivers", "hydrography_rivers_added", "hidrography_rivers_data_layer", "data/Background_data/Hydrography/hydrography_rivers.geojson", "polygon", hydrographyRiversStyle);
 
 }
 
 function addHydrographyLakesLayer() {
 
-    setSubmenuOptionClickedAction("lagoons_lakes_submenu_image_id", "lagoons_lakes_submenu_option_title_id", "", "hydrography_lakes_visible", "lake_lagoon", "hydrography_lakes_added", "hidrography_lakes_data_layer", "data/Background_data/Hydrography/hydrography_lakes.geojson", "polygon", hydrographyLakesStyle);
+    setSubmenuOptionClickedAction("lagoons_lakes_submenu_image_id", "lagoons_lakes_submenu_option_title_id", "", "hydrography_lakes_visible", "lhydrography_lakes", "hydrography_lakes_added", "hidrography_lakes_data_layer", "data/Background_data/Hydrography/hydrography_lakes.geojson", "polygon", hydrographyLakesStyle);
 
 }
 
 function addHydrographyGlaciersLayer() {
 
-    setSubmenuOptionClickedAction("glaciers_submenu_image_id", "glaciers_submenu_option_title_id", "", "hydrography_glaciers_visible", "glaciers", "hydrography_glaciers_added", "hidrography_glaciers_data_layer", "data/Background_data/Hydrography/hydrography_glaciers.geojson", "polygon", hydrographyGlaciersStyle);
+    setSubmenuOptionClickedAction("glaciers_submenu_image_id", "glaciers_submenu_option_title_id", "", "hydrography_glaciers_visible", "hydrography_glaciers", "hydrography_glaciers_added", "hidrography_glaciers_data_layer", "data/Background_data/Hydrography/hydrography_glaciers.geojson", "polygon", hydrographyGlaciersStyle);
 
 }
 
 function addTransportPortLayer() {
 
-    setSubmenuOptionClickedAction("ports_submenu_image_id", "ports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png", "transport_ports_visible", "ports", 'transport_ports_added', "transport_ports_data_layer", "data/Background_data/Transport/ports.geojson", "marker", transportationPortsStyle);
+    setSubmenuOptionClickedAction("ports_submenu_image_id", "ports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png", "transport_ports_visible", "transportation_ports", 'transport_ports_added', "transport_ports_data_layer", "data/Background_data/Transport/ports.geojson", "marker", transportationPortsStyle);
 
 }
 
 function addTransportAirportLayer() {
 
-    setSubmenuOptionClickedAction("airports_submenu_image_id", "airports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png    ", "transport_airports_visible", "airports", "transport_airports_added", "transport_airports_data_layer", "data/Background_data/Transport/airports.geojson", "marker", transportationAirportsStyle);
+    setSubmenuOptionClickedAction("airports_submenu_image_id", "airports_submenu_option_title_id", "https://citavisualizador.s3-us-west-1.amazonaws.com/marker_icons/background_data/background_data_blue_marker.png    ", "transport_airports_visible", "transportation_airports", "transport_airports_added", "transport_airports_data_layer", "data/Background_data/Transport/airports.geojson", "marker", transportationAirportsStyle);
 
 }
 
 function addExtractiveMiningProjectsLayer() {
 
-    setSubmenuOptionClickedAction("mining_projects_submenu_image_id", "mining_projects_submenu_option_title_id", "", "extractive_mining_projects_visible", "mining_projects", "extractive_mining_projects_added", "extractive_mining_projects_data_layer", "data/Background_data/Extractive/mining_projects.geojson", "polygon", extractiveMiningProjectsStyle);
+    setSubmenuOptionClickedAction("mining_projects_submenu_image_id", "mining_projects_submenu_option_title_id", "", "extractive_mining_projects_visible", "extractive_minning_projects", "extractive_mining_projects_added", "extractive_mining_projects_data_layer", "data/Background_data/Extractive/mining_projects.geojson", "polygon", extractiveMiningProjectsStyle);
 
 }
 
 function addExtractiveHydrocarbonsLayer() {
 
-    setSubmenuOptionClickedAction("hydrocarbons_submenu_image_id", "hydrocarbons_submenu_option_title_id", "", "extractive_hydrocarbons_visible", "hydrocarbons_projects", "extractive_hydrocarbons_added", "extractive_hydrocarbons_data_layer", "data/Background_data/Extractive/hydrocarbons.geojson", "polygon", extractiveHydrocarbonsStyle);
+    setSubmenuOptionClickedAction("hydrocarbons_submenu_image_id", "hydrocarbons_submenu_option_title_id", "", "extractive_hydrocarbons_visible", "extractive_hydrocarbons", "extractive_hydrocarbons_added", "extractive_hydrocarbons_data_layer", "data/Background_data/Extractive/hydrocarbons.geojson", "polygon", extractiveHydrocarbonsStyle);
 
 }
 
